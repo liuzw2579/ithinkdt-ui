@@ -6,7 +6,7 @@ Set `multiple: false` to make the column of `type='selection` a single selection
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
 
 interface RowData {
   key: number

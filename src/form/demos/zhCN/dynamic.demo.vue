@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { FormInst } from 'naive-ui'
+import type { FormInst } from 'ithinkdt-ui'
 import { defineComponent, reactive, ref } from 'vue'
 
 export default defineComponent({

@@ -7,8 +7,8 @@ Use `render-label` to customize label rendering.
 <script lang="ts">
 import type { VNodeChild } from 'vue'
 import { computed, defineComponent, h, ref } from 'vue'
-import type { SelectOption } from 'naive-ui'
-import { NTag } from 'naive-ui'
+import type { SelectOption } from 'ithinkdt-ui'
+import { NTag } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

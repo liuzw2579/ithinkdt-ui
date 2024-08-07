@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { SelectInst } from 'naive-ui'
+import type { SelectInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

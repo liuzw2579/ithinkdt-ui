@@ -103,11 +103,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }
@@ -219,11 +219,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }
@@ -236,7 +236,7 @@ describe('n-carousel', () => {
         .find('.n-carousel__slide--current')
         .element.children[0].getAttribute('src')
     ).toBe(
-      'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+      'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
     )
     await wrapper.setProps({ currentIndex: 1 })
     await sleep(100)
@@ -245,7 +245,7 @@ describe('n-carousel', () => {
         .find('.n-carousel__slide--current')
         .element.children[0].getAttribute('src')
     ).toBe(
-      'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+      'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
     )
     wrapper.unmount()
   })
@@ -260,11 +260,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }
@@ -307,11 +307,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }
@@ -344,11 +344,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }
@@ -374,11 +374,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }
@@ -406,11 +406,11 @@ describe('n-carousel', () => {
           return [
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg'
             }),
             h('img', {
               style: 'width: 100%; height: 240px; object-fit: cover;',
-              src: 'https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
+              src: 'https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg'
             })
           ]
         }

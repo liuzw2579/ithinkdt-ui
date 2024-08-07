@@ -6,15 +6,15 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {
     const themeVars = useThemeVars()
     return {
       themeVars,
-      text: 'Naive UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接',
-      patterns: ['Naive UI', 'TypeScript']
+      text: 'iThinkDT UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接',
+      patterns: ['iThinkDT UI', 'TypeScript']
     }
   }
 })

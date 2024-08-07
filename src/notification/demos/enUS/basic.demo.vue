@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NAvatar, NButton, useMessage, useNotification } from 'naive-ui'
+import { NAvatar, NButton, useMessage, useNotification } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

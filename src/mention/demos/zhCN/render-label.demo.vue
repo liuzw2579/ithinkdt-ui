@@ -7,8 +7,8 @@
 <script lang="ts">
 import type { VNodeChild } from 'vue'
 import { defineComponent, h } from 'vue'
-import type { MentionOption } from 'naive-ui'
-import { NAvatar } from 'naive-ui'
+import type { MentionOption } from 'ithinkdt-ui'
+import { NAvatar } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

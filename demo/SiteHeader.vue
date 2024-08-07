@@ -1,7 +1,7 @@
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { useMessage, version } from 'naive-ui'
+import { useMessage, version, NAIVE_VERSION } from 'ithinkdt-ui'
 import { MenuOutline } from '@vicons/ionicons5'
 import { repoUrl } from './utils/github-url'
 import { i18n, useIsMobile, useIsTablet } from './utils/composables'
@@ -298,6 +298,7 @@ export default defineComponent({
       message,
       t,
       version,
+      NAIVE_VERSION,
       isMobile: isMobileRef,
       isTablet: isTabletRef,
       repoUrl,
@@ -351,7 +352,7 @@ export default defineComponent({
   <n-layout-header bordered class="nav" :style="style">
     <n-text tag="div" class="ui-logo" :depth="1" @click="handleLogoClick">
       <img src="./assets/images/naivelogo.svg">
-      <span v-if="!isMobile">Naive UI</span>
+      <span v-if="!isMobile">iThinkDT UI</span>
     </n-text>
     <div
       :style="
@@ -437,7 +438,7 @@ export default defineComponent({
         GitHub
       </n-button>
       <n-text class="nav-picker padded">
-        {{ version }}
+        {{ version }} [Naive {{ NAIVE_VERSION }}]
       </n-text>
       <n-button
         v-if="dev"
@@ -447,15 +448,6 @@ export default defineComponent({
         @click="handleDisplayModeUpdate"
       >
         {{ displayModeLabelMap[displayMode] }}
-      </n-button>
-      <n-button
-        v-if="tusimple || dev"
-        size="small"
-        quaternary
-        class="nav-picker"
-        @click="handleConfigProviderUpdate"
-      >
-        {{ cfgProviderLabelMap[configProviderName] }}
       </n-button>
     </div>
   </n-layout-header>

@@ -8,7 +8,7 @@ You can use `useModal.create` to create a modal. (Please make sure this API is c
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NButton, useMessage, useModal } from 'naive-ui'
+import { NButton, useMessage, useModal } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

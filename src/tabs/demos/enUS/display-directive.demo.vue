@@ -6,7 +6,7 @@ You can set tab-panel's display directive to `if` or `show`. When use `show`, th
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NInput } from 'naive-ui'
+import { NInput } from 'ithinkdt-ui'
 
 const showInput = defineComponent({
   render() {

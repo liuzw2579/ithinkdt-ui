@@ -6,7 +6,7 @@ If you don't need fallback options, setting `fallback-option` to `false` ensures
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { SelectOption } from 'naive-ui'
+import type { SelectOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

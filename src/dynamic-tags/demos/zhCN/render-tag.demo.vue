@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
-import { NTag } from 'naive-ui'
+import { NTag } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

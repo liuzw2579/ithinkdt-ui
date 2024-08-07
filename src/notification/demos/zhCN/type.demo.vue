@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { NotificationType } from 'naive-ui'
-import { useNotification } from 'naive-ui'
+import type { NotificationType } from 'ithinkdt-ui'
+import { useNotification } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { FormRules } from 'naive-ui'
+import type { FormRules } from 'ithinkdt-ui'
 
 export default defineComponent({
   data() {

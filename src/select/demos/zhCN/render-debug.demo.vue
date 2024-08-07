@@ -5,8 +5,8 @@
 <script lang="ts">
 import type { VNode } from 'vue'
 import { defineComponent, h } from 'vue'
-import type { SelectGroupOption, SelectOption } from 'naive-ui'
-import { NTooltip } from 'naive-ui'
+import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
+import { NTooltip } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

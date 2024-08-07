@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { MenuOption } from 'naive-ui'
-import { NEllipsis } from 'naive-ui'
+import type { MenuOption } from 'ithinkdt-ui'
+import { NEllipsis } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

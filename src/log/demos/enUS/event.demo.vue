@@ -6,7 +6,7 @@ Log has `require-more`, `reach-top` and `reach-bottom` event. Note that even if 
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 function log() {
   const l: string[] = []

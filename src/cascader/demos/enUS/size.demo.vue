@@ -6,7 +6,7 @@ Cascader has `small`, `medium` and `large` sizes.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { CascaderOption } from 'naive-ui'
+import type { CascaderOption } from 'ithinkdt-ui'
 
 function getOptions(depth = 2, iterator = 1, prefix = '') {
   const length = 12

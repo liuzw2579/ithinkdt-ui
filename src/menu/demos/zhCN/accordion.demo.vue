@@ -7,8 +7,8 @@
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import {
   BagOutline as BagOutlineIcon,
   FishOutline as FishIcon,

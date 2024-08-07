@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { LogInst } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { LogInst } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 function log() {
   const l: string[] = []

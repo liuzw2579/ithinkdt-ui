@@ -8,8 +8,8 @@ Usually you can use vue-router here to accomplish routing. Also, you can render 
 import type { Component } from 'vue'
 import { defineComponent, h } from 'vue'
 import { RouterLink } from 'vue-router'
-import { NIcon, useMessage } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon, useMessage } from 'ithinkdt-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import {
   BookOutline as BookIcon,
   HomeOutline as HomeIcon,

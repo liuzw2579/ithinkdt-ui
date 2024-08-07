@@ -8,8 +8,8 @@ import type {
   DataTableBaseColumn,
   DataTableColumns,
   DataTableFilterState
-} from 'naive-ui'
-import { unstableDataTableRtl } from 'naive-ui'
+} from 'ithinkdt-ui'
+import { unstableDataTableRtl } from 'ithinkdt-ui'
 
 interface Row {
   key: number

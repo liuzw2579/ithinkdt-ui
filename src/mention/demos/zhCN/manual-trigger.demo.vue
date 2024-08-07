@@ -7,8 +7,8 @@
 <script lang="ts">
 import type { VNodeChild } from 'vue'
 import { defineComponent, h, ref } from 'vue'
-import type { MentionInst, MentionOption } from 'naive-ui'
-import { NIcon } from 'naive-ui'
+import type { MentionInst, MentionOption } from 'ithinkdt-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { HomeOutline as HomeIcon } from '@vicons/ionicons5'
 
 export default defineComponent({

@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstablePaginationRtl } from 'naive-ui'
+import { unstablePaginationRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

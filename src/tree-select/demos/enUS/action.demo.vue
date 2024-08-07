@@ -6,7 +6,7 @@ Maybe you need to use this slot in the tree selection menu.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { TreeSelectOption } from 'naive-ui'
+import type { TreeSelectOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

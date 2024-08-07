@@ -1,6 +1,6 @@
 # Use Naive Element
 
-Naive UI has `n-element` component. See [Element](../components/element).
+iThinkDT UI has `n-element` component. See [Element](../components/element).
 
 ```html
 <n-space vertical>
@@ -23,7 +23,7 @@ Naive UI has `n-element` component. See [Element](../components/element).
 
 ```js
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { DrawerPlacement } from 'naive-ui'
+import type { DrawerPlacement } from 'ithinkdt-ui'
 
 export default defineComponent({
   data() {

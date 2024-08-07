@@ -6,7 +6,7 @@ Note: `n-upload-trigger` and `n-upload-file-list` must be children of `<n-upload
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { UploadFileInfo } from 'naive-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

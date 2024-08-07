@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'vue'
+import { type CSSProperties, toValue } from 'vue'
 import { depx } from 'seemly'
 import { formatLength } from '../../_utils'
 import type {
@@ -209,7 +209,7 @@ export function generateCsv(columns: TableColumn[], data: RowData[]): string {
   const exportableColumns = columns.filter(
     column => column.type !== 'expand' && column.type !== 'selection'
   )
-  const header = exportableColumns.map((col: any) => col.title).join(',')
+  const header = exportableColumns.map((col: any) => toValue(col.csvTitle ?? col.title)).join(',')
   const rows = data.map((row) => {
     return exportableColumns
       .map((col: any) => formatCsvCell(row[col.key]))

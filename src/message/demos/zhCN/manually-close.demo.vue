@@ -4,8 +4,8 @@
 
 <script lang="ts">
 import { defineComponent, onBeforeUnmount } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { MessageReactive } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
+import type { MessageReactive } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

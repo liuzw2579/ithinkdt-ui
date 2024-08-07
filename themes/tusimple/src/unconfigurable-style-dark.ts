@@ -1,8 +1,8 @@
 import { changeColor } from 'seemly'
-import { c, cB, cE, cM, cNotM } from 'naive-ui'
+import { c, cB, cE, cM, cNotM } from 'ithinkdt-ui'
 
 export function mountSvgDefs (): void {
-  if (document.getElementById('naive-ui/tusimple/svg-defs')) return
+  if (document.getElementById('ithinkdt-ui/tusimple/svg-defs')) return
   const svgDefs = `<defs>
     <linearGradient id="progress-info">
       <stop offset="0%" stop-color="#80c6ff" />
@@ -23,7 +23,7 @@ export function mountSvgDefs (): void {
   </defs>`
   const svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
   svgEl.innerHTML = svgDefs
-  svgEl.id = 'naive-ui/tusimple/svg-defs'
+  svgEl.id = 'ithinkdt-ui/tusimple/svg-defs'
   document.body.appendChild(svgEl)
 }
 

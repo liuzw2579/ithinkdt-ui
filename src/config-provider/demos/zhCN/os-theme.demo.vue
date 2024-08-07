@@ -1,12 +1,12 @@
 <markdown>
 # 使用操作系统主题
 
-Naive UI 提供 `useOsTheme` 来获取当前操作系统的主题。
+iThinkDT UI 提供 `useOsTheme` 来获取当前操作系统的主题。
 </markdown>
 
 <script lang="ts">
 import { computed, defineComponent } from 'vue'
-import { darkTheme, useOsTheme } from 'naive-ui'
+import { darkTheme, useOsTheme } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

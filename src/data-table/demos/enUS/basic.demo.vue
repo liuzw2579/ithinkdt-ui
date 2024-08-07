@@ -4,8 +4,8 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
-import { NButton, useMessage } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
+import { NButton, useMessage } from 'ithinkdt-ui'
 
 interface Song {
   no: number

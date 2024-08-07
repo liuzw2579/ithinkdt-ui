@@ -14,7 +14,7 @@ Not too simple, but good-looking.
 
 ```js
 import { computed, defineComponent, h, nextTick, ref } from 'vue'
-import { NInput } from 'naive-ui'
+import { NInput } from 'ithinkdt-ui'
 
 function createData() {
   return Array.from({ length: 100 }).map((_, index) => ({

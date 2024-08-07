@@ -6,7 +6,7 @@ Using `striped` prop to make it easier to distinguish rows.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
 
 interface RowData {
   key: number

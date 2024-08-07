@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableSelectRtl } from 'naive-ui'
+import { unstableSelectRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

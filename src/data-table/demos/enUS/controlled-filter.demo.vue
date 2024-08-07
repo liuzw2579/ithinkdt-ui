@@ -8,7 +8,7 @@ import type {
   DataTableBaseColumn,
   DataTableColumns,
   DataTableFilterState
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 
 interface Row {
   key: number

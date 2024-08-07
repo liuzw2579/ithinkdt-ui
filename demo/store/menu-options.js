@@ -2,7 +2,7 @@
 
 import { h } from 'vue'
 import { RouterLink } from 'vue-router'
-import { NSpace, NTag } from 'naive-ui'
+import { NSpace, NTag } from 'ithinkdt-ui'
 
 export function renderMenuLabel(option) {
   if (!('path' in option) || option.label === '--Debug') {
@@ -40,8 +40,7 @@ function renderItemExtra(rawItem, isZh) {
 function getItemExtraString(rawItem, isZh) {
   if (!rawItem.enSuffix || !isZh) {
     return ''
-  }
-  else {
+  } else {
     return rawItem.en
   }
 }
@@ -91,8 +90,8 @@ export function createDocumentationMenuOptions({ lang, theme }) {
       type: 'group',
       children: [
         {
-          en: 'Naive UI',
-          zh: 'Naive UI',
+          en: 'iThinkDT UI',
+          zh: 'iThinkDT UI',
           path: '/introduction'
         }
       ]
@@ -210,6 +209,11 @@ export function createDocumentationMenuOptions({ lang, theme }) {
           en: 'Change Log',
           zh: '变更日志',
           path: '/changelog'
+        },
+        {
+          en: 'Change Log (iThinkDT)',
+          zh: '变更日志（iThinkDT）',
+          path: '/changelog-ithinkdt'
         }
       ]
     }

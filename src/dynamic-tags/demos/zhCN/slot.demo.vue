@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, nextTick, ref, watch } from 'vue'
-import type { AutoCompleteInst } from 'naive-ui'
+import type { AutoCompleteInst } from 'ithinkdt-ui'
 import Add from '@vicons/ionicons5/Add'
 
 export default defineComponent({

@@ -7,8 +7,8 @@ Use `render-switcher-icon` prop to customize switcher icon.
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
 import { repeat } from 'seemly'
-import type { TreeOption } from 'naive-ui'
-import { NIcon } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { ChevronForward, PlanetOutline, SunnyOutline } from '@vicons/ionicons5'
 
 function createData(level = 4, baseKey = ''): TreeOption[] | undefined {

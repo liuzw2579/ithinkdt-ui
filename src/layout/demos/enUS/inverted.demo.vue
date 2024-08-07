@@ -7,7 +7,7 @@ Use `inverted` to add contrast. You can set the prop on header, footer and sider
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h, ref } from 'vue'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

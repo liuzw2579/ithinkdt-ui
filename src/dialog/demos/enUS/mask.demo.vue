@@ -6,7 +6,7 @@ I think user is smart enough that they know if nothing happens after mask is cli
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useDialog, useMessage } from 'naive-ui'
+import { useDialog, useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

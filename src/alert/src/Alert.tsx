@@ -196,7 +196,7 @@ export default defineComponent({
                 this.themeClass,
                 this.closable && `${mergedClsPrefix}-alert--closable`,
                 this.showIcon && `${mergedClsPrefix}-alert--show-icon`,
-                // fix: https://github.com/tusen-ai/naive-ui/issues/4588
+                // fix: https://github.com/tusen-ai/ithinkdt-ui/issues/4588
                 !this.title
                 && this.closable
                 && `${mergedClsPrefix}-alert--right-adjust`,

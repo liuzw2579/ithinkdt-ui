@@ -6,7 +6,7 @@ If you don't specify the theme, the theme of created message will be the same as
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

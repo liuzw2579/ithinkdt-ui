@@ -7,7 +7,7 @@ Set `draggable` and write bunch of codes to make drag & drop work.
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import type { TreeDropInfo, TreeOption } from 'naive-ui'
+import type { TreeDropInfo, TreeOption } from 'ithinkdt-ui'
 
 function createData(level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level)

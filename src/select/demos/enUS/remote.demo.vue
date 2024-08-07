@@ -6,7 +6,7 @@ Asynchronous example for a single select case.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { SelectOption } from 'naive-ui'
+import type { SelectOption } from 'ithinkdt-ui'
 
 const options = [
   {

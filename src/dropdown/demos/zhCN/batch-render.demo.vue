@@ -7,8 +7,8 @@
 <script lang="ts">
 import { defineComponent, h } from 'vue'
 import type { VNodeChild } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { DropdownOption } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
+import type { DropdownOption } from 'ithinkdt-ui'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
 
 const options = [

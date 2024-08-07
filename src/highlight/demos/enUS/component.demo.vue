@@ -10,8 +10,8 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   setup() {
     return {
-      text: 'Naive UI is a Vue3 component library, it is relatively complete, tunable themes, written in TypeScript, fast.',
-      patterns: ['Naive UI', 'Vue3', 'TypeScript', 'fast']
+      text: 'iThinkDT UI is a Vue3 component library, it is relatively complete, tunable themes, written in TypeScript, fast.',
+      patterns: ['iThinkDT UI', 'Vue3', 'TypeScript', 'fast']
     }
   }
 })

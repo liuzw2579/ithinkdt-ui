@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { CascaderInst } from 'naive-ui'
+import type { CascaderInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstablePageHeaderRtl, useMessage } from 'naive-ui'
+import { unstablePageHeaderRtl, useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

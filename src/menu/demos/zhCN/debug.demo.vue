@@ -5,8 +5,8 @@
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h } from 'vue'
-import type { MenuOption } from 'naive-ui'
-import { NButton, NIcon, useMessage } from 'naive-ui'
+import type { MenuOption } from 'ithinkdt-ui'
+import { NButton, NIcon, useMessage } from 'ithinkdt-ui'
 import { BookOutline as BookIcon } from '@vicons/ionicons5'
 
 function renderIcon(icon: Component) {

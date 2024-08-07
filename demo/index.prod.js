@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import naive, { NThemeEditor } from 'naive-ui'
+import naive, { NThemeEditor } from 'ithinkdt-ui'
 import { installDemoComponents } from './setup'
 import SiteRoot from './SiteRoot.vue'
 import { routes } from './routes/routes'

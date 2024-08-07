@@ -41,6 +41,10 @@ export const enDocRoutes = [
     component: () => import('../pages/docs/changelog/enUS/index.vue')
   },
   {
+    path: 'changelog-ithinkdt',
+    component: () => import('../pages/docs/changelog-ithinkdt/enUS/index.vue')
+  },
+  {
     path: 'theme',
     component: () => import('../pages/docs/theme/enUS/index.demo-entry.md')
   },
@@ -132,6 +136,10 @@ export const zhDocRoutes = [
   {
     path: 'changelog',
     component: () => import('../pages/docs/changelog/zhCN/index.vue')
+  },
+  {
+    path: 'changelog-ithinkdt',
+    component: () => import('../pages/docs/changelog-ithinkdt/zhCN/index.vue')
   },
   {
     path: 'theme',

@@ -6,8 +6,8 @@ You may use `render-cell` to customize empty state.
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NText } from 'naive-ui'
-import type { DataTableColumns } from 'naive-ui'
+import { NText } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
 
 interface Song {
   no: number

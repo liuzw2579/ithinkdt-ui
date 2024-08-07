@@ -164,7 +164,7 @@ export default defineComponent({
         if (__DEV__) {
           warn(
             'back-top',
-            'Container of back-top element is not found. This could be a bug of naive-ui.'
+            'Container of back-top element is not found. This could be a bug of ithinkdt-ui.'
           )
         }
         return

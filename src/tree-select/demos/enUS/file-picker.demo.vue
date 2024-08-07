@@ -6,7 +6,7 @@ Use `override-default-node-click-behavior` to simulate a file picker (folder is 
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { TreeSelectOverrideNodeClickBehavior } from 'naive-ui'
+import type { TreeSelectOverrideNodeClickBehavior } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

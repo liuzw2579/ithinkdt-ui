@@ -7,8 +7,8 @@
 <script lang="ts">
 import type { VNodeChild } from 'vue'
 import { defineComponent, h } from 'vue'
-import type { SelectGroupOption, SelectOption } from 'naive-ui'
-import { NIcon } from 'naive-ui'
+import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { MdMusicalNote as MusicIcon } from '@vicons/ionicons4'
 
 export default defineComponent({

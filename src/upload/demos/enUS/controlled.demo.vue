@@ -6,8 +6,8 @@ This example is just a joke.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useMessage } from 'naive-ui'
-import type { UploadFileInfo } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

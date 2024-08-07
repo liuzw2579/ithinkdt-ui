@@ -6,7 +6,7 @@
 
 ```js
 import { defineComponent, h } from 'vue'
-import { NGradientText, NTooltip } from 'naive-ui'
+import { NGradientText, NTooltip } from 'ithinkdt-ui'
 
 function renderTooltip(trigger, content) {
   return h(NTooltip, null, {

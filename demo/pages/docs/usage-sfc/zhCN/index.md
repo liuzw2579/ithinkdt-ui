@@ -12,12 +12,12 @@
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 
 <script>
   import { defineComponent } from 'vue'
-  import { NButton } from 'naive-ui'
+  import { NButton } from 'ithinkdt-ui'
 
   export default defineComponent({
     components: {
@@ -31,11 +31,11 @@
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 
 <script setup>
-  import { NButton } from 'naive-ui'
+  import { NButton } from 'ithinkdt-ui'
 </script>
 ```
 
@@ -49,7 +49,7 @@
 
 ```js
 import { createApp } from 'vue'
-import naive from 'naive-ui'
+import naive from 'ithinkdt-ui'
 
 const app = createApp(App)
 app.use(naive)
@@ -59,7 +59,7 @@ app.use(naive)
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 ```
 
@@ -72,7 +72,7 @@ app.use(naive)
 {
   "compilerOptions": {
     // ...
-    "types": ["naive-ui/volar"]
+    "types": ["ithinkdt-ui/volar"]
   }
 }
 ```

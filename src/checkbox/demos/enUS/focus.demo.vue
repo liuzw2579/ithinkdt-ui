@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { CheckboxInst } from 'naive-ui'
+import type { CheckboxInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

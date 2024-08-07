@@ -7,8 +7,8 @@ If you don't set `default-expanded-keys`, menu will expand all the ascendant of 
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h } from 'vue'
-import { NIcon, useMessage } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon, useMessage } from 'ithinkdt-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

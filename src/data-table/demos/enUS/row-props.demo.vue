@@ -6,7 +6,7 @@ If you want to add attr or event handlers to a row, use `row-props` prop.
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 interface RowData {
   key: number

@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { MenuInst } from 'naive-ui'
+import type { MenuInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

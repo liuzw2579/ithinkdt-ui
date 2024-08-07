@@ -5,8 +5,8 @@
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
 import { repeat } from 'seemly'
-import type { TransferRenderSourceList, TreeOption } from 'naive-ui'
-import { NTree } from 'naive-ui'
+import type { TransferRenderSourceList, TreeOption } from 'ithinkdt-ui'
+import { NTree } from 'ithinkdt-ui'
 
 function createLabel(level: number): string {
   if (level === 4)

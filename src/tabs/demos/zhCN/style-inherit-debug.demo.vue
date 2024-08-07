@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { NTabPane, NTabs } from 'naive-ui'
+import { NTabPane, NTabs } from 'ithinkdt-ui'
 
 export default {
   name: 'App',

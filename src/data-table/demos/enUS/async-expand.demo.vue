@@ -6,7 +6,7 @@ Change data in `onLoad` prop.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

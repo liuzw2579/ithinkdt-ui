@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, h, reactive } from 'vue'
-import type { DataTableBaseColumn, DataTableColumns } from 'naive-ui'
-import { NButton, NIcon, NSpace } from 'naive-ui'
+import type { DataTableBaseColumn, DataTableColumns } from 'ithinkdt-ui'
+import { NButton, NIcon, NSpace } from 'ithinkdt-ui'
 import { PawOutline, SearchOutline } from '@vicons/ionicons5'
 
 const data = [

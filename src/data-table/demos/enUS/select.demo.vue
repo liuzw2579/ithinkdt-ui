@@ -6,7 +6,7 @@ Rows can be selectable by making first column's type as `selection`.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { DataTableColumns, DataTableRowKey } from 'naive-ui'
+import type { DataTableColumns, DataTableRowKey } from 'ithinkdt-ui'
 
 interface RowData {
   key: number

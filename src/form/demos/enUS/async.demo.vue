@@ -6,8 +6,8 @@ Supports async when the provided validator returns a `Promise`.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { FormInst, FormItemRule, FormValidationError } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { FormInst, FormItemRule, FormValidationError } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableBadgeRtl } from 'naive-ui'
+import { unstableBadgeRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

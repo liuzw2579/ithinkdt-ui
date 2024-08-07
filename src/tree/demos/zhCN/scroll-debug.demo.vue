@@ -4,8 +4,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { TreeOption } from 'naive-ui'
-import { NScrollbar, NTree } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
+import { NScrollbar, NTree } from 'ithinkdt-ui'
 
 function createData(level = 10): TreeOption[] {
   if (!level)

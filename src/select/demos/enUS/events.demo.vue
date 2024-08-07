@@ -6,8 +6,8 @@ Why make the `update:value` event an example? Because there's so little to write
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import type { SelectOption } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { SelectOption } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

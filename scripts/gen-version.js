@@ -1,6 +1,6 @@
-const version = require('../package.json').version
+const { version, naiveVersion } = require('../package.json')
 
 require('node:fs').writeFileSync(
   require('node:path').resolve(__dirname, '..', 'src', 'version.ts'),
-  `export default '${version}'\n`
+  `export const NAIVE_VERSION = '${naiveVersion}'\nexport const ITHINKDT_VERSION = '${version}'\nexport default ITHINKDT_VERSION\n`
 )
