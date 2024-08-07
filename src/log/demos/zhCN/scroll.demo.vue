@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { LogInst } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { LogInst } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 function log() {

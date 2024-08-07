@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { TransferRenderTargetLabel } from 'naive-ui'
-import { NAvatar } from 'naive-ui'
+import type { TransferRenderTargetLabel } from 'ithinkdt-ui'
+import { NAvatar } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const options = [

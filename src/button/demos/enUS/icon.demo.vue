@@ -6,7 +6,7 @@ Icons can be used in buttons. You can use `render-icon` prop or `icon` slot.
 
 <script lang="ts" setup>
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { h } from 'vue'
 
 function renderIcon() {

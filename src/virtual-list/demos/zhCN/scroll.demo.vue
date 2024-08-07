@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { VirtualListInst } from 'naive-ui'
+import type { VirtualListInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumns, DataTableRowKey } from 'naive-ui'
+import type { DataTableColumns, DataTableRowKey } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 interface RowData {

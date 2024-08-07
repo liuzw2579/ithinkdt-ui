@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumn } from 'naive-ui'
-import { NButton, NDataTable } from 'naive-ui'
+import type { DataTableColumn } from 'ithinkdt-ui'
+import { NButton, NDataTable } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 export interface RowData {

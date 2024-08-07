@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { IosAirplane } from '@vicons/ionicons4'
-import { unstableAlertRtl } from 'naive-ui'
+import { unstableAlertRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

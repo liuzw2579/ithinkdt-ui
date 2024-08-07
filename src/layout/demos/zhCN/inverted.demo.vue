@@ -11,7 +11,7 @@ import {
   PersonOutline as PersonIcon,
   WineOutline as WineIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 function renderIcon(icon: Component) {

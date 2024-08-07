@@ -9,7 +9,7 @@
     "module": "ES6",
     "moduleResolution": "Node",
     "paths": {
-      "naive-ui": ["./src"]
+      "ithinkdt-ui": ["./src"]
     },
     "types": ["vue/jsx", "jest"],
     "strict": true,

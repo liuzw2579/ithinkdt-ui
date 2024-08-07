@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { useDialog, useMessage } from 'naive-ui'
+import { useDialog, useMessage } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

@@ -1,6 +1,6 @@
 # 使用元素组件
 
-Naive UI 提供 `n-element` 组件，参考 [Element](../components/element)。
+iThinkDT UI 提供 `n-element` 组件，参考 [Element](../components/element)。
 
 ```html
 <n-space vertical>
@@ -22,7 +22,7 @@ Naive UI 提供 `n-element` 组件，参考 [Element](../components/element)。
 ```
 
 ```js
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { NTab, NTabs } from 'naive-ui'
+import { NTab, NTabs } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableAvatarGroupRtl, unstableSpaceRtl } from 'naive-ui'
+import { unstableAvatarGroupRtl, unstableSpaceRtl } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

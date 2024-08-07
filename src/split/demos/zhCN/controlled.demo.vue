@@ -3,7 +3,7 @@
 </markdown>
 
 <script setup lang="ts">
-import { NInputNumber, NSplit } from 'naive-ui'
+import { NInputNumber, NSplit } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const split = ref<number>(0.8)

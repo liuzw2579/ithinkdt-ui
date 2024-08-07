@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { NButton, useNotification } from 'naive-ui'
+import { NButton, useNotification } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const NotificationButton = defineComponent({

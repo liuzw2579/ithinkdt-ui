@@ -6,7 +6,7 @@ This document pertains to SSR (Server-Side Rendering). Please familiarize yourse
 
 ## Example
 
-This is a [demo](https://github.com/07akioni/naive-ui-vitepress-demo) for using `naive-ui` in `vitepress` with SSR enabled.
+This is a [demo](https://github.com/07akioni/ithinkdt-ui-vitepress-demo) for using `ithinkdt-ui` in `vitepress` with SSR enabled.
 
 You can directly use the demo.
 
@@ -32,7 +32,7 @@ pnpm install --save-dev @css-render/vue3-ssr
 // .vitepress/theme/index.js
 
 import { setup } from '@css-render/vue3-ssr'
-import { NConfigProvider } from 'naive-ui'
+import { NConfigProvider } from 'ithinkdt-ui'
 import { useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { defineComponent, h, inject } from 'vue'
@@ -100,7 +100,7 @@ export default defineConfig({
   // ...
   vite: {
     ssr: {
-      noExternal: ['naive-ui', 'date-fns', 'vueuc']
+      noExternal: ['ithinkdt-ui', 'date-fns', 'vueuc']
     }
   },
   postRender(context) {
@@ -126,13 +126,13 @@ export default defineConfig({
 })
 ```
 
-### 3. Start using naive-ui in your markdown file
+### 3. Start using ithinkdt-ui in your markdown file
 
 ```md
 ...
 
 <script setup>
-import { NButton } from 'naive-ui'
+import { NButton } from 'ithinkdt-ui'
 </script>
 
 <NButton>Hello World</NButton>

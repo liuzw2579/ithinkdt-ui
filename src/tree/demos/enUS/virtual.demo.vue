@@ -5,7 +5,7 @@ Set `virtual-scroll` to use virtual scroll. Note that you should set the height 
 </markdown>
 
 <script lang="ts">
-import type { TreeInst, TreeOption } from 'naive-ui'
+import type { TreeInst, TreeOption } from 'ithinkdt-ui'
 import { repeat } from 'seemly'
 import { defineComponent, ref } from 'vue'
 

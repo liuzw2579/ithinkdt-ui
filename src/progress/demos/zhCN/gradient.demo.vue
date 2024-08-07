@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 import { changeColor } from 'seemly'
 import { defineComponent, ref } from 'vue'
 

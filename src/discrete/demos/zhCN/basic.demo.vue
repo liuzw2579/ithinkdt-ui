@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { ConfigProviderProps } from 'naive-ui'
-import { createDiscreteApi, darkTheme, lightTheme } from 'naive-ui'
+import type { ConfigProviderProps } from 'ithinkdt-ui'
+import { createDiscreteApi, darkTheme, lightTheme } from 'ithinkdt-ui'
 import { computed, defineComponent, ref } from 'vue'
 
 const themeRef = ref<'light' | 'dark'>('light')

@@ -5,8 +5,8 @@ set `show-download-button` to show download button. set `on-download` to provide
 </markdown>
 
 <script lang="ts">
-import type { UploadFileInfo } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

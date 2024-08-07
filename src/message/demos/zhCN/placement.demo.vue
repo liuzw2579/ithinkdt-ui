@@ -3,9 +3,9 @@
 </markdown>
 
 <script lang="ts">
-import type { MessageProviderProps } from 'naive-ui'
+import type { MessageProviderProps } from 'ithinkdt-ui'
 import type { VNode } from 'vue'
-import { NButton, useMessage } from 'naive-ui'
+import { NButton, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 interface Item {

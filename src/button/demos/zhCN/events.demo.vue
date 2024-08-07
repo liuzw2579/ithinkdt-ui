@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 const message = useMessage()
 function handleClick() {

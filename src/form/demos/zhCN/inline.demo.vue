@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { FormInst } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { FormInst } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -5,7 +5,7 @@ Set the way to show checked options. `all` means showing all checked nodes. `par
 </markdown>
 
 <script lang="ts">
-import type { CascaderOption } from 'naive-ui'
+import type { CascaderOption } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 function getOptions(depth = 4, iterator = 1, prefix = '') {

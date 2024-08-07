@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableRadioRtl, unstableSpaceRtl } from 'naive-ui'
+import { unstableRadioRtl, unstableSpaceRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

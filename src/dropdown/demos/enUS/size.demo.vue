@@ -5,7 +5,7 @@ A dropdown has different sizes.
 </markdown>
 
 <script lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 const options = [

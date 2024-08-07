@@ -5,9 +5,9 @@
 </markdown>
 
 <script lang="ts">
-import type { UploadCustomRequestOptions } from 'naive-ui'
+import type { UploadCustomRequestOptions } from 'ithinkdt-ui'
 import { lyla } from '@lylajs/web'
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

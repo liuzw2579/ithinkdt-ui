@@ -35,6 +35,7 @@ import {
   defineComponent,
   Fragment,
   h,
+  type ImgHTMLAttributes,
   type InputHTMLAttributes,
   nextTick,
   type PropType,
@@ -386,6 +387,8 @@ export const uploadProps = {
     default: true
   },
   imageGroupProps: Object as PropType<ImageGroupProps>,
+  imgProps: Object as PropType<ImgHTMLAttributes>,
+  previewedImgProps: Object as PropType<ImgHTMLAttributes>,
   inputProps: Object as PropType<InputHTMLAttributes>,
   triggerClass: String,
   triggerStyle: [String, Object] as PropType<CSSProperties | string>,
@@ -729,6 +732,8 @@ export default defineComponent({
       onRender: themeClassHandle?.onRender,
       showTriggerRef: toRef(props, 'showTrigger'),
       imageGroupPropsRef: toRef(props, 'imageGroupProps'),
+      imgPropsRef: toRef(props, 'imgProps'),
+      previewedImgPropsRef: toRef(props, 'previewedImgProps'),
       mergedDirectoryDndRef: computed(() => {
         return props.directoryDnd ?? props.directory
       }),

@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { MessageReactive, MessageType } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { MessageReactive, MessageType } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

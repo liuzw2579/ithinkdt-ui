@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { unstableButtonRtl } from 'naive-ui'
+import { unstableButtonRtl } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

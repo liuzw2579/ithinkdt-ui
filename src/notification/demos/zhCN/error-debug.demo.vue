@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { useNotification } from 'naive-ui'
+import { useNotification } from 'ithinkdt-ui'
 
 export default {
   name: 'DOMAnalyzer',

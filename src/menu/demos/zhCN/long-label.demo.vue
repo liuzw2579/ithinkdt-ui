@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { MenuOption } from 'naive-ui'
-import { NEllipsis } from 'naive-ui'
+import type { MenuOption } from 'ithinkdt-ui'
+import { NEllipsis } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

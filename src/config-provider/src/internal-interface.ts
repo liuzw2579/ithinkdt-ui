@@ -273,4 +273,5 @@ export interface ConfigProviderInjection {
   inlineThemeDisabled: boolean
   preflightStyleDisabled: boolean
   styleMountTarget: ParentNode | undefined
+  styleIsolate: boolean
 }

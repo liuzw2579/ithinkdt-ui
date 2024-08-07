@@ -5,7 +5,7 @@ Form's rule supports `renderMessage`. You can use it to render your message.
 </markdown>
 
 <script lang="ts">
-import type { FormRules } from 'naive-ui'
+import type { FormRules } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -18,7 +18,7 @@
 ```
 
 ```js
-import { useNotification } from 'naive-ui'
+import { useNotification } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 // content

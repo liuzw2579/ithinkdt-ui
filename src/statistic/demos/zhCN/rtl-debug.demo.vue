@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { MdSave } from '@vicons/ionicons4'
-import { unstableRowRtl, unstableStatisticRtl } from 'naive-ui'
+import { unstableRowRtl, unstableStatisticRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

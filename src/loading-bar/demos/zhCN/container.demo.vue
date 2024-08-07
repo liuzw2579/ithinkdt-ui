@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { NButton, NSpace, useLoadingBar } from 'naive-ui'
+import { NButton, NSpace, useLoadingBar } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 export default defineComponent({

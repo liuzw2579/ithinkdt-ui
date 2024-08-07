@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { TreeOption } from 'naive-ui'
-import { unstableTreeRtl } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
+import { unstableTreeRtl } from 'ithinkdt-ui'
 import { repeat } from 'seemly'
 import { defineComponent, ref } from 'vue'
 

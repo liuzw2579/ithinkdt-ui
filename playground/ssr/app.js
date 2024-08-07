@@ -1,5 +1,5 @@
 import { h, defineComponent, ref } from 'vue'
-import { NButton } from 'naive-ui'
+import { NButton } from 'ithinkdt-ui'
 
 const App = defineComponent({
   setup () {

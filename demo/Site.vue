@@ -1,5 +1,5 @@
 <script lang="ts">
-import { useLoadingBar } from 'naive-ui'
+import { useLoadingBar } from 'ithinkdt-ui'
 import { defineComponent, onMounted } from 'vue'
 import { loadingBarApiRef } from './routes/router'
 import SiteHeader from './SiteHeader.vue'

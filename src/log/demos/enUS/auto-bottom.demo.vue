@@ -5,7 +5,7 @@ Scroll to the latest when log is gradually increasing.
 </markdown>
 
 <script lang="ts">
-import type { LogInst } from 'naive-ui'
+import type { LogInst } from 'ithinkdt-ui'
 import { defineComponent, nextTick, onMounted, ref, watchEffect } from 'vue'
 
 function log() {

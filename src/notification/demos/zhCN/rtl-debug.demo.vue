@@ -8,7 +8,7 @@ import {
   NButton,
   unstableNotificationRtl,
   useNotification
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const NotificationButton = defineComponent({

@@ -3,9 +3,9 @@
 </markdown>
 
 <script lang="ts">
-import type { StepsProps } from 'naive-ui'
+import type { StepsProps } from 'ithinkdt-ui'
 import { MdArrowRoundBack, MdArrowRoundForward } from '@vicons/ionicons4'
-import { unstableStepsRtl } from 'naive-ui'
+import { unstableStepsRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -94,7 +94,7 @@ function genStyle(sourceStyle) {
     rules.push(
       selector
         .split(',')
-        .map(part => `.demo-card__view ${part}, .naive-ui-doc ${part}`)
+        .map(part => `.demo-card__view ${part}, .ithinkdt-ui-doc ${part}`)
         .join(',') + body
     )
   }

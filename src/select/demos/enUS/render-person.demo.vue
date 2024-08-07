@@ -5,8 +5,8 @@ I've found that people often want to make a people picker. Here is an example th
 </markdown>
 
 <script lang="ts">
-import type { SelectRenderLabel, SelectRenderTag } from 'naive-ui'
-import { NAvatar, NTag, NText } from 'naive-ui'
+import type { SelectRenderLabel, SelectRenderTag } from 'ithinkdt-ui'
+import { NAvatar, NTag, NText } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

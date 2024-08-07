@@ -13,19 +13,19 @@ If you want to customize the transition effect, you can use `transition-props` a
   >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg"
     >
   </n-carousel>
 </template>

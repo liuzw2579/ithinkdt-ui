@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstablePageHeaderRtl, useMessage } from 'naive-ui'
+import { unstablePageHeaderRtl, useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

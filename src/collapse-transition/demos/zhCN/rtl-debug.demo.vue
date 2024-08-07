@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableCollapseTransitionRtl } from 'naive-ui'
+import { unstableCollapseTransitionRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

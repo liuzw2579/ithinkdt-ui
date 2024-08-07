@@ -14,7 +14,7 @@
 ```
 
 ```js
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

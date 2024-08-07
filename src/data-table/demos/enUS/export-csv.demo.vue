@@ -13,7 +13,7 @@ import type {
   DataTableGetCsvHeader,
   DataTableInst,
   DataTableRowData
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 interface Song {

@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableCardRtl } from 'naive-ui'
+import { unstableCardRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

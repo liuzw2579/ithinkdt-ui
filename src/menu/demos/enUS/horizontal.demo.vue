@@ -5,14 +5,14 @@ A horiziontal menu which can automatically collapse its items.
 </markdown>
 
 <script lang="ts">
-import type { MenuOption } from 'naive-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import type { Component } from 'vue'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,
   WineOutline as WineIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 function renderIcon(icon: Component) {

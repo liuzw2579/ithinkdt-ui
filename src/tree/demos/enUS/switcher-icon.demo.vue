@@ -5,9 +5,9 @@ Use `render-switcher-icon` prop to customize switcher icon.
 </markdown>
 
 <script lang="ts">
-import type { TreeOption } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
 import { ChevronForward, PlanetOutline, SunnyOutline } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { repeat } from 'seemly'
 import { defineComponent, h, ref } from 'vue'
 

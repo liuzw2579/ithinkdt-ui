@@ -5,8 +5,8 @@ Add some actions.
 </markdown>
 
 <script lang="ts">
-import type { TreeOption } from 'naive-ui'
-import { NButton } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
+import { NButton } from 'ithinkdt-ui'
 import { repeat } from 'seemly'
 import { defineComponent, h, ref } from 'vue'
 

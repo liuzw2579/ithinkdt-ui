@@ -1,8 +1,8 @@
 <!--anchor:on-->
 
-# Naive UI
+# iThinkDT UI
 
-Naive UI is a Vue 3 component library.
+iThinkDT UI is a Vue 3 component library.
 
 To know how to install it, see [Installation](installation).
 
@@ -22,7 +22,7 @@ What's more, no less/sass/css variables, no webpack loaders are required. And yo
 
 ## Uses TypeScript
 
-All the stuff in Naive UI is written in TypeScript. It can work with your typescript project seamlessly.
+All the stuff in iThinkDT UI is written in TypeScript. It can work with your typescript project seamlessly.
 
 What's more, you don't need to import any CSS to use the components.
 
@@ -42,8 +42,8 @@ What's more, ..., no more. Just enjoy it.
 
 ## Contributing
 
-Please see [CONTRIBUTING.md](https://github.com/tusen-ai/naive-ui/blob/main/CONTRIBUTING.md).
+Please see [CONTRIBUTING.md](https://github.com/tusen-ai/ithinkdt-ui/blob/main/CONTRIBUTING.md).
 
 ## License
 
-Naive UI is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+iThinkDT UI is licensed under the [MIT license](https://opensource.org/licenses/MIT).

@@ -1,9 +1,9 @@
-import { useDialog as _useDialog } from 'naive-ui'
+import { useDialog as _useDialog } from 'ithinkdt-ui'
 import type {
   DialogOptions,
   DialogReactive,
   DialogApi
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 import { icons } from './icons'
 
 export interface ExtendedApi {

@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { CollapseProps } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { CollapseProps } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

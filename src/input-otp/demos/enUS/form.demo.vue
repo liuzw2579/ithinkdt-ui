@@ -5,8 +5,8 @@ An example for using together with `n-form`.
 </markdown>
 
 <script lang="ts" setup>
-import type { FormInst, FormRules } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { FormInst, FormRules } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const formRef = ref<FormInst | null>(null)

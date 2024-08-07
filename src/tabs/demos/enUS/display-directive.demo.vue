@@ -5,7 +5,7 @@ You can set tab-panel's display directive to `if` or `show`. When use `show`, th
 </markdown>
 
 <script lang="ts">
-import { NInput } from 'naive-ui'
+import { NInput } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 const showInput = defineComponent({

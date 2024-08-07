@@ -11,8 +11,8 @@ import type {
   FormItemRule,
   FormRules,
   FormValidationError
-} from 'naive-ui'
-import { useMessage } from 'naive-ui'
+} from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 interface ModelType {

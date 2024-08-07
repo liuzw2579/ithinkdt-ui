@@ -5,9 +5,9 @@ If the `option.label` property is not a string, the `option.value` property will
 </markdown>
 
 <script lang="ts">
-import type { MentionOption } from 'naive-ui'
+import type { MentionOption } from 'ithinkdt-ui'
 import type { VNodeChild } from 'vue'
-import { NAvatar } from 'naive-ui'
+import { NAvatar } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

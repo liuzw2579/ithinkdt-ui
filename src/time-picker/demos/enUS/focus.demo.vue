@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { TimePickerInst } from 'naive-ui'
+import type { TimePickerInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

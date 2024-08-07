@@ -1,4 +1,4 @@
-import naive, { NThemeEditor } from 'naive-ui'
+import naive, { NThemeEditor } from 'ithinkdt-ui'
 import { createApp } from 'vue'
 import createDemoRouter from './routes/router'
 import { routes } from './routes/routes'

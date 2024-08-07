@@ -10,8 +10,8 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   setup() {
     return {
-      text: 'Naive UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接',
-      patterns: ['Naive UI', 'typeScript']
+      text: 'iThinkDT UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接',
+      patterns: ['iThinkDT UI', 'typeScript']
     }
   }
 })

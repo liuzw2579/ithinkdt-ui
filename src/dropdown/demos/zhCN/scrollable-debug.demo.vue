@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { DropdownMenuProps } from 'naive-ui'
+import type { DropdownMenuProps } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 const options = [

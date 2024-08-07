@@ -5,9 +5,9 @@
 </markdown>
 
 <script lang="ts">
-import type { DropdownGroupOption, DropdownOption } from 'naive-ui'
+import type { DropdownGroupOption, DropdownOption } from 'ithinkdt-ui'
 import type { VNode } from 'vue'
-import { NTooltip, useMessage } from 'naive-ui'
+import { NTooltip, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

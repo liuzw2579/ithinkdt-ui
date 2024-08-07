@@ -5,7 +5,7 @@ Bind whatever you want.
 </markdown>
 
 <script lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

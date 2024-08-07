@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumns, PaginationProps } from 'naive-ui'
-import { NButton, useMessage } from 'naive-ui'
+import type { DataTableColumns, PaginationProps } from 'ithinkdt-ui'
+import { NButton, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 interface Song {

@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { MessageRenderMessage } from 'naive-ui'
-import { NAlert, useMessage } from 'naive-ui'
+import type { MessageRenderMessage } from 'ithinkdt-ui'
+import { NAlert, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 const renderMessage: MessageRenderMessage = (props) => {

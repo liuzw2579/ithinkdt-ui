@@ -16,7 +16,7 @@ For example:
 ```
 
 ```js
-import { useLoadingBar } from 'naive-ui'
+import { useLoadingBar } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 // content

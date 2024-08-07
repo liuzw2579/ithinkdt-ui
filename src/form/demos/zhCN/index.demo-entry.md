@@ -73,7 +73,7 @@ feedback-style.vue
 | feedback-class | `string` | `undefined` | 反馈校验竖向展示定位 | 2.38.2 |
 | feedback-style | `string \| object` | `undefined` | 反馈校验横向展示定位 | 2.38.2 |
 | first | `boolean` | `false` | 是否只展示首个出错信息 |  |
-| ignore-path-change | `boolean` | `false` | 通常 `path` 的改变会导致数据来源的变化，所以 naive-ui 会清空验证信息。如果不期望这个行为，可以将其置为 `true` |  |
+| ignore-path-change | `boolean` | `false` | 通常 `path` 的改变会导致数据来源的变化，所以 ithinkdt-ui 会清空验证信息。如果不期望这个行为，可以将其置为 `true` |  |
 | label | `string` | `undefined` | 标签信息 |  |
 | label-align | `'left' \| 'right'` | `undefined` | 标签的文本对齐方式。如果没有被设定，使用外层表单的 `label-align` |  |
 | label-placement | `'left' \| 'top'` | `undefined` | 如果没有被设定，使用外层表单的 `label-placement` |  |

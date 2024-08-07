@@ -5,13 +5,13 @@
 </markdown>
 
 <script lang="ts">
-import type { MenuOption } from 'naive-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import type { Component } from 'vue'
 import {
   LogOutOutline as HomeIcon,
   LaptopOutline as WorkIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 import { RouterLink } from 'vue-router'
 

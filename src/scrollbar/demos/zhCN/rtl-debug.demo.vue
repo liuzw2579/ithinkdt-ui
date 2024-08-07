@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableScrollbarRtl } from 'naive-ui'
+import { unstableScrollbarRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -12,12 +12,12 @@
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 
 <script>
   import { defineComponent } from 'vue'
-  import { NButton } from 'naive-ui'
+  import { NButton } from 'ithinkdt-ui'
 
   export default defineComponent({
     components: {
@@ -31,11 +31,11 @@
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 
 <script setup>
-  import { NButton } from 'naive-ui'
+  import { NButton } from 'ithinkdt-ui'
 </script>
 ```
 
@@ -48,7 +48,7 @@
 如果你想全局安装但是不想安装全部组件，请参考[按需引入](import-on-demand)。
 
 ```js
-import naive from 'naive-ui'
+import naive from 'ithinkdt-ui'
 import { createApp } from 'vue'
 
 const app = createApp(App)
@@ -59,7 +59,7 @@ app.use(naive)
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 ```
 
@@ -72,7 +72,7 @@ app.use(naive)
 {
   "compilerOptions": {
     // ...
-    "types": ["naive-ui/volar"]
+    "types": ["ithinkdt-ui/volar"]
   }
 }
 ```

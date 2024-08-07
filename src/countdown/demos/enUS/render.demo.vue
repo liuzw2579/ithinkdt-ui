@@ -5,7 +5,7 @@ Do whatever you want.
 </markdown>
 
 <script lang="ts">
-import type { CountdownProps } from 'naive-ui'
+import type { CountdownProps } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 export default defineComponent({

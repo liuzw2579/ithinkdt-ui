@@ -2,14 +2,14 @@
 
 # Installation
 
-> Please note that naive-ui only supports Vue3. If you are using Vue2, you may look at other libraries.
+> Please note that ithinkdt-ui only supports Vue3. If you are using Vue2, you may look at other libraries.
 
 ## npm
 
 Use npm to install.
 
 ```bash
-npm i -D naive-ui
+npm i -D ithinkdt-ui
 ```
 
 ## UMD
@@ -24,23 +24,23 @@ npm i -D vfonts
 
 ## Icons
 
-naive-ui recommends using [xicons](https://www.xicons.org) as icon library.
+ithinkdt-ui recommends using [xicons](https://www.xicons.org) as icon library.
 
 ## Design Resources
 
 <n-card size="small" footer-style="text-align: center;" style="width: 420px; max-width: 100%;">
   <template #cover>
-    <img src="https://naive-ui.oss-accelerate.aliyuncs.com/naive-design.png">
+    <img src="https://ithinkdt-ui.oss-accelerate.aliyuncs.com/naive-design.png">
   </template>
   <template #footer>
     <n-button
       tag="a"
-      href="https://naive-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-en-US.sketch"
+      href="https://ithinkdt-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-en-US.sketch"
       text
       target="_blank"
       icon-placement="right"
     >
-      Naive UI (Sketch)
+      iThinkDT UI (Sketch)
       <template #icon>
         <n-icon >
           <ArrowDownload16Regular />

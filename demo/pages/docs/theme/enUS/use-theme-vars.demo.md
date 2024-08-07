@@ -1,13 +1,13 @@
 # useThemeVars
 
-Naive UI provides `useThemeVars`. It contains common theme variables.
+iThinkDT UI provides `useThemeVars`. It contains common theme variables.
 
 ```html
 <pre style="overflow: auto;">{{ themeVars }}</pre>
 ```
 
 ```js
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

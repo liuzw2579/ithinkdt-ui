@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { UploadFileInfo } from 'naive-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

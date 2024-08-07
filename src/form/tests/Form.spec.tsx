@@ -528,7 +528,7 @@ describe('n-form', () => {
       wrapper.unmount()
     })
 
-    /** @see https://github.com/tusen-ai/naive-ui/issues/6068 */
+    /** @see https://github.com/tusen-ai/ithinkdt-ui/issues/6068 */
     it('the validation status should be updated correctly', async () => {
       const wrapper = mount(
         defineComponent({

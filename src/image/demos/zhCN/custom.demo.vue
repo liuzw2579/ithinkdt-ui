@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { GlobalThemeOverrides } from 'naive-ui'
-import { useThemeVars } from 'naive-ui'
+import type { GlobalThemeOverrides } from 'ithinkdt-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 import { computed, defineComponent } from 'vue'
 
 export default defineComponent({

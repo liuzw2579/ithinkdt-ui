@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { CascaderInst } from 'naive-ui'
+import type { CascaderInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

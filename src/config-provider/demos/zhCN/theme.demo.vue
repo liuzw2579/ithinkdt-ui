@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { GlobalTheme } from 'naive-ui'
-import { darkTheme } from 'naive-ui'
+import type { GlobalTheme } from 'ithinkdt-ui'
+import { darkTheme } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

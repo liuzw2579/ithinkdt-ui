@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, nextTick, ref } from 'vue'
 
 const options = [

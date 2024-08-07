@@ -5,7 +5,7 @@ Note: `n-upload-trigger` and `n-upload-file-list` must be children of `<n-upload
 </markdown>
 
 <script lang="ts">
-import type { UploadFileInfo } from 'naive-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import { CashOutline, LogInOutline } from '@vicons/ionicons5'
-import { unstableButtonGroupRtl, unstableButtonRtl } from 'naive-ui'
+import { unstableButtonGroupRtl, unstableButtonRtl } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

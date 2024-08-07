@@ -3,9 +3,9 @@
 </markdown>
 
 <script lang="ts">
-import type { NotificationPlacement } from 'naive-ui'
+import type { NotificationPlacement } from 'ithinkdt-ui'
 import type { PropType } from 'vue'
-import { NButton, NSpace, useNotification } from 'naive-ui'
+import { NButton, NSpace, useNotification } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const PlacementButtons = defineComponent({

@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumns } from 'naive-ui'
-import { NText } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
+import { NText } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 interface Song {

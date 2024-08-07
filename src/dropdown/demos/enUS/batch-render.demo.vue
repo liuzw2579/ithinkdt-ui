@@ -5,10 +5,10 @@ Note: the `render-label` will take effect for group type labels, which can be se
 </markdown>
 
 <script lang="ts">
-import type { DropdownOption } from 'naive-ui'
+import type { DropdownOption } from 'ithinkdt-ui'
 import type { VNodeChild } from 'vue'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 const options = [

@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { CountdownInst } from 'naive-ui'
+import type { CountdownInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

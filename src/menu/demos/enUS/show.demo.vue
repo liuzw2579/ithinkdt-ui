@@ -10,7 +10,7 @@ import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { computed, defineComponent, h, ref } from 'vue'
 
 export default defineComponent({

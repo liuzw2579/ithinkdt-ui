@@ -5,7 +5,7 @@ Change the property will cause all existing notifications to be cleaned, so plea
 </markdown>
 
 <script lang="ts">
-import { useNotification } from 'naive-ui'
+import { useNotification } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

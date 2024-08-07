@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -13,8 +13,8 @@ export default defineComponent({
     const themeVars = useThemeVars()
     return {
       themeVars,
-      text: 'Naive UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接',
-      patterns: ['Naive UI', 'TypeScript']
+      text: 'iThinkDT UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接',
+      patterns: ['iThinkDT UI', 'TypeScript']
     }
   }
 })

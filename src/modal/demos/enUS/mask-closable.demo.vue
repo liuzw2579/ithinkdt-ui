@@ -5,7 +5,7 @@ Use `mask-closable=false` to make modal not emit the event which may close the m
 </markdown>
 
 <script lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

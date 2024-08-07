@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { TreeSelectOption } from 'naive-ui'
+import type { TreeSelectOption } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 function getChildren(option: TreeSelectOption) {

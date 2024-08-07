@@ -5,7 +5,7 @@ Sometimes you may want to customize `action` and `content` .
 </markdown>
 
 <script lang="ts">
-import { useDialog } from 'naive-ui'
+import { useDialog } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

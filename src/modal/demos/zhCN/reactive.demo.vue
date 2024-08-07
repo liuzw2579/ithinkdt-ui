@@ -7,7 +7,7 @@
 </markdown>
 
 <script lang="ts">
-import { NButton, useMessage, useModal } from 'naive-ui'
+import { NButton, useMessage, useModal } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

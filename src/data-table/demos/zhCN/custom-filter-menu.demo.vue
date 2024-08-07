@@ -5,9 +5,9 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableBaseColumn, DataTableColumns } from 'naive-ui'
+import type { DataTableBaseColumn, DataTableColumns } from 'ithinkdt-ui'
 import { PawOutline, SearchOutline } from '@vicons/ionicons5'
-import { NButton, NIcon, NSpace } from 'naive-ui'
+import { NButton, NIcon, NSpace } from 'ithinkdt-ui'
 import { defineComponent, h, reactive } from 'vue'
 
 const data = [

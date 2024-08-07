@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstablePaginationRtl } from 'naive-ui'
+import { unstablePaginationRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

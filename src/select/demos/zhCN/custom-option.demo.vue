@@ -5,10 +5,10 @@
 </markdown>
 
 <script lang="ts">
-import type { SelectGroupOption, SelectOption } from 'naive-ui'
+import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
 import type { VNodeChild } from 'vue'
 import { MdMusicalNote as MusicIcon } from '@vicons/ionicons4'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

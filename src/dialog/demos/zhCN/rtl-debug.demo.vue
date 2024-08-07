@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { NButton, unstableDialogRtl, useDialog, useMessage } from 'naive-ui'
+import { NButton, unstableDialogRtl, useDialog, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const DialogButton = defineComponent({

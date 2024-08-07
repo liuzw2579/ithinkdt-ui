@@ -5,7 +5,7 @@ Dialog can be async.
 </markdown>
 
 <script lang="ts">
-import { useDialog } from 'naive-ui'
+import { useDialog } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 const sleep = () => new Promise(resolve => setTimeout(resolve, 1000))

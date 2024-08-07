@@ -7,7 +7,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { UploadFileInfo } from 'naive-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const fileList = ref<UploadFileInfo[]>([

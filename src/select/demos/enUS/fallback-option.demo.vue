@@ -5,7 +5,7 @@ If you don't need fallback options, setting `fallback-option` to `false` ensures
 </markdown>
 
 <script lang="ts">
-import type { SelectOption } from 'naive-ui'
+import type { SelectOption } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

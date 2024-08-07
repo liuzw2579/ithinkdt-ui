@@ -5,7 +5,7 @@ Set `closable` to make message closable by a click.
 </markdown>
 
 <script lang="ts">
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

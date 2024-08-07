@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { NumberAnimationInst } from 'naive-ui'
+import type { NumberAnimationInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

@@ -12,6 +12,7 @@ import {
   type Ref
 } from 'vue'
 import globalStyle from '../_styles/global/index.cssr'
+import { cNS } from '../_utils/cssr'
 import { configProviderInjectionKey } from '../config-provider/src/context'
 import { cssrAnchorMetaName } from './common'
 
@@ -94,13 +95,21 @@ function useTheme<N, T, R>(
   const ssrAdapter = useSsrAdapter()
   const NConfigProvider = inject(configProviderInjectionKey, null)
   if (style) {
+    const nsPrefix = NConfigProvider?.styleIsolate
+      ? NConfigProvider.mergedNamespaceRef.value
+      : undefined
+    if (nsPrefix) {
+      style = cNS(`:where(.${nsPrefix})`, [style])
+    }
+
     const mountStyle = (): void => {
       const clsPrefix = clsPrefixRef?.value
-      style.mount({
-        id: clsPrefix === undefined ? mountId : clsPrefix + mountId,
+      style!.mount({
+        id: `${nsPrefix ? `${nsPrefix}-` : ''}${clsPrefix === undefined ? mountId : clsPrefix + mountId}`,
         head: true,
         props: {
-          bPrefix: clsPrefix ? `.${clsPrefix}-` : undefined
+          bPrefix: clsPrefix ? `.${clsPrefix}-` : undefined,
+          nsPrefix: nsPrefix ? `${nsPrefix}-` : ''
         },
         anchorMetaName: cssrAnchorMetaName,
         ssr: ssrAdapter,

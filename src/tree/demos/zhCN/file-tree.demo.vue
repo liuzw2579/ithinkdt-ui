@@ -5,13 +5,13 @@
 </markdown>
 
 <script lang="ts">
-import type { TreeOption } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
 import {
   FileTrayFullOutline,
   Folder,
   FolderOpenOutline
 } from '@vicons/ionicons5'
-import { NIcon, useMessage } from 'naive-ui'
+import { NIcon, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 export default defineComponent({

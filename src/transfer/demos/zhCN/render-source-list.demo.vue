@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { TransferRenderSourceList, TreeOption } from 'naive-ui'
-import { NTree } from 'naive-ui'
+import type { TransferRenderSourceList, TreeOption } from 'ithinkdt-ui'
+import { NTree } from 'ithinkdt-ui'
 import { repeat } from 'seemly'
 import { defineComponent, h, ref } from 'vue'
 

@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { InputInst } from 'naive-ui'
+import type { InputInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

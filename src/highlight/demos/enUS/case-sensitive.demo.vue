@@ -10,8 +10,8 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   setup() {
     return {
-      text: 'Naive UI is written in full TypeScript and works seamlessly with your TypeScript projects',
-      patterns: ['Naive UI', 'typeScript']
+      text: 'iThinkDT UI is written in full TypeScript and works seamlessly with your TypeScript projects',
+      patterns: ['iThinkDT UI', 'typeScript']
     }
   }
 })

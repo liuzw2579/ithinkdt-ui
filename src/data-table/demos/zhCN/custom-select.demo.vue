@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
 import { repeat } from 'seemly'
 import { defineComponent, ref } from 'vue'
 

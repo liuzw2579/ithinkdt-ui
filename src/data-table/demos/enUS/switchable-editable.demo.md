@@ -11,7 +11,7 @@
 ```
 
 ```js
-import { NInput } from 'naive-ui'
+import { NInput } from 'ithinkdt-ui'
 import { computed, defineComponent, h, nextTick, ref } from 'vue'
 
 function createData() {

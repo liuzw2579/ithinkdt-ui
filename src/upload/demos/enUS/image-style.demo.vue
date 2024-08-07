@@ -5,8 +5,8 @@ Thumbnails can be created using your own custom method via the `create-thumbnail
 </markdown>
 
 <script lang="ts">
-import type { UploadFileInfo } from 'naive-ui'
-import { useMessage } from 'naive-ui'
+import type { UploadFileInfo } from 'ithinkdt-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 export default defineComponent({

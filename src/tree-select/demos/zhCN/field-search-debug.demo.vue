@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { NTreeSelect } from 'naive-ui'
+import { NTreeSelect } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({

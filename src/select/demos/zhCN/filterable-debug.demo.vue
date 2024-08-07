@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { SelectFilter } from 'naive-ui'
+import type { SelectFilter } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

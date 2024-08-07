@@ -5,8 +5,8 @@ Note that: Expanded rows are not included in the `index` of `render`.
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumns } from 'naive-ui'
-import { NButton, NTag, useMessage } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
+import { NButton, NTag, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 interface RowData {

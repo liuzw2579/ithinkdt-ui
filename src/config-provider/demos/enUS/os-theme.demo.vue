@@ -1,11 +1,11 @@
 <markdown>
 # Use OS theme
 
-Naive UI provides `useOsTheme` to get the current theme of your OS.
+iThinkDT UI provides `useOsTheme` to get the current theme of your OS.
 </markdown>
 
 <script lang="ts">
-import { darkTheme, useOsTheme } from 'naive-ui'
+import { darkTheme, useOsTheme } from 'ithinkdt-ui'
 import { computed, defineComponent } from 'vue'
 
 export default defineComponent({

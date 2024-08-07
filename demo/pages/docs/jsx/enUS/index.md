@@ -11,7 +11,7 @@ For how to enable JSX & TSX, please look at your toolchain's docs.
 We recommend importing components directly when using JSX.
 
 ```js
-import { NButton } from 'naive-ui'
+import { NButton } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
@@ -23,7 +23,7 @@ export default defineComponent({
 
 ## Props look like @update:\*
 
-In naive-ui, all props look like `on-update:*` has a corresponding `onUpdate*` prop (since in JSX `on-update:*` and `onUpdate:*` are not valid prop names).
+In ithinkdt-ui, all props look like `on-update:*` has a corresponding `onUpdate*` prop (since in JSX `on-update:*` and `onUpdate:*` are not valid prop names).
 
 If you find it doesn't exist, I must have forgotten to make it. Please create an issue or PR.
 

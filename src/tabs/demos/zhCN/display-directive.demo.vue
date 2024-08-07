@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { NInput } from 'naive-ui'
+import { NInput } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 const showInput = defineComponent({

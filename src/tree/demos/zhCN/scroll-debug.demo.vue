@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts">
-import type { TreeOption } from 'naive-ui'
-import { NScrollbar, NTree } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
+import { NScrollbar, NTree } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 function createData(level = 10): TreeOption[] {

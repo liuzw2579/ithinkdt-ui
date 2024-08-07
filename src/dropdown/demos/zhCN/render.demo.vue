@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts">
-import { NAvatar, NText, useMessage } from 'naive-ui'
+import { NAvatar, NText, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h } from 'vue'
 
 function renderCustomHeader() {

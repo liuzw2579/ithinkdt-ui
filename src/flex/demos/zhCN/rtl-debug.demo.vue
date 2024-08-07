@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableSpaceRtl } from 'naive-ui'
+import { unstableSpaceRtl } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

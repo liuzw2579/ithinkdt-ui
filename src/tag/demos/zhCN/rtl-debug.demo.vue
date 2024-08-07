@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableTagRtl, useMessage } from 'naive-ui'
+import { unstableTagRtl, useMessage } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

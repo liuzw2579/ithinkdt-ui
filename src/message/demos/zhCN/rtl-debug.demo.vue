@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { NButton, unstableMessageRtl, useMessage } from 'naive-ui'
+import { NButton, unstableMessageRtl, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const MessageButton = defineComponent({

@@ -5,9 +5,9 @@
 </markdown>
 
 <script lang="ts">
-import type { MenuOption } from 'naive-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import { BookmarkOutline, CaretDownOutline } from '@vicons/ionicons5'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 const menuOptions: MenuOption[] = [

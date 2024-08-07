@@ -5,15 +5,15 @@ Change the style to make the highlight more striking.
 </markdown>
 
 <script lang="ts">
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
   setup() {
     const themeVars = useThemeVars()
     return {
-      text: 'Naive UI is written in full TypeScript and works seamlessly with your TypeScript projects',
-      patterns: ['Naive UI', 'typeScript'],
+      text: 'iThinkDT UI is written in full TypeScript and works seamlessly with your TypeScript projects',
+      patterns: ['iThinkDT UI', 'typeScript'],
       themeVars
     }
   }

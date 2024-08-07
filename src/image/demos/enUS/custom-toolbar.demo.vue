@@ -5,9 +5,9 @@ You can customize the toolbar using `render-toolbar`.
 </markdown>
 
 <script lang="ts">
-import type { ImageRenderToolbarProps } from 'naive-ui'
+import type { ImageRenderToolbarProps } from 'ithinkdt-ui'
 import { ClipboardOutline, OpenOutline } from '@vicons/ionicons5'
-import { NButton, useMessage } from 'naive-ui'
+import { NButton, useMessage } from 'ithinkdt-ui'
 import { defineComponent, h, ref } from 'vue'
 
 export default defineComponent({
