@@ -6,8 +6,8 @@ Use `on-update:expanded-keys` to change the prefix icon style of the node in dif
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { TreeOption } from 'naive-ui'
-import { NIcon, useMessage } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
+import { NIcon, useMessage } from 'ithinkdt-ui'
 import {
   FileTrayFullOutline,
   Folder,

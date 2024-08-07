@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue'
-import type { StepsProps } from 'naive-ui'
+import type { StepsProps } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

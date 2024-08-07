@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { InputInst } from 'naive-ui'
+import type { InputInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

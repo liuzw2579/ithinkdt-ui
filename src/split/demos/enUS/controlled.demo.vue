@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { NInputNumber, NSplit } from 'naive-ui'
+import { NInputNumber, NSplit } from 'ithinkdt-ui'
 
 const split = ref<number>(0.8)
 </script>

@@ -19,7 +19,7 @@
 
 ```js
 import { defineComponent } from 'vue'
-import { useNotification } from 'naive-ui'
+import { useNotification } from 'ithinkdt-ui'
 
 // content
 export default defineComponent({

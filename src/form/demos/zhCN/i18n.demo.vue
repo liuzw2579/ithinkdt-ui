@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { FormRules } from 'naive-ui'
+import type { FormRules } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

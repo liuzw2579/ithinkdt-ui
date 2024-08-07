@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { NTab, NTabs } from 'naive-ui'
+import { NTab, NTabs } from 'ithinkdt-ui'
 
 export default defineComponent({
   name: 'App',

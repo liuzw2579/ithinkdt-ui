@@ -4,8 +4,8 @@
 
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
-import type { DataTableColumn } from 'naive-ui'
-import { NButton, NDataTable } from 'naive-ui'
+import type { DataTableColumn } from 'ithinkdt-ui'
+import { NButton, NDataTable } from 'ithinkdt-ui'
 
 export interface RowData {
   key: number

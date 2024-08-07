@@ -7,7 +7,7 @@ Fortunately, the tree is now alive and it's not balanced.
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import type { TreeOption } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
 
 function createData(level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level)

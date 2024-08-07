@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableCheckboxRtl } from 'naive-ui'
+import { unstableCheckboxRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

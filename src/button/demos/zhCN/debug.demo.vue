@@ -7,7 +7,7 @@
 <script lang="ts">
 import { CashOutline, LogInOutline } from '@vicons/ionicons5'
 import { defineComponent, ref } from 'vue'
-import { unstableButtonGroupRtl, unstableButtonRtl } from 'naive-ui'
+import { unstableButtonGroupRtl, unstableButtonRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   components: {

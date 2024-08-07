@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { DatePickerInst } from 'naive-ui'
+import type { DatePickerInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

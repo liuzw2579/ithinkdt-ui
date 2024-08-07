@@ -6,7 +6,7 @@ You can use `useDialogReactiveList` to access all dialog reactive inside `n-dial
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useDialogReactiveList } from 'naive-ui'
+import { useDialogReactiveList } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

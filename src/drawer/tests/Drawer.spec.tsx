@@ -8,7 +8,7 @@ import {
   NDrawerContent
 } from '../index'
 
-// It seems due to special handling of transition in naive-ui, the drawer's DOM
+// It seems due to special handling of transition in ithinkdt-ui, the drawer's DOM
 // won't disappear even if its `show` prop is false. No time to find out the
 // exact reason, so I create a util here.
 function expectDrawerExists(): void {

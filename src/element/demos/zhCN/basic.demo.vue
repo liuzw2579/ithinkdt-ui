@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

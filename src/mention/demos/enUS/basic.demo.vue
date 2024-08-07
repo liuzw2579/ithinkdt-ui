@@ -7,8 +7,8 @@ If `label` is a render function, the `value` property will be used for matching.
 <script lang="ts">
 import type { VNodeChild } from 'vue'
 import { defineComponent, h } from 'vue'
-import type { MentionOption } from 'naive-ui'
-import { NIcon } from 'naive-ui'
+import type { MentionOption } from 'ithinkdt-ui'
+import { NIcon } from 'ithinkdt-ui'
 import { TelescopeOutline } from '@vicons/ionicons5'
 
 export default defineComponent({

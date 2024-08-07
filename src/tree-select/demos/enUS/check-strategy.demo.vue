@@ -6,7 +6,7 @@ Set the way to display selected nodes when parents and children are selected. `a
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { TreeSelectOption } from 'naive-ui'
+import type { TreeSelectOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

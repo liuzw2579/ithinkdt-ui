@@ -9,7 +9,7 @@ import {
   NButton,
   unstableNotificationRtl,
   useNotification
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 
 const NotificationButton = defineComponent({
   setup() {

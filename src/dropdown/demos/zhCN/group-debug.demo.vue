@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NIcon, useMessage } from 'naive-ui'
+import { NIcon, useMessage } from 'ithinkdt-ui'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
 
 const options = [

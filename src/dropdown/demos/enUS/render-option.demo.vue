@@ -7,8 +7,8 @@ You can use `render-option` to add tooltip for option.
 <script lang="ts">
 import type { VNode } from 'vue'
 import { defineComponent, h } from 'vue'
-import type { DropdownGroupOption, DropdownOption } from 'naive-ui'
-import { NTooltip, useMessage } from 'naive-ui'
+import type { DropdownGroupOption, DropdownOption } from 'ithinkdt-ui'
+import { NTooltip, useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

@@ -6,8 +6,8 @@ You can change any parts of notifications existed.
 
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
-import type { NotificationReactive } from 'naive-ui'
-import { NAvatar, useNotification } from 'naive-ui'
+import type { NotificationReactive } from 'ithinkdt-ui'
+import { NAvatar, useNotification } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

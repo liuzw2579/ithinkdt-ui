@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableCardRtl } from 'naive-ui'
+import { unstableCardRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

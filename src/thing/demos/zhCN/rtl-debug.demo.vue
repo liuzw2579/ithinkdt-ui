@@ -5,7 +5,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { unstableRowRtl, unstableThingRtl } from 'naive-ui'
+import { unstableRowRtl, unstableThingRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   components: {

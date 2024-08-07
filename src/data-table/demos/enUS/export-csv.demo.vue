@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { DataTableColumns, DataTableInst } from 'naive-ui'
+import type { DataTableColumns, DataTableInst } from 'ithinkdt-ui'
 import type { RowData } from '../../src/interface'
 
 interface Song {

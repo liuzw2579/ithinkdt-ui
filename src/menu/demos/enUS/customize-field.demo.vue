@@ -7,8 +7,8 @@ Various data would come from backend, you can customize `key`, `label` and `chil
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h, ref } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

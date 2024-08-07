@@ -7,8 +7,8 @@ Use collapsable vertical menu with layout sider. Use `collapsed` to control coll
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h, ref } from 'vue'
-import { NIcon } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

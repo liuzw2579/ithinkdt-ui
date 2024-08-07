@@ -17,7 +17,7 @@
 
 ```js
 import { defineComponent } from 'vue'
-import { useLoadingBar } from 'naive-ui'
+import { useLoadingBar } from 'ithinkdt-ui'
 
 // content
 export default defineComponent({

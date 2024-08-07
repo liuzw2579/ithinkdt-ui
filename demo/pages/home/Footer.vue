@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { version } from 'naive-ui'
+import { version } from 'ithinkdt-ui'
 import { i18n } from '../../utils/composables'
 import { push } from '../../store'
 import { repoUrl } from '../../utils/github-url'
@@ -31,7 +31,7 @@ export default defineComponent({
           memberLimitReached: '（已满）',
           reportBug: '报告 Bug',
           sketchLink:
-            'https://naive-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-zh-CN.sketch',
+            'https://ithinkdt-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-zh-CN.sketch',
           joinUsLink: 'https://app.mokahr.com/campus_apply/tusenweilai/3232#/'
         },
         'en-US': {
@@ -50,7 +50,7 @@ export default defineComponent({
           memberLimitReached: '(Member limit reached)',
           reportBug: 'Report Bug',
           sketchLink:
-            'https://naive-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-en-US.sketch',
+            'https://ithinkdt-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-en-US.sketch',
           joinUsLink:
             'https://boards.greenhouse.io/tusimplerelocationjobs/jobs/5137805002?gh_src=7908a9242us'
         }
@@ -97,7 +97,7 @@ export default defineComponent({
           text
           tag="a"
           target="_blank"
-          href="https://naive-ui.github.io/issue-helper/"
+          href="https://ithinkdt-ui.github.io/issue-helper/"
         >
           {{ t('reportBug') }}
         </n-button>
@@ -148,7 +148,7 @@ export default defineComponent({
     <n-divider class="footer-divider" />
     <div style="text-align: center; padding: 20px">
       <n-text depth="3">
-        Naive UI {{ version }} · Made by TuSimple
+        iThinkDT UI {{ version }} · Made by TuSimple
       </n-text>
     </div>
   </n-layout-footer>

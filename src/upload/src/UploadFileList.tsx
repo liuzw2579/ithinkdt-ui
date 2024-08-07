@@ -4,11 +4,13 @@ import {
   computed,
   defineComponent,
   h,
-  inject
+  inject,
+  provide
 } from 'vue'
 import { throwError } from '../../_utils'
 import { NImageGroup } from '../../image'
 import { NFadeInExpandTransition } from '../../_internal'
+import { imageContextKey } from '../../image/src/interface'
 import { uploadInjectionKey } from './interface'
 import NUploadFile from './UploadFile'
 import NUploadTrigger from './UploadTrigger'
@@ -35,8 +37,11 @@ export default defineComponent({
       themeClassRef,
       maxReachedRef,
       showTriggerRef,
-      imageGroupPropsRef
+      imageGroupPropsRef,
+      previewedImgPropsRef
     } = NUpload
+
+    provide(imageContextKey, { previewedImgPropsRef })
 
     const isImageCardTypeRef = computed(
       () => listTypeRef.value === 'image-card'

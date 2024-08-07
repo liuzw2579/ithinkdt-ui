@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useDialog, useMessage } from 'naive-ui'
+import { useDialog, useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

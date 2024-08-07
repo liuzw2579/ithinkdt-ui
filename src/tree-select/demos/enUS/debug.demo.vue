@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { TreeSelectOption } from 'naive-ui'
+import type { TreeSelectOption } from 'ithinkdt-ui'
 
 function createData(level = 4, baseKey = ''): TreeSelectOption[] | undefined {
   if (!level)

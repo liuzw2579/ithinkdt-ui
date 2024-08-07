@@ -7,7 +7,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { repeat } from 'seemly'
-import type { TreeInst, TreeOption } from 'naive-ui'
+import type { TreeInst, TreeOption } from 'ithinkdt-ui'
 
 function createData(level = 4, baseKey = ''): TreeOption[] | undefined {
   if (!level)

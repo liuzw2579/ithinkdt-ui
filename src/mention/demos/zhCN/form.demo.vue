@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { FormInst } from 'naive-ui'
+import type { FormInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

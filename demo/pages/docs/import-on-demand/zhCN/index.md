@@ -1,6 +1,6 @@
 # 按需引入（Tree Shaking）
 
-Naive UI 支持 tree shaking，组件、语言、主题均可 tree-shaking。
+iThinkDT UI 支持 tree shaking，组件、语言、主题均可 tree-shaking。
 
 默认情况组件主题为亮色，语言为英文，无需额外导入。
 
@@ -11,11 +11,11 @@ Naive UI 支持 tree shaking，组件、语言、主题均可 tree-shaking。
 ```html
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, NInput, NDatePicker, NSpace } from 'naive-ui'
+  import { NConfigProvider, NInput, NDatePicker, NSpace } from 'ithinkdt-ui'
   // theme
-  import { createTheme, inputDark, datePickerDark } from 'naive-ui'
+  import { createTheme, inputDark, datePickerDark } from 'ithinkdt-ui'
   // locale & dateLocale
-  import { zhCN, dateZhCN } from 'naive-ui'
+  import { zhCN, dateZhCN } from 'ithinkdt-ui'
 
   export default defineComponent({
     components: {
@@ -72,7 +72,7 @@ export default defineConfig({
       imports: [
         'vue',
         {
-          'naive-ui': [
+          'ithinkdt-ui': [
             'useDialog',
             'useMessage',
             'useNotification',
@@ -95,9 +95,9 @@ import { createApp } from 'vue'
 import {
   // component
   NButton,
-  // create naive ui
+  // create iThinkDT UI
   create
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 
 const naive = create({
   components: [NButton]
@@ -111,6 +111,6 @@ app.use(naive)
 
 ```html
 <template>
-  <n-button>naive-ui</n-button>
+  <n-button>ithinkdt-ui</n-button>
 </template>
 ```

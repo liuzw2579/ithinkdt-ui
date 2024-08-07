@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useDialog } from 'naive-ui'
+import { useDialog } from 'ithinkdt-ui'
 
 const sleep = () => new Promise(resolve => setTimeout(resolve, 1000))
 const countDown = (second: number) => `倒计时 ${second} 秒`

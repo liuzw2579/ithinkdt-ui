@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 import { addDays, isYesterday } from 'date-fns'
 
 export default defineComponent({

@@ -8,7 +8,7 @@ import {
   enUS,
   useOsTheme,
   zhCN
-} from 'naive-ui'
+} from 'ithinkdt-ui'
 import { TsConfigProvider } from '../../themes/tusimple/src'
 import { i18n, useIsMobile } from '../utils/composables'
 import {

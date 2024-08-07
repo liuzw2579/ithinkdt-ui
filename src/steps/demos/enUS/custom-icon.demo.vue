@@ -13,7 +13,7 @@ import {
   MdHappy,
   MdSad
 } from '@vicons/ionicons4'
-import type { StepsProps } from 'naive-ui'
+import type { StepsProps } from 'ithinkdt-ui'
 
 export default defineComponent({
   components: {

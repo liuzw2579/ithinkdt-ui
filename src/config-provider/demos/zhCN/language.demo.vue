@@ -4,8 +4,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { dateZhCN, zhCN } from 'naive-ui'
-import type { NDateLocale, NLocale } from 'naive-ui'
+import { dateZhCN, zhCN } from 'ithinkdt-ui'
+import type { NDateLocale, NLocale } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

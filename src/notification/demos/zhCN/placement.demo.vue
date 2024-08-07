@@ -5,8 +5,8 @@
 <script lang="ts">
 import type { PropType } from 'vue'
 import { defineComponent, h, ref } from 'vue'
-import type { NotificationPlacement } from 'naive-ui'
-import { NButton, NSpace, useNotification } from 'naive-ui'
+import type { NotificationPlacement } from 'ithinkdt-ui'
+import { NButton, NSpace, useNotification } from 'ithinkdt-ui'
 
 const PlacementButtons = defineComponent({
   props: {

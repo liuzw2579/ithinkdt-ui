@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { TreeSelectOption } from 'naive-ui'
+import type { TreeSelectOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

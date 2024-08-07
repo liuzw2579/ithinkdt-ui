@@ -6,7 +6,7 @@ Use `precision` to set precision.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { NumberAnimationInst } from 'naive-ui'
+import type { NumberAnimationInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

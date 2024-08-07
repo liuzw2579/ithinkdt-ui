@@ -8,19 +8,19 @@ Please note that this prop will conflict with `loop`. If you need to customize t
   <n-carousel :slides-per-view="3" :space-between="20" :loop="false" draggable>
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg"
     >
   </n-carousel>
 </template>

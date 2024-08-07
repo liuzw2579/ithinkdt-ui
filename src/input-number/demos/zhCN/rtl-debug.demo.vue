@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { unstableInputNumberRtl } from 'naive-ui'
+import { unstableInputNumberRtl } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

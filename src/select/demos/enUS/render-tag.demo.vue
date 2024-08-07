@@ -6,8 +6,8 @@ Give the tag a little color.
 
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
-import type { SelectRenderTag } from 'naive-ui'
-import { NTag } from 'naive-ui'
+import type { SelectRenderTag } from 'ithinkdt-ui'
+import { NTag } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

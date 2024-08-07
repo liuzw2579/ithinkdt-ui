@@ -13,7 +13,7 @@ Set colspan and rowspan by setting `colSpan` and `rowSpan` of column object. Set
 
 ```js
 import { defineComponent, h } from 'vue'
-import { NButton, NTag, useMessage } from 'naive-ui'
+import { NButton, NTag, useMessage } from 'ithinkdt-ui'
 
 function createColumns({ sendMail }) {
   return [

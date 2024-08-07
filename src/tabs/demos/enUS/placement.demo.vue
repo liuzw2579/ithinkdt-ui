@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { TabsProps } from 'naive-ui'
+import type { TabsProps } from 'ithinkdt-ui'
 
 const placement = ref<NonNullable<TabsProps['placement']>>('left')
 const type = ref<TabsProps['type']>('card')

@@ -7,7 +7,7 @@ Steps has `small`, `medium` size.
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
 import { MdArrowRoundBack, MdArrowRoundForward } from '@vicons/ionicons4'
-import type { StepsProps } from 'naive-ui'
+import type { StepsProps } from 'ithinkdt-ui'
 
 export default defineComponent({
   components: {

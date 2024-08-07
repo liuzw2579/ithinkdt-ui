@@ -6,7 +6,7 @@ Load options asynchronously.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { MentionOption } from 'naive-ui'
+import type { MentionOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

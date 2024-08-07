@@ -7,8 +7,8 @@
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
 import { ClipboardOutline, OpenOutline } from '@vicons/ionicons5'
-import type { ImageRenderToolbarProps } from 'naive-ui'
-import { NButton, useMessage } from 'naive-ui'
+import type { ImageRenderToolbarProps } from 'ithinkdt-ui'
+import { NButton, useMessage } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

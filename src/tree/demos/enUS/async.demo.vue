@@ -6,7 +6,7 @@ Use `on-load` callback to load data. When loading async, all nodes with `isLeaf`
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { TreeDropInfo, TreeOption } from 'naive-ui'
+import type { TreeDropInfo, TreeOption } from 'ithinkdt-ui'
 
 function createData() {
   return [

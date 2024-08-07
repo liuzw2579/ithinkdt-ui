@@ -42,6 +42,8 @@ download.vue
 | headers | `Object \| ({ file: UploadFileInfo }) => Object` | `undefined` | The additional HTTP Headers of request. |  |
 | input-props | `InputHTMLAttributes` | `undefined` | Attributes of file input. | 2.24.2 |
 | image-group-props | `ImageGroupProps` | `undefined` | Props of `n-image` inside upload. See [ImageGroup Props](image#ImageGroup-Props). | 2.24.0 |
+| img-props | `ImgHTMLAttributes` | `undefined` | Tag `img` attributes | ithinkdt 1.1.1 |
+| previewed-img-props | `ImgHTMLAttributes` | `undefined` | Previewed tag `img` attributes | ithinkdt 1.1.1 |
 | is-error-state | `(xhr: XMLHttpRequest) => boolean` | `undefined` | Check if response is error state. | 2.29.1 |
 | list-type | `string` | `'text'` | Built-in styles for file lists, `text`, `image` and `image-card`. |  |
 | max | `number` | `undefined` | Uploaded files limit. |  |

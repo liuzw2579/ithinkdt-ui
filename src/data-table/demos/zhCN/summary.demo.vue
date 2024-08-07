@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { DataTableColumns, DataTableCreateSummary } from 'naive-ui'
+import type { DataTableColumns, DataTableCreateSummary } from 'ithinkdt-ui'
 
 interface RowData {
   key: number

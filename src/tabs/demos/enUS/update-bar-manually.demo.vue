@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, nextTick, ref } from 'vue'
-import type { TabsInst } from 'naive-ui'
+import type { TabsInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

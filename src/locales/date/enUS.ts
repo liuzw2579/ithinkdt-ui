@@ -1,4 +1,4 @@
-import { enUS } from 'date-fns/locale'
+import { enUS } from 'date-fns/locale/en-US'
 import type { Locale } from 'date-fns'
 
 interface NDateLocale {

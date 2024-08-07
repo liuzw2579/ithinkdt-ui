@@ -1,4 +1,4 @@
-import { id } from 'date-fns/locale'
+import { id } from 'date-fns/locale/id'
 import type { NDateLocale } from './enUS'
 
 const dateIdID: NDateLocale = {

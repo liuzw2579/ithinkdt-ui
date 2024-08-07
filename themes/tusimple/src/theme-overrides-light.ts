@@ -1,6 +1,6 @@
 import { composite, changeColor } from 'seemly'
-import type { GlobalThemeOverrides } from 'naive-ui'
-import { commonLight } from 'naive-ui'
+import type { GlobalThemeOverrides } from 'ithinkdt-ui'
+import { commonLight } from 'ithinkdt-ui'
 import vars from './vars'
 
 function createHoverColor (color: string, overlayAlpha: number = 0.15): string {

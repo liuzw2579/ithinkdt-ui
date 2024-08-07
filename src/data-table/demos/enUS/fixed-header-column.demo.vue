@@ -6,7 +6,7 @@ Note that: If you have set fixed column, you should also set `scroll-x`.
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { DataTableColumns } from 'naive-ui'
+import type { DataTableColumns } from 'ithinkdt-ui'
 
 interface RowData {
   key: number

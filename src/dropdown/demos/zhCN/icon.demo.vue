@@ -5,7 +5,7 @@
 <script lang="ts">
 import { defineComponent, h } from 'vue'
 import type { Component } from 'vue'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import {
   Pencil as EditIcon,
   LogOutOutline as LogoutIcon,

@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NIcon, useMessage } from 'naive-ui'
+import { NIcon, useMessage } from 'ithinkdt-ui'
 import { MdHourglass } from '@vicons/ionicons4'
 
 export default defineComponent({

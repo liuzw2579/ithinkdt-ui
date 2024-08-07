@@ -1,4 +1,4 @@
-import { tr } from 'date-fns/locale'
+import { tr } from 'date-fns/locale/tr'
 import type { NDateLocale } from './enUS'
 
 const dateTrTR: NDateLocale = {

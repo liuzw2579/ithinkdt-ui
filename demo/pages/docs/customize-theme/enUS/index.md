@@ -2,7 +2,7 @@
 
 # Customizing theme
 
-Naive-ui provides `n-config-provider` to customize the theme.
+ithinkdt-ui provides `n-config-provider` to customize the theme.
 
 By default all of the components are light themed, without any configuration.
 
@@ -10,7 +10,7 @@ To learn more about `n-config-provider`, see [Config Provider](../components/con
 
 ## Use dark theme
 
-Set `n-config-provider`'s `theme` prop to `darkTheme` imported from naive-ui to set dark theme inside `n-config-provider`.
+Set `n-config-provider`'s `theme` prop to `darkTheme` imported from ithinkdt-ui to set dark theme inside `n-config-provider`.
 
 If `theme` is `undefined` it won't affect the theme of components inside.
 
@@ -23,7 +23,7 @@ If `theme` is `undefined` it won't affect the theme of components inside.
 
 <script>
   import { defineComponent } from 'vue'
-  import { darkTheme } from 'naive-ui'
+  import { darkTheme } from 'ithinkdt-ui'
 
   export default defineComponent({
     setup() {
@@ -45,21 +45,21 @@ No CSS (Scss, Less) needed.
 
 The configured global theme variables will overwrite the theme variables that take effect on descendant components.
 
-Set `n-config-provider`'s `theme-overrides` to customize theme vars. Naive-ui exports type `GlobalThemeOverrides` to help you define `theme-overrides`.
+Set `n-config-provider`'s `theme-overrides` to customize theme vars. ithinkdt-ui exports type `GlobalThemeOverrides` to help you define `theme-overrides`.
 
 For available vars please follow the type hint of `GlobalThemeOverrides`.
 
-If you want to view more theme variables, you can view them in the edit button at the bottom right corner of the Naive UI homepage.
+If you want to view more theme variables, you can view them in the edit button at the bottom right corner of the iThinkDT UI homepage.
 
 You can modify the corresponding theme variable, you can get the themeOverrides object after export.
 
 ```html
 <script>
-  import { NConfigProvider } from 'naive-ui'
+  import { NConfigProvider } from 'ithinkdt-ui'
 
   /**
    * Use this for type hints under js file
-   * @type import('naive-ui').GlobalThemeOverrides
+   * @type import('ithinkdt-ui').GlobalThemeOverrides
    */
   const themeOverrides = {
     common: {
@@ -94,7 +94,7 @@ If you are using ts to write code, this one is more suitable for you.
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from 'ithinkdt-ui'
 
   const themeOverrides: GlobalThemeOverrides = {
     common: {
@@ -121,7 +121,7 @@ The use of component theme variables is the same as the use of global theme vari
 
 ```html
 <script lang="ts">
-  import { SelectProps, ButtonProps } from 'naive-ui'
+  import { SelectProps, ButtonProps } from 'ithinkdt-ui'
 
   type SelectThemeOverrides = NonNullable<SelectProps['themeOverrides']>
   type ButtonThemeOverrides = NonNullable<ButtonProps['themeOverrides']>
@@ -160,10 +160,10 @@ If you want to use different theme variables on light and dark theme at the same
 
 ```html
 <script>
-  import { NConfigProvider, darkTheme } from 'naive-ui'
+  import { NConfigProvider, darkTheme } from 'ithinkdt-ui'
 
   /**
-   * @type import('naive-ui').GlobalThemeOverrides
+   * @type import('ithinkdt-ui').GlobalThemeOverrides
    */
   const lightThemeOverrides = {
     common: {
@@ -203,7 +203,7 @@ The specific available peers will be updated later.
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from 'ithinkdt-ui'
 
   const themeOverrides: GlobalThemeOverrides = {
     Select: {
@@ -243,7 +243,7 @@ The specific available peers will be updated later.
 
 For the following reasons, you may need to set some styles on `document.body`.
 
-1. Naive-ui will mount some global style that is unresponsive (to theme, not media query). For example `font-family`. The style works fine by default, however they won't change when theme is changed.
+1. ithinkdt-ui will mount some global style that is unresponsive (to theme, not media query). For example `font-family`. The style works fine by default, however they won't change when theme is changed.
 2. `n-config-provider` can't sync global style (for example, body's background color) outside it.
 
 You can use `n-global-style` to sync common global style to the body element. In the following example, `n-global-style` will sync the theme provided by `n-config-provider` to `document.body`.
@@ -259,7 +259,7 @@ You can use `n-global-style` to sync common global style to the body element. In
 
 ## Theme editor
 
-Naive-ui provides a theme editor to help you edit theme and export the corresponding configuration. It can be placed inside `n-config-provider`.
+ithinkdt-ui provides a theme editor to help you edit theme and export the corresponding configuration. It can be placed inside `n-config-provider`.
 
 The theme editor is not included in global installation (`app.use(naive)`). You need to import it explicitly to use it.
 
@@ -272,7 +272,7 @@ The theme editor is not included in global installation (`app.use(naive)`). You 
 
 <script>
   import { defineComponent } from 'vue'
-  import { NThemeEditor } from 'naive-ui'
+  import { NThemeEditor } from 'ithinkdt-ui'
 
   export default defineComponent({
     components: {

@@ -6,8 +6,8 @@ Set `label` to render function that renders `n-ellipsis`.
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NEllipsis } from 'naive-ui'
-import type { MenuOption } from 'naive-ui'
+import { NEllipsis } from 'ithinkdt-ui'
+import type { MenuOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

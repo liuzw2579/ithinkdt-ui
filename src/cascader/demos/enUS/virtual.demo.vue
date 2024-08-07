@@ -6,7 +6,7 @@ In this example there are 5000 \* 2 \* 2 = 20000 entries.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { CascaderOption } from 'naive-ui'
+import type { CascaderOption } from 'ithinkdt-ui'
 
 function getOptions(depth = 3, iterator = 1, prefix = '') {
   const length = iterator === 1 ? 5000 : 2

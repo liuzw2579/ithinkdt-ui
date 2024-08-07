@@ -119,8 +119,7 @@ function parseSource(source, currentDir, suffix) {
         ? source
         : joinPath(source, `index${suffix}`)
       : source + suffix
-  }
-  else {
+  } else {
     return source
   }
 }

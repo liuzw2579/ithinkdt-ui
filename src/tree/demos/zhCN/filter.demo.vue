@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { TreeOption } from 'naive-ui'
+import type { TreeOption } from 'ithinkdt-ui'
 
 const data: TreeOption[] = [
   {

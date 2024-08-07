@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, h, ref } from 'vue'
-import { NButton, useNotification } from 'naive-ui'
+import { NButton, useNotification } from 'ithinkdt-ui'
 
 const NotificationButton = defineComponent({
   setup() {

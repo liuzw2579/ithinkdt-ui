@@ -613,7 +613,7 @@ export default defineComponent({
                   footer: () => this.$slots.footer?.()
                 }
               )
-            ]
+            ].filter(it => !!it)
           }
         }}
       </VBinder>

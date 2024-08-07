@@ -1,4 +1,4 @@
-import { arDZ } from 'date-fns/locale'
+import { arDZ } from 'date-fns/locale/ar-DZ'
 import type { NDateLocale } from './enUS'
 
 const dateArDZ: NDateLocale = {

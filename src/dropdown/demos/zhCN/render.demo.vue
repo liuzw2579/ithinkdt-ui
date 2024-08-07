@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { NAvatar, NText, useMessage } from 'naive-ui'
+import { NAvatar, NText, useMessage } from 'ithinkdt-ui'
 
 function renderCustomHeader() {
   return h(

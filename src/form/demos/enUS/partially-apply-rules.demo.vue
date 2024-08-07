@@ -5,7 +5,7 @@ During the validation, you may not want to validate all items. You can use the s
 </markdown>
 
 <script lang="ts">
-import type { FormInst } from 'naive-ui'
+import type { FormInst } from 'ithinkdt-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

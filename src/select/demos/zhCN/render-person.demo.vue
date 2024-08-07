@@ -6,8 +6,8 @@
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import type { SelectRenderLabel, SelectRenderTag } from 'naive-ui'
-import { NAvatar, NTag, NText } from 'naive-ui'
+import type { SelectRenderLabel, SelectRenderTag } from 'ithinkdt-ui'
+import { NAvatar, NTag, NText } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

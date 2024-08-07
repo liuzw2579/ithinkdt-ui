@@ -6,7 +6,7 @@ Various data would come from backend.
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { SelectGroupOption, SelectOption } from 'naive-ui'
+import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

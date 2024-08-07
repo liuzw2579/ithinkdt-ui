@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import type { LayoutInst, LayoutSiderInst } from 'naive-ui'
+import type { LayoutInst, LayoutSiderInst } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

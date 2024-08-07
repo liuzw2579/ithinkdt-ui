@@ -6,7 +6,7 @@ Warning: when manually positioned, the `trigger` prop must be set to `'manual'`.
 
 <script lang="ts">
 import { defineComponent, nextTick, ref } from 'vue'
-import { useMessage } from 'naive-ui'
+import { useMessage } from 'ithinkdt-ui'
 
 const options = [
   {

@@ -6,7 +6,7 @@ You can use CSS variables from it. If you need to use those variables in JS, ple
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue'
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 
 export default defineComponent({
   setup() {

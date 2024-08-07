@@ -18,19 +18,19 @@ export default defineComponent({
   <n-carousel show-arrow autoplay>
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg"
     >
     <img
       class="carousel-img"
-      src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg"
+      src="https://ithinkdt-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel4.jpeg"
     >
     <template #arrow="{ prev, next }">
       <div class="custom-arrow">

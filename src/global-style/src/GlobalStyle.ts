@@ -1,5 +1,7 @@
 import {
+  Fragment,
   defineComponent,
+  h,
   inject,
   onBeforeMount,
   onUnmounted,
@@ -74,6 +76,6 @@ export default defineComponent({
     })
   },
   render() {
-    return null
+    return h(Fragment)
   }
 })

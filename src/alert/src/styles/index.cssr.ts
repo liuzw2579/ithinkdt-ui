@@ -100,7 +100,7 @@ export default cB('alert', `
       paddingLeft: 'calc(var(--n-icon-margin-left) + var(--n-icon-size) + var(--n-icon-margin-right))'
     })
   ]),
-  // fix: https://github.com/tusen-ai/naive-ui/issues/4588
+  // fix: https://github.com/tusen-ai/ithinkdt-ui/issues/4588
   cM('right-adjust', [
     cB('alert-body', {
       paddingRight: 'calc(var(--n-close-size) + var(--n-padding) + 2px)'

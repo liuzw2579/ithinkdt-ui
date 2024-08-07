@@ -7,7 +7,7 @@ Sometimes you might want to put the collapsed sidebar on the right.
 <script lang="ts">
 import type { Component } from 'vue'
 import { defineComponent, h } from 'vue'
-import { NIcon } from 'naive-ui'
+import { NIcon } from 'ithinkdt-ui'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,

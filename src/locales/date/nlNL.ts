@@ -1,4 +1,4 @@
-import { nl } from 'date-fns/locale'
+import { nl } from 'date-fns/locale/nl'
 import type { NDateLocale } from './enUS'
 
 const dateNlNL: NDateLocale = {

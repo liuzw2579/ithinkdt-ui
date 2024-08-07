@@ -20,7 +20,7 @@ export default defineComponent({
   <component
     :is="configProvider"
     class="demo"
-    namespace="naive-ui-doc"
+    namespace="ithinkdt-ui-doc"
     preflight-style-disabled
     :theme-name="themeName"
     :theme="theme"
