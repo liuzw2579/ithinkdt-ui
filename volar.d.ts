@@ -153,6 +153,7 @@ declare module 'vue' {
     NUploadTrigger: (typeof import('ithinkdt-ui'))['NUploadTrigger']
     NVirtualList: (typeof import('ithinkdt-ui'))['NVirtualList']
     NWatermark: (typeof import('ithinkdt-ui'))['NWatermark']
+    NFormBorder: (typeof import('ithinkdt-ui'))['NFormBorder']
   }
 }
 export {}

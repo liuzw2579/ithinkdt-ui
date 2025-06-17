@@ -26,6 +26,7 @@ partially-apply-rules.vue
 custom-messages.vue
 dynamic.vue
 feedback-style.vue
+form-border.vue
 ```
 
 ## API
@@ -133,3 +134,25 @@ To find out more about AsyncValidatorOptions, see <n-a href="https://github.com/
 | -------- | ---------- | -------------- | ------- |
 | feedback | `()`       | Feedback.      | 2.24.0  |
 | label    | `()`       | Label content. |         |
+
+### FormBorder Props
+
+| Name | Type | Default | Description | Version |
+| --- | --- | --- | --- | --- |
+| disabled | `boolean` | `false` | Whether to disable the input. |  |
+| status | `'success' \| 'warning' \| 'error'` | `undefined` | Validation status. | 2.25.0 |
+| on-blur | `() => void` | `undefined` | Callback triggered when the element is blurred. |  |
+| on-focus | `() => void` | `undefined` | Callback triggered when the element is focussed on. |  |
+
+### FormBorder Slots
+
+| Name    | Parameters | Description  |
+| ------- | ---------- | ------------ |
+| default | `()`       | The content. |
+
+### FormBorder Methods
+
+| Name  | Type         | Description        | Version |
+| ----- | ------------ | ------------------ | ------- |
+| blur  | `() => void` | Blur the element.  |         |
+| focus | `() => void` | Focus the element. |         |

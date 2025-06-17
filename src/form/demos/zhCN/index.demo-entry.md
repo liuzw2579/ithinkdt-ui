@@ -26,6 +26,7 @@ partially-apply-rules.vue
 custom-messages.vue
 dynamic.vue
 feedback-style.vue
+form-border.vue
 ```
 
 ## API
@@ -126,3 +127,25 @@ feedback-style.vue
 | -------- | ---- | -------------- | ------ |
 | feedback | `()` | 表项的反馈信息 | 2.24.0 |
 | label    | `()` | 标签内容       |        |
+
+### FormBorder Props
+
+| 名称 | 类型 | 默认值 | 说明 | 版本 |
+| --- | --- | --- | --- | --- |
+| disabled | `boolean` | `false` | 是否禁用 |  |
+| status | `'success' \| 'warning' \| 'error'` | `undefined` | 验证状态 |  |
+| on-blur | `() => void` | `undefined` | 框失去焦点时触发 |  |
+| on-focus | `() => void` | `undefined` | 框获得焦点时触发 |  |
+
+### FormBorder Slots
+
+| 属性    | 参数 | 说明 |
+| ------- | ---- | ---- |
+| default | `()` | 内容 |
+
+### FormBorder Methods
+
+| 名称  | 类型         | 说明     | 版本 |
+| ----- | ------------ | -------- | ---- |
+| blur  | `() => void` | Blur 框  |      |
+| focus | `() => void` | Focus 框 |      |
