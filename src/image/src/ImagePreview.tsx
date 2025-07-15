@@ -60,6 +60,10 @@ export default defineComponent({
     clsPrefix: {
       type: String,
       required: true
+    },
+    namespace: {
+      type: String,
+      required: false
     }
   },
   setup(props) {
@@ -582,112 +586,129 @@ export default defineComponent({
                 return null
               }
               this.onRender?.()
-              return withDirectives(
+              return (
                 <div
                   class={[
-                    `${clsPrefix}-image-preview-container`,
-                    this.themeClass
+                    `${clsPrefix}-image-preview-provider`,
+                    this.namespace
                   ]}
-                  style={this.cssVars as CSSProperties}
-                  onWheel={this.handleWheel}
                 >
-                  <Transition name="fade-in-transition" appear={this.appear}>
-                    {{
-                      default: () =>
-                        this.show ? (
-                          <div
-                            class={`${clsPrefix}-image-preview-overlay`}
-                            onClick={this.toggleShow}
-                          />
-                        ) : null
-                    }}
-                  </Transition>
-                  {this.showToolbar ? (
-                    <Transition name="fade-in-transition" appear={this.appear}>
-                      {{
-                        default: () => {
-                          if (!this.show)
-                            return null
-                          return (
-                            <div class={`${clsPrefix}-image-preview-toolbar`}>
-                              {renderToolbar ? (
-                                renderToolbar({
-                                  nodes: {
-                                    prev: prevNode,
-                                    next: nextNode,
-                                    rotateCounterclockwise:
-                                      rotateCounterclockwiseNode,
-                                    rotateClockwise: rotateClockwiseNode,
-                                    resizeToOriginalSize: originalSizeNode,
-                                    zoomOut: zoomOutNode,
-                                    zoomIn: zoomInNode,
-                                    download: downloadNode,
-                                    close: closeNode
-                                  }
-                                })
-                              ) : (
-                                <>
-                                  {this.onPrev ? (
+                  {withDirectives(
+                    <div
+                      class={[
+                        `${clsPrefix}-image-preview-container`,
+                        this.themeClass
+                      ]}
+                      style={this.cssVars as CSSProperties}
+                      onWheel={this.handleWheel}
+                    >
+                      <Transition
+                        name="fade-in-transition"
+                        appear={this.appear}
+                      >
+                        {{
+                          default: () =>
+                            this.show ? (
+                              <div
+                                class={`${clsPrefix}-image-preview-overlay`}
+                                onClick={this.toggleShow}
+                              />
+                            ) : null
+                        }}
+                      </Transition>
+                      {this.showToolbar ? (
+                        <Transition
+                          name="fade-in-transition"
+                          appear={this.appear}
+                        >
+                          {{
+                            default: () => {
+                              if (!this.show)
+                                return null
+                              return (
+                                <div
+                                  class={`${clsPrefix}-image-preview-toolbar`}
+                                >
+                                  {renderToolbar ? (
+                                    renderToolbar({
+                                      nodes: {
+                                        prev: prevNode,
+                                        next: nextNode,
+                                        rotateCounterclockwise:
+                                          rotateCounterclockwiseNode,
+                                        rotateClockwise: rotateClockwiseNode,
+                                        resizeToOriginalSize: originalSizeNode,
+                                        zoomOut: zoomOutNode,
+                                        zoomIn: zoomInNode,
+                                        download: downloadNode,
+                                        close: closeNode
+                                      }
+                                    })
+                                  ) : (
                                     <>
-                                      {prevNode}
-                                      {nextNode}
+                                      {this.onPrev ? (
+                                        <>
+                                          {prevNode}
+                                          {nextNode}
+                                        </>
+                                      ) : null}
+                                      {rotateCounterclockwiseNode}
+                                      {rotateClockwiseNode}
+                                      {originalSizeNode}
+                                      {zoomOutNode}
+                                      {zoomInNode}
+                                      {downloadNode}
+                                      {closeNode}
                                     </>
-                                  ) : null}
-                                  {rotateCounterclockwiseNode}
-                                  {rotateClockwiseNode}
-                                  {originalSizeNode}
-                                  {zoomOutNode}
-                                  {zoomInNode}
-                                  {downloadNode}
-                                  {closeNode}
-                                </>
-                              )}
-                            </div>
-                          )
-                        }
-                      }}
-                    </Transition>
-                  ) : null}
-                  <Transition
-                    name="fade-in-scale-up-transition"
-                    onAfterLeave={this.handleAfterLeave}
-                    appear={this.appear}
-                    // BUG:
-                    // onEnter will be called twice, I don't know why
-                    // Maybe it is a bug of vue
-                    onEnter={this.syncTransformOrigin}
-                    onBeforeLeave={this.syncTransformOrigin}
-                  >
-                    {{
-                      default: () => {
-                        const { previewedImgProps = {} } = this
-                        return withDirectives(
-                          <div
-                            class={`${clsPrefix}-image-preview-wrapper`}
-                            ref="previewWrapperRef"
-                          >
-                            <img
-                              {...previewedImgProps}
-                              draggable={false}
-                              onMousedown={this.handlePreviewMousedown}
-                              onDblclick={this.handlePreviewDblclick}
-                              class={[
-                                `${clsPrefix}-image-preview`,
-                                previewedImgProps.class
-                              ]}
-                              key={this.previewSrc}
-                              src={this.previewSrc}
-                              ref="previewRef"
-                              onDragstart={this.handleDragStart}
-                            />
-                          </div>,
-                          [[vShow, this.show]]
-                        )
-                      }
-                    }}
-                  </Transition>
-                </div>,
-                [[zindexable, { enabled: this.show }]]
+                                  )}
+                                </div>
+                              )
+                            }
+                          }}
+                        </Transition>
+                      ) : null}
+                      <Transition
+                        name="fade-in-scale-up-transition"
+                        onAfterLeave={this.handleAfterLeave}
+                        appear={this.appear}
+                        // BUG:
+                        // onEnter will be called twice, I don't know why
+                        // Maybe it is a bug of vue
+                        onEnter={this.syncTransformOrigin}
+                        onBeforeLeave={this.syncTransformOrigin}
+                      >
+                        {{
+                          default: () => {
+                            const { previewedImgProps = {} } = this
+                            return withDirectives(
+                              <div
+                                class={`${clsPrefix}-image-preview-wrapper`}
+                                ref="previewWrapperRef"
+                              >
+                                <img
+                                  {...previewedImgProps}
+                                  draggable={false}
+                                  onMousedown={this.handlePreviewMousedown}
+                                  onDblclick={this.handlePreviewDblclick}
+                                  class={[
+                                    `${clsPrefix}-image-preview`,
+                                    previewedImgProps.class
+                                  ]}
+                                  key={this.previewSrc}
+                                  src={this.previewSrc}
+                                  ref="previewRef"
+                                  onDragstart={this.handleDragStart}
+                                />
+                              </div>,
+                              [[vShow, this.show]]
+                            )
+                          }
+                        }}
+                      </Transition>
+                    </div>,
+                    [[zindexable, { enabled: this.show }]]
+                  )}
+                </div>
               )
             }
           }}

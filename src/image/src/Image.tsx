@@ -68,7 +68,8 @@ export default defineComponent({
     const showErrorRef = ref(false)
     const previewInstRef = ref<ImagePreviewInst | null>(null)
     const imageGroupHandle = inject(imageGroupInjectionKey, null)
-    const { mergedClsPrefixRef } = imageGroupHandle || useConfig(props)
+    const { mergedClsPrefixRef, namespaceRef }
+      = imageGroupHandle || useConfig(props)
     const exposedMethods = {
       click: () => {
         if (props.previewDisabled || showErrorRef.value)
@@ -130,6 +131,7 @@ export default defineComponent({
     })
     return {
       mergedClsPrefix: mergedClsPrefixRef,
+      namespace: namespaceRef,
       groupId: imageGroupHandle?.groupId,
       previewInstRef,
       imageRef,
@@ -159,7 +161,14 @@ export default defineComponent({
     }
   },
   render() {
-    const { mergedClsPrefix, imgProps = {}, loaded, $attrs, lazy } = this
+    const {
+      mergedClsPrefix,
+      namespace,
+      imgProps = {},
+      loaded,
+      $attrs,
+      lazy
+    } = this
     const errorNode = resolveSlot(this.$slots.error, () => [])
     const placeholderNode = this.$slots.placeholder?.()
     const loadSrc = this.src || imgProps.src
@@ -219,6 +228,7 @@ export default defineComponent({
             theme={this.theme}
             themeOverrides={this.themeOverrides}
             clsPrefix={mergedClsPrefix}
+            namespace={namespace}
             ref="previewInstRef"
             showToolbar={this.showToolbar}
             showToolbarTooltip={this.showToolbarTooltip}

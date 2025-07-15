@@ -330,8 +330,7 @@ export default defineComponent({
                   ref="containerRef"
                   class={[
                     `${mergedClsPrefix}-modal-container`,
-                    this.themeClass,
-                    this.namespace
+                    this.themeClass
                   ]}
                   style={this.cssVars as CSSProperties}
                 >

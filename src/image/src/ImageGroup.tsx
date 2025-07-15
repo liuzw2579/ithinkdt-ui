@@ -19,6 +19,7 @@ export const imageGroupInjectionKey = createInjectionKey<
   ImagePreviewInst & {
     groupId: string
     mergedClsPrefixRef: Ref<string>
+    namespaceRef: Ref<string | undefined>
     renderToolbarRef: Ref<ImageRenderToolbar | undefined>
   }
 >('n-image-group')
@@ -32,7 +33,7 @@ export default defineComponent({
   props: imageGroupProps,
   setup(props) {
     let currentSrc: string | undefined
-    const { mergedClsPrefixRef } = useConfig(props)
+    const { mergedClsPrefixRef, namespaceRef } = useConfig(props)
     const groupId = `c${createId()}`
     const vm = getCurrentInstance()
     const previewInstRef = ref<ImagePreviewInst | null>(null)
@@ -73,6 +74,7 @@ export default defineComponent({
     }
     provide(imageGroupInjectionKey, {
       mergedClsPrefixRef,
+      namespaceRef,
       setPreviewSrc,
       setThumbnailEl: (el) => {
         previewInstRef.value?.setThumbnailEl(el)
