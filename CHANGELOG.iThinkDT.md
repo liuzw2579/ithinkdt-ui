@@ -2,6 +2,10 @@
 
 ## Next Version
 
+## 1.6.4 [naive: 2.41.1] (2025-07-15)
+
+- 修复 `n-image` 预览支持 namespace
+
 ## 1.6.3 [naive: 2.41.1] (2025-06-17)
 
 - `n-form-border` 新增组件
