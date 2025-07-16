@@ -4,10 +4,10 @@
 你可以使用 `render-cell` 去渲染空状态。
 </markdown>
 
-<script lang="ts">
+<script lang="ts" setup>
 import type { DataTableColumns } from 'ithinkdt-ui'
 import { NText } from 'ithinkdt-ui'
-import { defineComponent, h } from 'vue'
+import { h } from 'vue'
 
 interface Song {
   no: number
@@ -39,21 +39,14 @@ const data: Song[] = [
   { no: 19, note: '' }
 ]
 
-export default defineComponent({
-  setup() {
-    return {
-      data,
-      columns: createColumns(),
-      pagination: false as const,
-      renderCell: (value: string | number) => {
-        if (!value) {
-          return h(NText, { depth: 3 }, { default: () => '未填写' })
-        }
-        return value
-      }
-    }
+const columns = createColumns()
+
+function renderCell(value: string | number) {
+  if (!value) {
+    return h(NText, { depth: 3 }, { default: () => '未填写' })
   }
-})
+  return value
+}
 </script>
 
 <template>
