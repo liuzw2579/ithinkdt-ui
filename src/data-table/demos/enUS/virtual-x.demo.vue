@@ -1,7 +1,7 @@
 <markdown>
 # Large data (rows & cols)
 
-If you have a large amount of row and column data, such as thousands of rows and hundreds of columns, `naive-ui` provides horizontal + vertical virtual scrolling functionality.
+If you have a large amount of row and column data, such as thousands of rows and hundreds of columns, `ithinkdt-ui` provides horizontal + vertical virtual scrolling functionality.
 
 Due to the inherent complexity of horizontal virtual scrolling, the corresponding configuration can be quite complex, with most of the following content being necessary:
 
@@ -16,12 +16,11 @@ Due to the inherent complexity of horizontal virtual scrolling, the correspondin
 
 The example below corresponds to a table with 1000 rows * 1000 columns.
 
-`naive-ui`'s table can easily support table data in the millions. You won't find this kind of functionality in many free component libraries.
+`ithinkdt-ui`'s table can easily support table data in the millions. You won't find this kind of functionality in many free component libraries.
 </markdown>
 
-<script lang="ts">
+<script lang="ts" setup>
 import type { DataTableColumns } from 'ithinkdt-ui'
-import { defineComponent } from 'vue'
 
 interface RowData {
   key: number
@@ -47,23 +46,14 @@ for (let i = 0; i < 1000; ++i) {
   })
 }
 
-export default defineComponent({
-  setup() {
-    const data: RowData[] = Array.from({ length: 1000 }).map((_, index) => ({
-      key: index,
-      name: `Edward King ${index}`,
-      age: 32,
-      address: `London, Park Lane no. ${index}`
-    }))
-    return {
-      data,
-      columns,
-      scrollX,
-      minRowHeight: 48,
-      heightForRow: () => 48
-    }
-  }
-})
+const data: RowData[] = Array.from({ length: 1000 }).map((_, index) => ({
+  key: index,
+  name: `Edward King ${index}`,
+  age: 32,
+  address: `London, Park Lane no. ${index}`
+}))
+
+const heightForRow = () => 48
 </script>
 
 <template>

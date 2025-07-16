@@ -1,7 +1,7 @@
 <markdown>
 # 大量数据（行和列）
 
-如果你有大量行数据和列数据，例如几千行 + 几百列，`naive-ui` 提供了横向 + 纵向虚拟滚动的功能。
+如果你有大量行数据和列数据，例如几千行 + 几百列，`ithinkdt-ui` 提供了横向 + 纵向虚拟滚动的功能。
 
 因为横向虚拟滚动的天然的复杂性，对应的配置也会较为复杂，以下多数内容都是必须的：
 
@@ -16,12 +16,11 @@
 
 下面的例子对应了一个 1000 行 * 1000 列的表格。
 
-`naive-ui` 的表格可以轻松的支持千万级的表格数据，你在不收钱的组件库不容易找得到这样的功能。
+`ithinkdt-ui` 的表格可以轻松的支持千万级的表格数据，你在不收钱的组件库不容易找得到这样的功能。
 </markdown>
 
-<script lang="ts">
+<script lang="ts" setup>
 import type { DataTableColumns } from 'ithinkdt-ui'
-import { defineComponent } from 'vue'
 
 interface RowData {
   key: number
@@ -47,23 +46,14 @@ for (let i = 0; i < 1000; ++i) {
   })
 }
 
-export default defineComponent({
-  setup() {
-    const data: RowData[] = Array.from({ length: 1000 }).map((_, index) => ({
-      key: index,
-      name: `Edward King ${index}`,
-      age: 32,
-      address: `London, Park Lane no. ${index}`
-    }))
-    return {
-      data,
-      columns,
-      scrollX,
-      minRowHeight: 48,
-      heightForRow: () => 48
-    }
-  }
-})
+const data: RowData[] = Array.from({ length: 1000 }).map((_, index) => ({
+  key: index,
+  name: `Edward King ${index}`,
+  age: 32,
+  address: `London, Park Lane no. ${index}`
+}))
+
+const heightForRow = () => 48
 </script>
 
 <template>

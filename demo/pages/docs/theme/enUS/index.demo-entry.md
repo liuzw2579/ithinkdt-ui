@@ -7,7 +7,7 @@ iThinkDT UI provides some tools for developers to create themed components easie
 ## Demos
 
 ```demo
-provide-theme
-element
-use-theme-vars
+provide-theme.vue
+element.vue
+use-theme-vars.vue
 ```
