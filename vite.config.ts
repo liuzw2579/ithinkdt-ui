@@ -16,7 +16,7 @@ export default defineConfig({
       process.env.NODE_ENV !== 'production'
         ? [
             {
-              find: 'naive-ui/generic',
+              find: 'ithinkdt-ui/generic',
               replacement: path.resolve(__dirname, './generic')
             },
             {

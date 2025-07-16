@@ -44,7 +44,7 @@ rtl-debug.vue
 
 泛型 `<T extends AvatarGroupOption = AvatarGroupOption>`，自 `NEXT_VERSION` 可用。
 
-泛型能力仅在 `.vue` 文件中，`Vue >= 3.3`，通过 `import { NGAvatarGroup } from 'naive-ui/generic'` 可用，否则请使用普通的 `n-avatar-group`。
+泛型能力仅在 `.vue` 文件中，`Vue >= 3.3`，通过 `import { NGAvatarGroup } from 'ithinkdt-ui/generic'` 可用，否则请使用普通的 `n-avatar-group`。
 
 ```ts
 interface AvatarGroupOption {

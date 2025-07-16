@@ -5,7 +5,7 @@ Naive UI has `n-element` component. See [Element](../components/element).
 </markdown>
 
 <script lang="ts" setup>
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const theme = ref<typeof darkTheme | null>(null)

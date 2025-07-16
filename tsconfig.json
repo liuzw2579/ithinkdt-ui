@@ -10,7 +10,7 @@
     "moduleResolution": "bundler",
     "paths": {
       "ithinkdt-ui": ["./src"],
-      "naive-ui/generic": ["./generic"]
+      "ithinkdt-ui/generic": ["./generic"]
     },
     "resolveJsonModule": true,
     "types": ["vue/jsx", "jest"],

@@ -5,7 +5,7 @@ Use `n-config-provider` to set the theme of all its descendant components.
 </markdown>
 
 <script setup lang="ts">
-import { darkTheme } from 'naive-ui'
+import { darkTheme } from 'ithinkdt-ui'
 import { ref } from 'vue'
 
 const theme = ref<typeof darkTheme | null>(null)

@@ -42,7 +42,7 @@ v-show-debug.vue
 
 The generic type is `<T extends AvatarGroupOption = AvatarGroupOption>` (available since `NEXT_VERSION`).
 
-It is only supported in `.vue` files with `Vue >= 3.3`. You can use it by `importing NGAvatarGroup from 'naive-ui/generic'`. Otherwise, please use the regular `n-avatar-group` component.
+It is only supported in `.vue` files with `Vue >= 3.3`. You can use it by `importing NGAvatarGroup from 'ithinkdt-ui/generic'`. Otherwise, please use the regular `n-avatar-group` component.
 
 ```ts
 interface AvatarGroupOption {

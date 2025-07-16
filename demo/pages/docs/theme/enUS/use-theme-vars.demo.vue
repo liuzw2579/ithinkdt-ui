@@ -5,7 +5,7 @@ Naive UI provides `useThemeVars`. It contains common theme variables.
 </markdown>
 
 <script setup lang="ts">
-import { useThemeVars } from 'naive-ui'
+import { useThemeVars } from 'ithinkdt-ui'
 
 const themeVars = useThemeVars()
 </script>

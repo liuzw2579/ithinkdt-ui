@@ -145,4 +145,4 @@ interface UploadCustomRequestOptions {
 
 ### 其他
 
-1. `uploadDownload`，类型为 `(url: string, name: string | undefined): void`，你可以直接从 naive-ui import 此函数
+1. `uploadDownload`，类型为 `(url: string, name: string | undefined): void`，你可以直接从 ithinkdt-ui import 此函数

@@ -7,8 +7,8 @@ import type {
   AvatarGroupOption,
   GAvatarGroupProps,
   GAvatarGroupSlots
-} from 'naive-ui'
-import { NAvatarGroup } from 'naive-ui'
+} from 'ithinkdt-ui'
+import { NAvatarGroup } from 'ithinkdt-ui'
 
 defineProps<GAvatarGroupProps<T>>()
 defineSlots<GAvatarGroupSlots<T>>()

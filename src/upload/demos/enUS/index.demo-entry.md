@@ -143,4 +143,4 @@ interface UploadCustomRequestOptions {
 
 ### Others
 
-1. `uploadDownload`, with type of `(url: string, name: string | undefined): void`, you can import the method directly from naive-ui.
+1. `uploadDownload`, with type of `(url: string, name: string | undefined): void`, you can import the method directly from ithinkdt-ui.
