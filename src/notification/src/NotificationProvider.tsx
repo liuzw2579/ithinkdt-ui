@@ -103,7 +103,7 @@ export default defineComponent({
   name: 'NotificationProvider',
   props: notificationProviderProps,
   setup(props) {
-    const { mergedClsPrefixRef } = useConfig(props)
+    const { mergedClsPrefixRef, namespaceRef } = useConfig(props)
     const notificationListRef = ref<NotificationReactive[]>([])
     const notificationRefs: Record<string, NotificationRef> = {}
     const leavingKeySet = new Set<string>()
@@ -198,7 +198,8 @@ export default defineComponent({
         mergedClsPrefix: mergedClsPrefixRef,
         notificationList: notificationListRef,
         notificationRefs,
-        handleAfterLeave
+        handleAfterLeave,
+        namespace: namespaceRef
       },
       api
     )
@@ -210,48 +211,65 @@ export default defineComponent({
         {this.$slots.default?.()}
         {this.notificationList.length ? (
           <Teleport to={this.to ?? 'body'}>
-            <NotificationContainer
-              class={this.containerClass}
-              style={this.containerStyle}
-              scrollable={
-                this.scrollable && placement !== 'top' && placement !== 'bottom'
-              }
-              placement={placement}
+            <div
+              class={[
+                `${this.mergedClsPrefix}-notification-provider`,
+                this.namespace
+              ]}
+              style={`
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                pointer-events: none;`}
+              role="none"
             >
-              {{
-                default: () => {
-                  return this.notificationList.map((notification) => {
-                    return (
-                      <NotificationEnvironment
-                        ref={
-                          ((inst: NotificationRef) => {
-                            const refKey = notification.key
-                            if (inst === null) {
-                              delete this.notificationRefs[refKey]
-                            }
-                            else {
-                              this.notificationRefs[refKey] = inst
-                            }
-                          }) as any
-                        }
-                        {...omit(notification, [
-                          'destroy',
-                          'hide',
-                          'deactivate'
-                        ])}
-                        internalKey={notification.key}
-                        onInternalAfterLeave={this.handleAfterLeave}
-                        keepAliveOnHover={
-                          notification.keepAliveOnHover === undefined
-                            ? this.keepAliveOnHover
-                            : notification.keepAliveOnHover
-                        }
-                      />
-                    )
-                  })
+              <NotificationContainer
+                class={this.containerClass}
+                style={this.containerStyle}
+                scrollable={
+                  this.scrollable
+                  && placement !== 'top'
+                  && placement !== 'bottom'
                 }
-              }}
-            </NotificationContainer>
+                placement={placement}
+              >
+                {{
+                  default: () => {
+                    return this.notificationList.map((notification) => {
+                      return (
+                        <NotificationEnvironment
+                          ref={
+                            ((inst: NotificationRef) => {
+                              const refKey = notification.key
+                              if (inst === null) {
+                                delete this.notificationRefs[refKey]
+                              }
+                              else {
+                                this.notificationRefs[refKey] = inst
+                              }
+                            }) as any
+                          }
+                          {...omit(notification, [
+                            'destroy',
+                            'hide',
+                            'deactivate'
+                          ])}
+                          internalKey={notification.key}
+                          onInternalAfterLeave={this.handleAfterLeave}
+                          keepAliveOnHover={
+                            notification.keepAliveOnHover === undefined
+                              ? this.keepAliveOnHover
+                              : notification.keepAliveOnHover
+                          }
+                        />
+                      )
+                    })
+                  }
+                }}
+              </NotificationContainer>
+            </div>
           </Teleport>
         ) : null}
       </>

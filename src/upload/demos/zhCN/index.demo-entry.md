@@ -45,6 +45,8 @@ rtl-debug.vue
 | file-list | `Array<UploadFileInfo>` | `undefined` | 文件列表，如果传入组件会处于受控状态 |  |
 | headers | `Object \| ({ file: UploadFileInfo }) => Object` | `undefined` | HTTP 请求需要附加的 Headers |  |
 | image-group-props | `ImageGroupProps` | `undefined` | Upload 中预览图片组件的属性，参考 [ImageGroup Props](image#ImageGroup-Props) | 2.24.0 |
+| img-props | `ImgHTMLAttributes` | `undefined` | Upload 中图片组件的 `img` 标签属性 | ithinkdt 1.1.1 |
+| previewed-img-props | `ImgHTMLAttributes` | `undefined` | Upload 中预览图片组件 `img` 标签属性 | ithinkdt 1.1.1 |
 | input-props | `InputHTMLAttributes` | `undefined` | file input 元素的属性 | 2.24.2 |
 | is-error-state | `(xhr: XMLHttpRequest) => boolean` | `undefined` | 判断请求是否为异常状态 | 2.29.1 |
 | list-type | `string` | `'text'` | 文件列表的内建样式，`text`、`image` 和 `image-card` |  |
@@ -143,4 +145,4 @@ interface UploadCustomRequestOptions {
 
 ### 其他
 
-1. `uploadDownload`，类型为 `(url: string, name: string | undefined): void`，你可以直接从 naive-ui import 此函数
+1. `uploadDownload`，类型为 `(url: string, name: string | undefined): void`，你可以直接从 ithinkdt-ui import 此函数

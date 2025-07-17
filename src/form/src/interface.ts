@@ -115,3 +115,8 @@ export interface FormInst {
 }
 
 export interface FormValidateMessages extends ValidateMessages {}
+
+export interface FormBorderInst {
+  blur: () => void
+  focus: () => void
+}

@@ -91,8 +91,8 @@ export function createDocumentationMenuOptions({ lang, theme }) {
       type: 'group',
       children: [
         {
-          en: 'Naive UI',
-          zh: 'Naive UI',
+          en: 'iThinkDT UI',
+          zh: 'iThinkDT UI',
           path: '/introduction'
         }
       ]
@@ -194,11 +194,6 @@ export function createDocumentationMenuOptions({ lang, theme }) {
           zh: '潜在的样式冲突',
           path: '/style-conflict'
         },
-        {
-          en: 'Third-Party Libraries',
-          zh: '社区精选资源',
-          path: '/community'
-        }
       ]
     },
     {
@@ -210,6 +205,11 @@ export function createDocumentationMenuOptions({ lang, theme }) {
           en: 'Change Log',
           zh: '变更日志',
           path: '/changelog'
+        },
+        {
+          en: 'Change Log (iThinkDT)',
+          zh: '变更日志（iThinkDT）',
+          path: '/changelog-ithinkdt'
         }
       ]
     }

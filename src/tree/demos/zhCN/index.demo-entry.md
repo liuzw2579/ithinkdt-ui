@@ -137,4 +137,4 @@ interface ScrollTo {
 
 ### Others
 
-1. `treeGetClickTarget: (e: MouseEvent) => ('checkbox' | 'switcher' | 'node')`：获取点击位置，可以用于 `nodeProps.onClick`。你可以直接从 `naive-ui` 这个包 import 此函数
+1. `treeGetClickTarget: (e: MouseEvent) => ('checkbox' | 'switcher' | 'node')`：获取点击位置，可以用于 `nodeProps.onClick`。你可以直接从 `ithinkdt-ui` 这个包 import 此函数
