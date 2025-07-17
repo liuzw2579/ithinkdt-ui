@@ -30,12 +30,12 @@ ithinkdt-ui 建议使用 [xicons](https://www.xicons.org) 作为图标库。
 
 <n-card size="small"  footer-style="text-align: center;" style="width: 420px; max-width: 100%;">
   <template #cover>
-    <img src="https://ithinkdt-ui.oss-accelerate.aliyuncs.com/naive-design.png">
+    <img src="https://naive-ui.oss-accelerate.aliyuncs.com/naive-design.png">
   </template>
   <template #footer>
     <n-button
       tag="a"
-      href="https://ithinkdt-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-zh-CN.sketch"
+      href="https://naive-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-zh-CN.sketch"
       text
       target="_blank"
       icon-placement="right"

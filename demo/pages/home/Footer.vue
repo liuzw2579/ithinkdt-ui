@@ -31,7 +31,7 @@ export default defineComponent({
           memberLimitReached: '（已满）',
           reportBug: '报告 Bug',
           sketchLink:
-            'https://ithinkdt-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-zh-CN.sketch',
+            'https://naive-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-zh-CN.sketch',
           joinUsLink: 'https://app.mokahr.com/campus_apply/tusenweilai/3232#/'
         },
         'en-US': {
@@ -50,7 +50,7 @@ export default defineComponent({
           memberLimitReached: '(Member limit reached)',
           reportBug: 'Report Bug',
           sketchLink:
-            'https://ithinkdt-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-en-US.sketch',
+            'https://naive-ui.oss-accelerate.aliyuncs.com/NaiveUI-Design-Library-en-US.sketch',
           joinUsLink:
             'https://boards.greenhouse.io/tusimplerelocationjobs/jobs/5137805002?gh_src=7908a9242us'
         }
@@ -97,7 +97,7 @@ export default defineComponent({
           text
           tag="a"
           target="_blank"
-          href="https://ithinkdt-ui.github.io/issue-helper/"
+          href="https://naive-ui.github.io/issue-helper/"
         >
           {{ t('reportBug') }}
         </n-button>
