@@ -44,6 +44,7 @@ export interface FormBorderSlots {
   prefix?: () => VNode[]
   separator?: () => VNode[]
   suffix?: () => VNode[]
+  default?: () => VNode[]
 }
 
 export default defineComponent({
