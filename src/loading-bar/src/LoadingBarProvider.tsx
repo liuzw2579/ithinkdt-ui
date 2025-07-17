@@ -119,7 +119,8 @@ export default defineComponent({
               right: 0;
               top: 0;
               bottom: 0;
-              pointer-events: none;`}
+              pointer-events: none;
+            `}
             role="none"
           >
             <NLoadingBar

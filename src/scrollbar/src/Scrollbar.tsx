@@ -23,13 +23,17 @@ export type ScrollbarProps = Pick<
   ExtractPropTypes<ThemeProps<ScrollbarTheme>>,
   'themeOverrides'
 > & {
+  trigger?: 'none' | 'hover'
+  xScrollable?: boolean
+  onScroll?: (e: Event) => void
+  contentClass?: string
+  contentStyle?: string | Record<string, any>
+  size?: number
+  xPlacement?: 'top' | 'bottom'
+  yPlacement?: 'left' | 'right'
   abstract?: boolean
   container?: () => HTMLElement | null | undefined
   content?: () => HTMLElement | null | undefined
-  size?: number
-  xScrollable?: boolean
-  trigger?: 'none' | 'hover'
-  onScroll?: (e: Event) => void
 }
 export const scrollbarProps = NScrollbar.props as ScrollbarProps
 
