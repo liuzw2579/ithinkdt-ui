@@ -1,9 +1,8 @@
-import { c, cB, cE, cM, cNotM } from 'naive-ui'
 import { changeColor } from 'seemly'
+import { c, cB, cE, cM, cNotM } from 'naive-ui'
 
-export function mountSvgDefs(): void {
-  if (document.getElementById('naive-ui/tusimple/svg-defs'))
-    return
+export function mountSvgDefs (): void {
+  if (document.getElementById('naive-ui/tusimple/svg-defs')) return
   const svgDefs = `<defs>
     <linearGradient id="progress-info">
       <stop offset="0%" stop-color="#335fff" />

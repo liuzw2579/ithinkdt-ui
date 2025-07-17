@@ -1,24 +1,24 @@
-import type { CNode } from 'css-render'
-import { merge } from 'lodash-es'
-import { configProviderProps, NConfigProvider } from 'naive-ui'
 import {
+  type PropType,
   defineComponent,
   h,
   onBeforeUnmount,
-  type PropType,
   toRef,
   watch
 } from 'vue'
+import { NConfigProvider, configProviderProps } from 'naive-ui'
+import { merge } from 'lodash-es'
+import type { CNode } from 'css-render'
 import { renderFilter, renderSorter } from './data-table'
-import { icons as tusimpleIcons } from './icons'
-import { themeOverridesDark } from './theme-overrides-dark'
-
-import { themeOverridesLight } from './theme-overrides-light'
+import { mountSvgDefs, unconfigurableStyle } from './unconfigurable-style-light'
 import {
   mountSvgDefs as mountSvgDarkDefs,
   unconfigurableStyle as unconfigurableDarkStyle
 } from './unconfigurable-style-dark'
-import { mountSvgDefs, unconfigurableStyle } from './unconfigurable-style-light'
+
+import { themeOverridesLight } from './theme-overrides-light'
+import { themeOverridesDark } from './theme-overrides-dark'
+import { icons as tusimpleIcons } from './icons'
 
 const tusimpleComponentOptions = {
   Pagination: {

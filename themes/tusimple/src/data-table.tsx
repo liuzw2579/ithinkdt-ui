@@ -1,6 +1,6 @@
-import type { DataTableRenderFilter, DataTableRenderSorter } from 'naive-ui'
-import { CaretDownOutline, CaretUpOutline } from '@vicons/ionicons5'
 import { h } from 'vue'
+import { CaretUpOutline, CaretDownOutline } from '@vicons/ionicons5'
+import type { DataTableRenderFilter, DataTableRenderSorter } from 'naive-ui'
 
 export const renderSorter: DataTableRenderSorter = ({ order }) => {
   const chevronStyle = {
@@ -45,8 +45,8 @@ export const renderSorter: DataTableRenderSorter = ({ order }) => {
 }
 
 export const renderFilter: DataTableRenderFilter = ({ active, show }) => {
-  const fill
-    = active || show ? 'var(--n-th-icon-color-active)' : 'var(--n-th-icon-color)'
+  const fill =
+    active || show ? 'var(--n-th-icon-color-active)' : 'var(--n-th-icon-color)'
   return (
     <div
       style={{

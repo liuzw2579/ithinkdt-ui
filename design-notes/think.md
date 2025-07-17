@@ -274,17 +274,17 @@ Vue.use(naive)
 ```js
 // import on demand
 
-// components
-import Button from 'naive-ui/button'
-import buttonDarkStyle from 'naive-ui/button/styles/dark'
-// styles
-import buttonLightStyle from 'naive-ui/button/styles/light'
-
 // essential
 import create from 'naive-ui/create'
-
-import darkStyle from 'naive-ui/styles/dark'
 import lightStyle from 'naive-ui/styles/light'
+import darkStyle from 'naive-ui/styles/dark'
+
+// components
+import Button from 'naive-ui/button'
+
+// styles
+import buttonLightStyle from 'naive-ui/button/styles/light'
+import buttonDarkStyle from 'naive-ui/button/styles/dark'
 
 create({
   components: [Button],
@@ -457,9 +457,9 @@ What should be noted is the CSS files start with 'Base' are not guaranteed to be
 How I want to use styling API ?
 
 ```js
-import { buttonLight, create, enUS, inputLight } from 'naive-ui'
 // index.js
 import { createApp } from 'vue'
+import { create, enUS, buttonLight, inputLight } from 'naive-ui'
 
 const app = createApp()
 const naive = create({

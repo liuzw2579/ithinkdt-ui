@@ -1,13 +1,13 @@
+import { h, defineComponent, ref } from 'vue'
 import { NButton } from 'naive-ui'
-import { defineComponent, h, ref } from 'vue'
 
 const App = defineComponent({
-  setup() {
+  setup () {
     return {
       count: ref(0)
     }
   },
-  render() {
+  render () {
     return [
       h(
         NButton,
