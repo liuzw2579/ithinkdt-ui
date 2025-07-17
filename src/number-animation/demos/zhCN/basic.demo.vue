@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { NumberAnimationInst } from 'ithinkdt-ui'
+import type { NumberAnimationInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const numberAnimationInstRef = ref<NumberAnimationInst | null>(null)

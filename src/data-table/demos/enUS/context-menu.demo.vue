@@ -5,8 +5,8 @@ Use `n-dropdown` to implement a context menu.
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns, DropdownOption } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { DataTableColumns, DropdownOption } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 import { h, nextTick, ref } from 'vue'
 
 interface Song {

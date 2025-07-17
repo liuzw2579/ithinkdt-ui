@@ -1,4 +1,4 @@
-import type { InputInst } from 'ithinkdt-ui'
+import type { InputInst } from 'naive-ui'
 import type { CSSProperties, PropType, SlotsType } from 'vue'
 import type { ThemeProps } from '../../_mixins'
 import type { ExtractPublicPropTypes, MaybeArray } from '../../_utils'

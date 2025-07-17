@@ -5,9 +5,9 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { MentionOption } from 'ithinkdt-ui'
+import type { MentionOption } from 'naive-ui'
 import type { VNodeChild } from 'vue'
-import { NAvatar } from 'ithinkdt-ui'
+import { NAvatar } from 'naive-ui'
 import { h } from 'vue'
 
 const options = [

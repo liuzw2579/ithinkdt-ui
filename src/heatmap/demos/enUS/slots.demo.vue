@@ -5,7 +5,7 @@ Customize footer area with info slot and indicator slot. Also supports custom to
 </markdown>
 
 <script setup lang="ts">
-import { heatmapMockData } from 'ithinkdt-ui'
+import { heatmapMockData } from 'naive-ui'
 import { computed, ref } from 'vue'
 
 const value = ref<'recent' | number>('recent')

@@ -9,7 +9,7 @@ import {
   LogOutOutline as LogoutIcon,
   PersonCircleOutline as UserIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h } from 'vue'
 
 function renderIcon(icon: Component) {

@@ -5,7 +5,7 @@ Delete or add form items dynamically.
 </markdown>
 
 <script lang="ts" setup>
-import type { FormInst } from 'ithinkdt-ui'
+import type { FormInst } from 'naive-ui'
 import { reactive, ref } from 'vue'
 
 const formRef = ref<FormInst | null>(null)

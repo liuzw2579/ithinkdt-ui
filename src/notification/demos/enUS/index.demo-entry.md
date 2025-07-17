@@ -19,7 +19,7 @@ For example:
 ```
 
 ```js
-import { useNotification } from 'ithinkdt-ui'
+import { useNotification } from 'naive-ui'
 import { defineComponent } from 'vue'
 
 // content

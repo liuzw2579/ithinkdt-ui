@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { InputOtpOnUpdateValue } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { InputOtpOnUpdateValue } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const message = useMessage()

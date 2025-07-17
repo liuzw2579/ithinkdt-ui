@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { DropdownMenuProps } from 'ithinkdt-ui'
+import type { DropdownMenuProps } from 'naive-ui'
 
 const options = [
   {

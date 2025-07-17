@@ -5,7 +5,7 @@ Dropdown options can be aligned using the `placement` property.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 const options = [

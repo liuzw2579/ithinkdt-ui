@@ -7,7 +7,7 @@ For example, you can change non-leaf key's default behavior to `'toggleExpand'` 
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeOverrideNodeClickBehavior } from 'ithinkdt-ui'
+import type { TreeOverrideNodeClickBehavior } from 'naive-ui'
 
 const override: TreeOverrideNodeClickBehavior = ({ option }) => {
   if (option.children) {

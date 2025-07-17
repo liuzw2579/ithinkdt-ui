@@ -1,13 +1,13 @@
+import type { GlobalThemeOverrides } from 'naive-ui'
+import { commonDark } from 'naive-ui'
 import { composite } from 'seemly'
-import type { GlobalThemeOverrides } from 'ithinkdt-ui'
-import { commonDark } from 'ithinkdt-ui'
 import vars from './vars'
 
-function createHoverColor (color: string, overlayAlpha: number = 0.15): string {
+function createHoverColor(color: string, overlayAlpha: number = 0.15): string {
   return composite(color, [255, 255, 255, overlayAlpha])
 }
 
-function createPressedColor (
+function createPressedColor(
   color: string,
   overlayAlpha: number = 0.15
 ): string {

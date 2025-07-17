@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { NotificationPlacement } from 'ithinkdt-ui'
-import { NButton, NSpace, useNotification } from 'ithinkdt-ui'
+import type { NotificationPlacement } from 'naive-ui'
+import { NButton, NSpace, useNotification } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const placementRef = ref<NotificationPlacement>('top-right')

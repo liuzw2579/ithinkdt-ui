@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { CollapseProps } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { CollapseProps } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 const handleItemHeaderClick: CollapseProps['onItemHeaderClick'] = ({

@@ -5,7 +5,7 @@ Use `checked-value` and `unchecked-value` to customize respective values.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 function handleUpdateValue(value: string) {

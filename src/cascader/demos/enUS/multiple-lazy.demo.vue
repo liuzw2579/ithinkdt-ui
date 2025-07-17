@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { CascaderOption } from 'ithinkdt-ui'
+import type { CascaderOption } from 'naive-ui'
 import { ref } from 'vue'
 
 function getChildren(option: CascaderOption) {

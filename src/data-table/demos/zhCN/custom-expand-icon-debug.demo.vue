@@ -3,9 +3,9 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 import { ArrowForward } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h } from 'vue'
 
 interface RowData {

@@ -5,9 +5,9 @@
   </markdown>
 
 <script lang="ts" setup>
-import type { ImageRenderToolbarProps } from 'ithinkdt-ui'
+import type { ImageRenderToolbarProps } from 'naive-ui'
 import { ClipboardOutline, OpenOutline } from '@vicons/ionicons5'
-import { NButton, useMessage } from 'ithinkdt-ui'
+import { NButton, useMessage } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const message = useMessage()

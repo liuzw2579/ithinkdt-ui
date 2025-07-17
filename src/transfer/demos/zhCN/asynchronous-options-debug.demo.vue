@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TransferOption } from 'ithinkdt-ui'
+import type { TransferOption } from 'naive-ui'
 import { ref } from 'vue'
 
 const values = ref([1])

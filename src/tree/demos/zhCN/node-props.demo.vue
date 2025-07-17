@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { DropdownOption, TreeOption } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { DropdownOption, TreeOption } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 import { repeat } from 'seemly'
 import { ref } from 'vue'
 

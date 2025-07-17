@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { InputInst } from 'ithinkdt-ui'
+import type { InputInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const inputInstRef = ref<InputInst | null>(null)

@@ -5,7 +5,7 @@ Specify the duration of messages.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 

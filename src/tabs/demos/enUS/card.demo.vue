@@ -5,7 +5,7 @@ Set `type='card'`.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const nameRef = ref(1)

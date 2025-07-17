@@ -5,7 +5,7 @@ Change the style to make the highlight more striking.
 </markdown>
 
 <script lang="ts" setup>
-import { useThemeVars } from 'ithinkdt-ui'
+import { useThemeVars } from 'naive-ui'
 
 const themeVars = useThemeVars()
 const text

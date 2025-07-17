@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useThemeVars } from 'ithinkdt-ui'
+import { useThemeVars } from 'naive-ui'
 
 const themeVars = useThemeVars()
 const text = 'Naive UI 全量使用 TypeScript 编写，和你的 TypeScript 项目无缝衔接'

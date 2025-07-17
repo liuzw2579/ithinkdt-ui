@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useLoadingBar } from 'ithinkdt-ui'
+import { useLoadingBar } from 'naive-ui'
 import { ref } from 'vue'
 
 const loadingBar = useLoadingBar()

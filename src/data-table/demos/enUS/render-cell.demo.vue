@@ -5,8 +5,8 @@ You may use `render-cell` to customize empty state.
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
-import { NText } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
+import { NText } from 'naive-ui'
 import { h } from 'vue'
 
 interface Song {

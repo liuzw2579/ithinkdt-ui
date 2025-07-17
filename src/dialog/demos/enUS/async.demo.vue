@@ -5,7 +5,7 @@ Dialog can be async.
 </markdown>
 
 <script lang="ts" setup>
-import { useDialog } from 'ithinkdt-ui'
+import { useDialog } from 'naive-ui'
 
 const sleep = () => new Promise(resolve => setTimeout(resolve, 1000))
 const countDown = (second: number) => `Count down ${second} second`

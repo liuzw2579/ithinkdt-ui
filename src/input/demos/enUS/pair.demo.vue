@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 const placeholder: string | [string, string] | undefined = ['From', 'To']

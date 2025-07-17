@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NTabPane, NTabs } from 'ithinkdt-ui'
+import { NTabPane, NTabs } from 'naive-ui'
 </script>
 
 <template>

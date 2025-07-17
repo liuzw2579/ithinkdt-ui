@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableSelectRtl } from 'ithinkdt-ui'
+import { unstableSelectRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

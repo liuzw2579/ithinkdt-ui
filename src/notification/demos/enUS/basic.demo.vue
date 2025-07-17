@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NAvatar, NButton, useMessage, useNotification } from 'ithinkdt-ui'
+import { NAvatar, NButton, useMessage, useNotification } from 'naive-ui'
 import { h } from 'vue'
 
 const message = useMessage()

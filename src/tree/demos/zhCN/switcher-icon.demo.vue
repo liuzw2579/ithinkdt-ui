@@ -5,9 +5,9 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeOption } from 'ithinkdt-ui'
+import type { TreeOption } from 'naive-ui'
 import { ChevronForward, PlanetOutline, SunnyOutline } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { repeat } from 'seemly'
 import { h, ref } from 'vue'
 

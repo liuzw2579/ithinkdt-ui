@@ -5,9 +5,9 @@ You can customize filter & filter menu & sorter & expand icon.
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableBaseColumn, DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableBaseColumn, DataTableColumns } from 'naive-ui'
 import { PawOutline, SearchOutline } from '@vicons/ionicons5'
-import { NButton, NIcon, NSpace } from 'ithinkdt-ui'
+import { NButton, NIcon, NSpace } from 'naive-ui'
 import { h, reactive } from 'vue'
 
 const data = [

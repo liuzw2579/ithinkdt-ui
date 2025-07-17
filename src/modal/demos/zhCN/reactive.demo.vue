@@ -7,7 +7,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NButton, useMessage, useModal } from 'ithinkdt-ui'
+import { NButton, useMessage, useModal } from 'naive-ui'
 import { h } from 'vue'
 
 const modal = useModal()

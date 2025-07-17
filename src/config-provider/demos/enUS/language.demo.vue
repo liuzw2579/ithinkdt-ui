@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { NDateLocale, NLocale } from 'ithinkdt-ui'
-import { dateZhCN, zhCN } from 'ithinkdt-ui'
+import type { NDateLocale, NLocale } from 'naive-ui'
+import { dateZhCN, zhCN } from 'naive-ui'
 import { ref } from 'vue'
 
 const locale = ref<NLocale | null>(null)

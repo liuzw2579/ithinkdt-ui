@@ -32,7 +32,7 @@ pnpm install --save-dev @css-render/vue3-ssr
 // .vitepress/theme/index.js
 
 import { setup } from '@css-render/vue3-ssr'
-import { NConfigProvider } from 'ithinkdt-ui'
+import { NConfigProvider } from 'naive-ui'
 import { useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { defineComponent, h, inject } from 'vue'
@@ -132,7 +132,7 @@ export default defineConfig({
 ...
 
 <script setup>
-import { NButton } from 'ithinkdt-ui'
+import { NButton } from 'naive-ui'
 </script>
 
 <NButton>Hello World</NButton>

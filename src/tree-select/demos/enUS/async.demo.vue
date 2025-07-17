@@ -5,7 +5,7 @@ Use `on-load` callback to load data. When loading async, all nodes with `isLeaf`
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeSelectOption } from 'ithinkdt-ui'
+import type { TreeSelectOption } from 'naive-ui'
 import { ref } from 'vue'
 
 function getChildren(option: TreeSelectOption) {

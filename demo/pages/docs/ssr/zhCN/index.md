@@ -33,7 +33,7 @@
 
 ## Webpack 示例
 
-如果你使用的是 Webpack，请参考[例子](https://github.com/tusen-ai/ithinkdt-ui/tree/main/playground/ssr)。
+如果你使用的是 Webpack，请参考[例子](https://github.com/tusen-ai/naive-ui/tree/main/playground/ssr)。
 
 ## 内联样式优化
 

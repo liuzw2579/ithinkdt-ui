@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuInst } from 'ithinkdt-ui'
+import type { MenuInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const accordionRef = ref(false)

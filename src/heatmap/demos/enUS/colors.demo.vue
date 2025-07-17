@@ -5,7 +5,7 @@ Each color has its own temperature.
 </markdown>
 
 <script setup lang="ts">
-import { heatmapMockData } from 'ithinkdt-ui'
+import { heatmapMockData } from 'naive-ui'
 import { ref } from 'vue'
 
 const data = ref(heatmapMockData())

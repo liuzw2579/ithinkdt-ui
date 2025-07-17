@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeOption } from 'ithinkdt-ui'
+import type { TreeOption } from 'naive-ui'
 import { ref } from 'vue'
 
 const data: TreeOption[] = [

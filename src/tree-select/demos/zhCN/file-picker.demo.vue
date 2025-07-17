@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeSelectOverrideNodeClickBehavior } from 'ithinkdt-ui'
+import type { TreeSelectOverrideNodeClickBehavior } from 'naive-ui'
 
 const override: TreeSelectOverrideNodeClickBehavior = ({ option }) => {
   if (option.children) {

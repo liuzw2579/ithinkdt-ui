@@ -5,7 +5,7 @@ Note: When using manual position, `trigger` must be set to `'manual'`.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 import { nextTick, ref } from 'vue'
 
 const options = [

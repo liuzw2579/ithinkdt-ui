@@ -5,7 +5,7 @@ In this example there are 5000 \* 2 \* 2 = 20000 entries.
 </markdown>
 
 <script lang="ts" setup>
-import type { CascaderOption } from 'ithinkdt-ui'
+import type { CascaderOption } from 'naive-ui'
 import { ref } from 'vue'
 
 function getOptions(depth = 3, iterator = 1, prefix = '') {

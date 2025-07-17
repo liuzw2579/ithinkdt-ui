@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NButton, NSpace, useLoadingBar } from 'ithinkdt-ui'
+import { NButton, NSpace, useLoadingBar } from 'naive-ui'
 import { defineComponent, h, ref } from 'vue'
 
 // 定义 LoadingBarTrigger 组件

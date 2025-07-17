@@ -1,5 +1,5 @@
 <script lang="ts">
-import type { ButtonProps } from 'ithinkdt-ui'
+import type { ButtonProps } from 'naive-ui'
 import type { PropType } from 'vue'
 import EditIcon from '@vicons/fluent/Compose16Regular.js'
 import { defineComponent } from 'vue'

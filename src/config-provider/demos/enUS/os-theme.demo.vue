@@ -5,7 +5,7 @@ iThinkDT UI provides `useOsTheme` to get the current theme of your OS.
 </markdown>
 
 <script lang="ts" setup>
-import { darkTheme, useOsTheme } from 'ithinkdt-ui'
+import { darkTheme, useOsTheme } from 'naive-ui'
 import { computed } from 'vue'
 
 const osTheme = useOsTheme()

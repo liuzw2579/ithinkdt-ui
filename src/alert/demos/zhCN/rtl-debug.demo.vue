@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
 import { IosAirplane } from '@vicons/ionicons4'
-import { unstableAlertRtl } from 'ithinkdt-ui'
+import { unstableAlertRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

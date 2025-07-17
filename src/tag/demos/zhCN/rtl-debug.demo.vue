@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableTagRtl, useMessage } from 'ithinkdt-ui'
+import { unstableTagRtl, useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const message = useMessage()

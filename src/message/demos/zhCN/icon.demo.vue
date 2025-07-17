@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
 import { MdHourglass } from '@vicons/ionicons4'
-import { NIcon, useMessage } from 'ithinkdt-ui'
+import { NIcon, useMessage } from 'naive-ui'
 import { h } from 'vue'
 
 const message = useMessage()

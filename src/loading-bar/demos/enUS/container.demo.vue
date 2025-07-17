@@ -5,7 +5,7 @@ You can set mount target of loading by `to` prop.
 </markdown>
 
 <script lang="ts" setup>
-import { NButton, NSpace, useLoadingBar } from 'ithinkdt-ui'
+import { NButton, NSpace, useLoadingBar } from 'naive-ui'
 import { defineComponent, h, ref } from 'vue'
 
 // Define the LoadingBarTrigger component

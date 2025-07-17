@@ -33,7 +33,7 @@ If you are using Vite, please see [example](https://github.com/07akioni/ithinkdt
 
 ## Webpack Example
 
-If you are using Webpack, please see [example](https://github.com/tusen-ai/ithinkdt-ui/tree/main/playground/ssr).
+If you are using Webpack, please see [example](https://github.com/tusen-ai/naive-ui/tree/main/playground/ssr).
 
 ## Inline Style Optimization
 

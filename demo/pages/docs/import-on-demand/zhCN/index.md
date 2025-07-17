@@ -11,11 +11,11 @@ iThinkDT UI 支持 tree shaking，组件、语言、主题均可 tree-shaking。
 ```html
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, NInput, NDatePicker, NSpace } from 'ithinkdt-ui'
+  import { NConfigProvider, NInput, NDatePicker, NSpace } from 'naive-ui'
   // theme
-  import { createTheme, inputDark, datePickerDark } from 'ithinkdt-ui'
+  import { createTheme, inputDark, datePickerDark } from 'naive-ui'
   // locale & dateLocale
-  import { zhCN, dateZhCN } from 'ithinkdt-ui'
+  import { zhCN, dateZhCN } from 'naive-ui'
 
   export default defineComponent({
     components: {
@@ -96,7 +96,7 @@ import {
   create,
   // component
   NButton
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import { createApp } from 'vue'
 
 const naive = create({

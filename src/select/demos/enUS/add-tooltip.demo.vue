@@ -5,9 +5,9 @@ Use the `render-option` property to control rendering of the entire option.
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectOption } from 'ithinkdt-ui'
+import type { SelectOption } from 'naive-ui'
 import type { VNode } from 'vue'
-import { NTooltip } from 'ithinkdt-ui'
+import { NTooltip } from 'naive-ui'
 import { h, ref } from 'vue'
 
 function renderOption({ node, option }: { node: VNode, option: SelectOption }) {

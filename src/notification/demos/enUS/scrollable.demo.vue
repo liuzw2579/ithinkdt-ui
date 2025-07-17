@@ -5,7 +5,7 @@ Change the property will cause all existing notifications to be cleaned, so plea
 </markdown>
 
 <script lang="ts" setup>
-import { useNotification } from 'ithinkdt-ui'
+import { useNotification } from 'naive-ui'
 
 const notification = useNotification()
 

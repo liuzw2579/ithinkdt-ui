@@ -5,7 +5,7 @@ Steps has `small`, `medium` size.
 </markdown>
 
 <script lang="ts" setup>
-import type { StepsProps } from 'ithinkdt-ui'
+import type { StepsProps } from 'naive-ui'
 import { MdArrowRoundBack, MdArrowRoundForward } from '@vicons/ionicons4'
 import { ref } from 'vue'
 

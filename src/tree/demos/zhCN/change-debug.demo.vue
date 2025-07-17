@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NButton, NTree } from 'ithinkdt-ui'
+import { NButton, NTree } from 'naive-ui'
 import { ref } from 'vue'
 
 const data = ref([

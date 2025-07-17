@@ -5,8 +5,8 @@ You can easily make log scroll to top or bottom. Also you can make the scroll ac
 </markdown>
 
 <script lang="ts" setup>
-import type { LogInst } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { LogInst } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 function log() {

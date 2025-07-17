@@ -5,13 +5,13 @@ Usually you can use vue-router here to accomplish routing. You can render `label
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuOption } from 'ithinkdt-ui'
+import type { MenuOption } from 'naive-ui'
 import type { Component } from 'vue'
 import {
   LogOutOutline as HomeIcon,
   LaptopOutline as WorkIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h } from 'vue'
 import { RouterLink } from 'vue-router'
 

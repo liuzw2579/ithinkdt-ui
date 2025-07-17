@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectFilter } from 'ithinkdt-ui'
+import type { SelectFilter } from 'naive-ui'
 import { ref } from 'vue'
 
 const selectedValue = ref('song1')

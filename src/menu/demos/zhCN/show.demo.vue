@@ -10,7 +10,7 @@ import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { computed, h, ref } from 'vue'
 
 const accordion = ref(false)

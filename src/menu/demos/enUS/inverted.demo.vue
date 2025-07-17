@@ -5,14 +5,14 @@ Set `inverted` to add contrast. Usually used with `n-layout`.
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuOption } from 'ithinkdt-ui'
+import type { MenuOption } from 'naive-ui'
 import type { Component } from 'vue'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,
   WineOutline as WineIcon
 } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h, ref } from 'vue'
 
 function renderIcon(icon: Component) {

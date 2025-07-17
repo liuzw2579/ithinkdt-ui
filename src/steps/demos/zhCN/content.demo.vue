@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { StepsProps } from 'ithinkdt-ui'
+import type { StepsProps } from 'naive-ui'
 import { computed, ref } from 'vue'
 
 const currentRef = ref(1)

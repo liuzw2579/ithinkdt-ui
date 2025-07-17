@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuOption } from 'ithinkdt-ui'
-import { NEllipsis } from 'ithinkdt-ui'
+import type { MenuOption } from 'naive-ui'
+import { NEllipsis } from 'naive-ui'
 import { h } from 'vue'
 
 const options: MenuOption[] = [

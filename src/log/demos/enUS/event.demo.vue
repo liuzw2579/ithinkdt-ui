@@ -5,7 +5,7 @@ Log has `require-more`, `reach-top` and `reach-bottom` event. Note that even if 
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 function log() {

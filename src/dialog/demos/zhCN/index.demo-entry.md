@@ -16,7 +16,7 @@
 ```
 
 ```js
-import { useDialog } from 'ithinkdt-ui'
+import { useDialog } from 'naive-ui'
 import { defineComponent } from 'vue'
 
 // content

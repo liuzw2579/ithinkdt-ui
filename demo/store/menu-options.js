@@ -1,6 +1,6 @@
 // rubbish code here
 
-import { NSpace, NTag } from 'ithinkdt-ui'
+import { NSpace, NTag } from 'naive-ui'
 import { h } from 'vue'
 import { RouterLink } from 'vue-router'
 

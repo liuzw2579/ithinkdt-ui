@@ -5,7 +5,7 @@ Set `children` in row data to show tree data. If you want to use other key to ge
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 
 interface RowData {
   name: string

@@ -44,4 +44,4 @@ slots.vue
 
 ### Others
 
-1. `import { heatmapMockData } from 'ithinkdt-ui'`，`function heatmapMockData(year?: 'recent' | number): HeatmapData`
+1. `import { heatmapMockData } from 'naive-ui'`，`function heatmapMockData(year?: 'recent' | number): HeatmapData`

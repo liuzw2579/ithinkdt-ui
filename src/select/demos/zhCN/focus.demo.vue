@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectInst } from 'ithinkdt-ui'
+import type { SelectInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const selectInstRef = ref<SelectInst | null>(null)

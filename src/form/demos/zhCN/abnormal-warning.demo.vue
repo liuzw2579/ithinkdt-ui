@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { FormInst, FormItemRule, FormRules } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { FormInst, FormItemRule, FormRules } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const formRef = ref<FormInst | null>(null)

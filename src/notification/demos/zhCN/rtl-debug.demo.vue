@@ -8,7 +8,7 @@ import {
   NButton,
   unstableNotificationRtl,
   useNotification
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import { h, ref } from 'vue'
 
 const rtlEnabled = ref(true)

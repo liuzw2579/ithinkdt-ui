@@ -21,8 +21,8 @@ ithinkdt-ui 通过使用 `n-config-provider` 调整语言，默认情况下所�
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider } from 'ithinkdt-ui'
-  import { zhCN, dateZhCN } from 'ithinkdt-ui'
+  import { NConfigProvider } from 'naive-ui'
+  import { zhCN, dateZhCN } from 'naive-ui'
 
   export default defineComponent({
     components: {
@@ -92,8 +92,8 @@ ithinkdt-ui 通过使用 `n-config-provider` 调整语言，默认情况下所�
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, createLocale, zhCN } from 'ithinkdt-ui'
-  import { zhCN, dateZhCN } from 'ithinkdt-ui'
+  import { NConfigProvider, createLocale, zhCN } from 'naive-ui'
+  import { zhCN, dateZhCN } from 'naive-ui'
 
   const customizedLocale = createLocale(
     {

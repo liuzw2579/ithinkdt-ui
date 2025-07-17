@@ -5,8 +5,8 @@ You can change a file's properties after its upload has finished.
 </markdown>
 
 <script lang="ts" setup>
-import type { UploadFileInfo } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { UploadFileInfo } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 

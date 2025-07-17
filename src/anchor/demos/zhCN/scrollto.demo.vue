@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { AnchorInst } from 'ithinkdt-ui'
+import type { AnchorInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const anchorRef = ref<AnchorInst | null>(null)

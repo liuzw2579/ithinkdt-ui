@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableInputNumberRtl } from 'ithinkdt-ui'
+import { unstableInputNumberRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const value = ref(0)

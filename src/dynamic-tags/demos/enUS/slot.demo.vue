@@ -5,7 +5,7 @@ You can replace a dynamic-tags input or trigger element with another component.
 </markdown>
 
 <script lang="ts" setup>
-import type { AutoCompleteInst } from 'ithinkdt-ui'
+import type { AutoCompleteInst } from 'naive-ui'
 import { Add } from '@vicons/ionicons5'
 import { computed, nextTick, ref, watch } from 'vue'
 

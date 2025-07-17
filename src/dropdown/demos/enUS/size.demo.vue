@@ -5,7 +5,7 @@ A dropdown has different sizes.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const options = [
   {

@@ -6,7 +6,7 @@ A basic calendar.
 
 <script lang="ts" setup>
 import { addDays, isYesterday } from 'date-fns'
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const message = useMessage()

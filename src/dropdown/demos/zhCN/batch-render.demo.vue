@@ -5,10 +5,10 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { DropdownOption } from 'ithinkdt-ui'
+import type { DropdownOption } from 'naive-ui'
 import type { VNodeChild } from 'vue'
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h } from 'vue'
 
 const options = [

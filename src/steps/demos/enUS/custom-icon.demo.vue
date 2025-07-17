@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { StepsProps } from 'ithinkdt-ui'
+import type { StepsProps } from 'naive-ui'
 import {
   MdArrowRoundBack,
   MdArrowRoundForward,

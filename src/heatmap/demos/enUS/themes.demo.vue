@@ -5,7 +5,7 @@ Use the `color-theme` prop to apply built-in color themes. Available themes: `gi
 </markdown>
 
 <script setup lang="ts">
-import { heatmapMockData } from 'ithinkdt-ui'
+import { heatmapMockData } from 'naive-ui'
 import { ref } from 'vue'
 
 const data = ref(heatmapMockData())

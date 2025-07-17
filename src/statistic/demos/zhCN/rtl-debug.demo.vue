@@ -4,7 +4,7 @@
 
 <script lang="ts" setup>
 import { MdSave } from '@vicons/ionicons4'
-import { unstableRowRtl, unstableStatisticRtl } from 'ithinkdt-ui'
+import { unstableRowRtl, unstableStatisticRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

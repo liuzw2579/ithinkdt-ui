@@ -5,10 +5,10 @@ You may want to trigger `focus` and `blur` manually?
 </markdown>
 
 <script lang="ts" setup>
-import type { MentionInst, MentionOption } from 'ithinkdt-ui'
+import type { MentionInst, MentionOption } from 'naive-ui'
 import type { VNodeChild } from 'vue'
 import { HomeOutline as HomeIcon } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const myMention = ref<MentionInst | null>(null)

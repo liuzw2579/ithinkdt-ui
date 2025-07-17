@@ -3,8 +3,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { MessageProviderProps } from 'ithinkdt-ui'
-import { NButton, useMessage } from 'ithinkdt-ui'
+import type { MessageProviderProps } from 'naive-ui'
+import { NButton, useMessage } from 'naive-ui'
 import { defineComponent, h, ref } from 'vue'
 
 interface Item {

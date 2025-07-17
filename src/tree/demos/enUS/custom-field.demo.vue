@@ -5,7 +5,7 @@ Various data would come from backend.
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeOption } from 'ithinkdt-ui'
+import type { TreeOption } from 'naive-ui'
 import { repeat } from 'seemly'
 import { ref } from 'vue'
 

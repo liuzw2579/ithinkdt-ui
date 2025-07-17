@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NButton, useNotification } from 'ithinkdt-ui'
+import { NButton, useNotification } from 'naive-ui'
 import { h, ref } from 'vue'
 
 function NotificationButton() {

@@ -5,7 +5,7 @@ You can simply render some content unrelated to option data. In this case, you c
 </markdown>
 
 <script lang="ts" setup>
-import { NAvatar, NText, useMessage } from 'ithinkdt-ui'
+import { NAvatar, NText, useMessage } from 'naive-ui'
 import { h } from 'vue'
 
 function renderCustomHeader() {

@@ -5,7 +5,7 @@ Handle events of buttons.
 </markdown>
 
 <script setup lang="ts">
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 function handleClick() {

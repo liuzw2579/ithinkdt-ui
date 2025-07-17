@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NTag } from 'ithinkdt-ui'
+import { NTag } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const tags = ref(['teacher', 'programmer'])

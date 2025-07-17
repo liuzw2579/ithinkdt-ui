@@ -27,7 +27,7 @@ function parseComponentsDeclaration(code: string): Record<string, string> {
 async function generateComponentsType(): Promise<void> {
   const components: Record<string, string> = {}
   Object.keys(globalComponents).forEach((key: string) => {
-    const entry = `(typeof import('ithinkdt-ui'))['${key}']`
+    const entry = `(typeof import('naive-ui'))['${key}']`
     if (key.startsWith('N') && !excludeComponents.includes(key)) {
       components[key] = entry
     }

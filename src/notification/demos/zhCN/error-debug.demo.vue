@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useNotification } from 'ithinkdt-ui'
+import { useNotification } from 'naive-ui'
 import { ref } from 'vue'
 
 const notification = useNotification()

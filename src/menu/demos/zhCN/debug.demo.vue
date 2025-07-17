@@ -3,10 +3,10 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuOption } from 'ithinkdt-ui'
+import type { MenuOption } from 'naive-ui'
 import type { Component } from 'vue'
 import { BookOutline as BookIcon } from '@vicons/ionicons5'
-import { NButton, NIcon, useMessage } from 'ithinkdt-ui'
+import { NButton, NIcon, useMessage } from 'naive-ui'
 import { h } from 'vue'
 
 function renderIcon(icon: Component) {

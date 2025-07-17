@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableTableRtl } from 'ithinkdt-ui'
+import { unstableTableRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const singleColumn = ref(false)

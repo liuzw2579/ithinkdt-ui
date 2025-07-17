@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeDropInfo, TreeOption } from 'ithinkdt-ui'
+import type { TreeDropInfo, TreeOption } from 'naive-ui'
 import { ref } from 'vue'
 
 function createData() {

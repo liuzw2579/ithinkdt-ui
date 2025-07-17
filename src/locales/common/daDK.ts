@@ -1,4 +1,4 @@
-import type { NLocale } from 'ithinkdt-ui'
+import type { NLocale } from 'naive-ui'
 
 const daDK: NLocale = {
   name: 'da-DK',

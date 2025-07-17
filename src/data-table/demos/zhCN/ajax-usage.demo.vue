@@ -10,7 +10,7 @@ import type {
   DataTableSortOrder,
   DataTableSortState,
   PaginationInfo
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import type { FilterOptionValue } from '../../src/interface'
 import { onMounted, reactive, ref } from 'vue'
 

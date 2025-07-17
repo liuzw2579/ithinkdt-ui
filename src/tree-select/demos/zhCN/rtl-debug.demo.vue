@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { unstableTreeSelectRtl } from 'ithinkdt-ui'
+import { unstableTreeSelectRtl } from 'naive-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

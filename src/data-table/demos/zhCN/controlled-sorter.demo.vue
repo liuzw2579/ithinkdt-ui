@@ -9,7 +9,7 @@ import type {
   DataTableBaseColumn,
   DataTableSortOrder,
   DataTableSortState
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import { reactive, ref } from 'vue'
 
 interface RowData {

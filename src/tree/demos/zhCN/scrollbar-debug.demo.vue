@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeOption } from 'ithinkdt-ui'
+import type { TreeOption } from 'naive-ui'
 import { repeat } from 'seemly'
 
 function createData(level = 4, baseKey = ''): TreeOption[] | undefined {

@@ -5,8 +5,8 @@ Some users said that they want to use alert as message.
 </markdown>
 
 <script lang="ts" setup>
-import type { MessageRenderMessage } from 'ithinkdt-ui'
-import { NAlert, useMessage } from 'ithinkdt-ui'
+import type { MessageRenderMessage } from 'naive-ui'
+import { NAlert, useMessage } from 'naive-ui'
 import { h } from 'vue'
 
 const renderMessage: MessageRenderMessage = (props) => {

@@ -5,7 +5,7 @@ iThinkDT UI 提供 `useOsTheme` 来获取当前操作系统的主题。
 </markdown>
 
 <script lang="ts" setup>
-import { darkTheme, useOsTheme } from 'ithinkdt-ui'
+import { darkTheme, useOsTheme } from 'naive-ui'
 import { computed } from 'vue'
 
 const osTheme = useOsTheme()

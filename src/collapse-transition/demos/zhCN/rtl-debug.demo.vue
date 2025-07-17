@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableCollapseTransitionRtl } from 'ithinkdt-ui'
+import { unstableCollapseTransitionRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const rtlEnabled = ref(false)

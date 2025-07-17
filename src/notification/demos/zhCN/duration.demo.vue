@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useNotification } from 'ithinkdt-ui'
+import { useNotification } from 'naive-ui'
 
 const notification = useNotification()
 

@@ -20,7 +20,7 @@ The example below corresponds to a table with 1000 rows * 1000 columns.
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 
 interface RowData {
   key: number

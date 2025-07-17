@@ -3,7 +3,7 @@
 </markdown>
 
 <script setup lang="ts">
-import { NRadio, NRadioGroup, NSpace, NTooltip } from 'ithinkdt-ui'
+import { NRadio, NRadioGroup, NSpace, NTooltip } from 'naive-ui'
 import { ref } from 'vue'
 
 const mode = ref('direct')

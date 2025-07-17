@@ -5,10 +5,10 @@ After much deliberation, I decided to drop the slot API for rendering options; h
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
+import type { SelectGroupOption, SelectOption } from 'naive-ui'
 import type { VNodeChild } from 'vue'
 import { MdMusicalNote as MusicIcon } from '@vicons/ionicons4'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h } from 'vue'
 
 const options: Array<SelectOption | SelectGroupOption> = [

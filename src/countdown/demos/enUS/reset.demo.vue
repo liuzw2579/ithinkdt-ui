@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { CountdownInst } from 'ithinkdt-ui'
+import type { CountdownInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const active = ref(true)

@@ -5,7 +5,7 @@ Set `draggable` and write bunch of codes to make drag & drop work.
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeDropInfo, TreeOption } from 'ithinkdt-ui'
+import type { TreeDropInfo, TreeOption } from 'naive-ui'
 import { repeat } from 'seemly'
 import { ref } from 'vue'
 

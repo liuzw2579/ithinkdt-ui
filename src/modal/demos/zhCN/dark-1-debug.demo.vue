@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { FormRules } from 'ithinkdt-ui'
+import type { FormRules } from 'naive-ui'
 import type { Size } from '../../../form/src/interface'
 import { reactive, ref } from 'vue'
 

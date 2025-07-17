@@ -5,7 +5,7 @@ Set `options` on a selection type column to create selection dropdown near heade
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 import { repeat } from 'seemly'
 import { ref } from 'vue'
 

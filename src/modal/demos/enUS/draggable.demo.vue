@@ -7,7 +7,7 @@ If you want to completely customize the content of the modal, you can use the `d
 </markdown>
 
 <script lang="ts" setup>
-import { useModal } from 'ithinkdt-ui'
+import { useModal } from 'naive-ui'
 import { ref } from 'vue'
 
 const modal = useModal()

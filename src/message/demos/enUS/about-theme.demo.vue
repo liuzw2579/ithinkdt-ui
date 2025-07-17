@@ -5,7 +5,7 @@ If you don't specify the theme, the theme of created message will be the same as
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 

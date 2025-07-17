@@ -5,9 +5,9 @@ User `custom-request` to customize upload request.
 </markdown>
 
 <script lang="ts" setup>
-import type { UploadCustomRequestOptions } from 'ithinkdt-ui'
+import type { UploadCustomRequestOptions } from 'naive-ui'
 import { lyla } from '@lylajs/web'
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 function customRequest({

@@ -5,14 +5,14 @@ If you don't set `default-expanded-keys`, menu will expand all the ascendant of 
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuOption } from 'ithinkdt-ui'
+import type { MenuOption } from 'naive-ui'
 import type { Component } from 'vue'
 import {
   BookOutline as BookIcon,
   PersonOutline as PersonIcon,
   WineOutline as WineIcon
 } from '@vicons/ionicons5'
-import { NIcon, useMessage } from 'ithinkdt-ui'
+import { NIcon, useMessage } from 'naive-ui'
 import { h } from 'vue'
 
 function renderIcon(icon: Component) {

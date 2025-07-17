@@ -5,7 +5,7 @@ Various data would come from backend.
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
+import type { SelectGroupOption, SelectOption } from 'naive-ui'
 
 const options: Array<SelectOption | SelectGroupOption> = [
   {

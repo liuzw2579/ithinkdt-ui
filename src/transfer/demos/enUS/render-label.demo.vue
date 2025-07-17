@@ -5,8 +5,8 @@ Transfer can be applied for many scenarios.
 </markdown>
 
 <script lang="ts" setup>
-import type { TransferRenderTargetLabel } from 'ithinkdt-ui'
-import { NAvatar } from 'ithinkdt-ui'
+import type { TransferRenderTargetLabel } from 'naive-ui'
+import { NAvatar } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const options = [

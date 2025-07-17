@@ -7,7 +7,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 
 interface RowData {
   key: number

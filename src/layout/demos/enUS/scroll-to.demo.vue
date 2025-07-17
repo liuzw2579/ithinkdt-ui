@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { LayoutInst, LayoutSiderInst } from 'ithinkdt-ui'
+import type { LayoutInst, LayoutSiderInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const siderRef = ref<LayoutSiderInst | null>(null)

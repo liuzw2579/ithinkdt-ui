@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { GlobalThemeOverrides } from 'ithinkdt-ui'
-import { useThemeVars } from 'ithinkdt-ui'
+import type { GlobalThemeOverrides } from 'naive-ui'
+import { useThemeVars } from 'naive-ui'
 import { computed } from 'vue'
 
 const imageGroupThemeOverrides = computed(() => {

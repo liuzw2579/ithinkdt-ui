@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useDialog } from 'ithinkdt-ui'
+import { useDialog } from 'naive-ui'
 import { ref } from 'vue'
 
 const radioVal = ref(1)

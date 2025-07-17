@@ -6,7 +6,7 @@ import {
   NConfigProvider,
   useOsTheme,
   zhCN
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import { useMemo } from 'vooks'
 import { computed, ref } from 'vue'
 import { TsConfigProvider } from '../../themes/tusimple/src'

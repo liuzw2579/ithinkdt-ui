@@ -5,7 +5,7 @@ You can use a `ref` to get a handle on files uploaded, and the `submit` method t
 </markdown>
 
 <script lang="ts" setup>
-import type { UploadFileInfo, UploadInst } from 'ithinkdt-ui'
+import type { UploadFileInfo, UploadInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const fileListLengthRef = ref(0)

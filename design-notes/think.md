@@ -244,7 +244,7 @@ style overrides RFC
 
 ```js
 // no import on demand
-import naive from 'ithinkdt-ui'
+import naive from 'naive-ui'
 
 naive.Button.overrideStyles({
   light: {
@@ -274,17 +274,17 @@ Vue.use(naive)
 ```js
 // import on demand
 
-// essential
-import create from 'ithinkdt-ui/create'
-import lightStyle from 'ithinkdt-ui/styles/light'
-import darkStyle from 'ithinkdt-ui/styles/dark'
-
 // components
 import Button from 'ithinkdt-ui/button'
-
+import buttonDarkStyle from 'ithinkdt-ui/button/styles/dark'
 // styles
 import buttonLightStyle from 'ithinkdt-ui/button/styles/light'
-import buttonDarkStyle from 'ithinkdt-ui/button/styles/dark'
+
+// essential
+import create from 'ithinkdt-ui/create'
+
+import darkStyle from 'ithinkdt-ui/styles/dark'
+import lightStyle from 'ithinkdt-ui/styles/light'
 
 create({
   components: [Button],
@@ -457,9 +457,9 @@ What should be noted is the CSS files start with 'Base' are not guaranteed to be
 How I want to use styling API ?
 
 ```js
+import { buttonLight, create, enUS, inputLight } from 'naive-ui'
 // index.js
 import { createApp } from 'vue'
-import { create, enUS, buttonLight, inputLight } from 'ithinkdt-ui'
 
 const app = createApp()
 const naive = create({

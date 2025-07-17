@@ -23,7 +23,7 @@ iThinkDT UI 通过使用 `n-config-provider` 调整主题。
 
 <script>
   import { defineComponent } from 'vue'
-  import { darkTheme } from 'ithinkdt-ui'
+  import { darkTheme } from 'naive-ui'
 
   export default defineComponent({
     setup() {
@@ -57,7 +57,7 @@ iThinkDT UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script>
-  import { NConfigProvider } from 'ithinkdt-ui'
+  import { NConfigProvider } from 'naive-ui'
 
   /**
    * js 文件下使用这个做类型提示
@@ -96,7 +96,7 @@ iThinkDT UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'ithinkdt-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
 
   const themeOverrides: GlobalThemeOverrides = {
     common: {
@@ -123,7 +123,7 @@ iThinkDT UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script lang="ts">
-  import { SelectProps, ButtonProps } from 'ithinkdt-ui'
+  import { SelectProps, ButtonProps } from 'naive-ui'
 
   type SelectThemeOverrides = NonNullable<SelectProps['themeOverrides']>
   type ButtonThemeOverrides = NonNullable<ButtonProps['themeOverrides']>
@@ -162,7 +162,7 @@ iThinkDT UI 通过使用 `n-config-provider` 调整主题。
 
 ```html
 <script>
-  import { NConfigProvider, darkTheme } from 'ithinkdt-ui'
+  import { NConfigProvider, darkTheme } from 'naive-ui'
 
   /**
    * @type import('ithinkdt-ui').GlobalThemeOverrides
@@ -205,7 +205,7 @@ peers 相关的主题变量还没有暴露，使用 `GlobalThemeOverrides` 可�
 
 ```html
 <script lang="ts">
-  import { NConfigProvider, GlobalThemeOverrides } from 'ithinkdt-ui'
+  import { NConfigProvider, GlobalThemeOverrides } from 'naive-ui'
 
   const themeOverrides: GlobalThemeOverrides = {
     Select: {
@@ -274,7 +274,7 @@ ithinkdt-ui 提供主题编辑器帮助你方便的编辑主题并导出对应�
 
 <script>
   import { defineComponent } from 'vue'
-  import { NThemeEditor } from 'ithinkdt-ui'
+  import { NThemeEditor } from 'naive-ui'
 
   export default defineComponent({
     components: {

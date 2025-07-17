@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstableCheckboxRtl } from 'ithinkdt-ui'
+import { unstableCheckboxRtl } from 'naive-ui'
 import { ref } from 'vue'
 
 const value = ref(false)

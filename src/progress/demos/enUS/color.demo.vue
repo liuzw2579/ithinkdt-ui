@@ -5,7 +5,7 @@ If you are not satisfied with builtin colors.
 </markdown>
 
 <script lang="ts" setup>
-import { useThemeVars } from 'ithinkdt-ui'
+import { useThemeVars } from 'naive-ui'
 import { changeColor } from 'seemly'
 
 const themeVars = useThemeVars()

@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NTimePicker, useDialog } from 'ithinkdt-ui'
+import { NTimePicker, useDialog } from 'naive-ui'
 import { h } from 'vue'
 
 const dialog = useDialog()

@@ -5,8 +5,8 @@ Use `createDiscreteApi` to create series of API.
 </markdown>
 
 <script lang="ts" setup>
-import type { ConfigProviderProps } from 'ithinkdt-ui'
-import { createDiscreteApi, darkTheme, lightTheme } from 'ithinkdt-ui'
+import type { ConfigProviderProps } from 'naive-ui'
+import { createDiscreteApi, darkTheme, lightTheme } from 'naive-ui'
 import { computed, ref } from 'vue'
 
 const theme = ref<'light' | 'dark'>('light')

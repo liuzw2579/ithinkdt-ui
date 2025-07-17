@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { UploadFileInfo, UploadInst } from 'ithinkdt-ui'
+import type { UploadFileInfo, UploadInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const fileListLengthRef = ref(0)

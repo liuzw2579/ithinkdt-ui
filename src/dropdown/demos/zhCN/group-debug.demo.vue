@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import { CashOutline as CashIcon } from '@vicons/ionicons5'
-import { NIcon, useMessage } from 'ithinkdt-ui'
+import { NIcon, useMessage } from 'naive-ui'
 import { h } from 'vue'
 
 const options = [

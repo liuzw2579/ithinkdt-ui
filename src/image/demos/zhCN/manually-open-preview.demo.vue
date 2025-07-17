@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { ImageInst } from 'ithinkdt-ui'
+import type { ImageInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const imageRef = ref<ImageInst>()

@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NButton, NImage, NModal, NSpace } from 'ithinkdt-ui'
+import { NButton, NImage, NModal, NSpace } from 'naive-ui'
 import { ref } from 'vue'
 
 const showModalOne = ref(false)

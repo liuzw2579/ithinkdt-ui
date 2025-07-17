@@ -7,8 +7,8 @@ import type {
   DataTableBaseColumn,
   DataTableColumns,
   DataTableFilterState
-} from 'ithinkdt-ui'
-import { unstableDataTableRtl } from 'ithinkdt-ui'
+} from 'naive-ui'
+import { unstableDataTableRtl } from 'naive-ui'
 import { reactive, ref } from 'vue'
 
 interface Row {

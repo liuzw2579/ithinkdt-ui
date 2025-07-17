@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useDialog, useMessage } from 'ithinkdt-ui'
+import { useDialog, useMessage } from 'naive-ui'
 
 const message = useMessage()
 const dialog = useDialog()

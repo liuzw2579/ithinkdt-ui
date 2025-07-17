@@ -1,6 +1,6 @@
 <script lang="ts">
 import { MenuOutline } from '@vicons/ionicons5'
-import { NAIVE_VERSION, useMessage, version } from 'ithinkdt-ui'
+import { NAIVE_VERSION, useMessage, version } from 'naive-ui'
 import { computed, defineComponent, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import {
@@ -448,6 +448,15 @@ export default defineComponent({
         @click="handleDisplayModeUpdate"
       >
         {{ displayModeLabelMap[displayMode] }}
+      </n-button>
+      <n-button
+        v-if="tusimple || dev"
+        size="small"
+        quaternary
+        class="nav-picker"
+        @click="handleConfigProviderUpdate"
+      >
+        {{ cfgProviderLabelMap[configProviderName] }}
       </n-button>
     </div>
   </n-layout-header>

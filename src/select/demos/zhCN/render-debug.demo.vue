@@ -3,9 +3,9 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
+import type { SelectGroupOption, SelectOption } from 'naive-ui'
 import type { VNode } from 'vue'
-import { NTooltip } from 'ithinkdt-ui'
+import { NTooltip } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const value = ref(null)

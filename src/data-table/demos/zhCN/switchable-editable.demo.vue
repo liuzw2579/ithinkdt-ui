@@ -3,9 +3,9 @@
   </markdown>
 
 <script lang="ts">
-import type { InputInst } from 'ithinkdt-ui'
+import type { InputInst } from 'naive-ui'
 import type { PropType } from 'vue'
-import { NInput } from 'ithinkdt-ui'
+import { NInput } from 'naive-ui'
 import { computed, defineComponent, h, nextTick, ref } from 'vue'
 
 interface RowData {

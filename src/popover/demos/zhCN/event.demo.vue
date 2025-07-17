@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({

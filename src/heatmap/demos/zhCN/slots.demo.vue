@@ -5,7 +5,7 @@
 </markdown>
 
 <script setup lang="ts">
-import { heatmapMockData } from 'ithinkdt-ui'
+import { heatmapMockData } from 'naive-ui'
 
 const yearData = heatmapMockData()
 </script>

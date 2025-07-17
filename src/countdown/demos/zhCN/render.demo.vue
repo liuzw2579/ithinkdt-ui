@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { CountdownProps } from 'ithinkdt-ui'
+import type { CountdownProps } from 'naive-ui'
 import { ref } from 'vue'
 
 const renderCountdown: CountdownProps['render'] = ({

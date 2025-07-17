@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeSelectOption } from 'ithinkdt-ui'
+import type { TreeSelectOption } from 'naive-ui'
 
 function handleUpdateValue(
   value: string | number | Array<string | number> | null,

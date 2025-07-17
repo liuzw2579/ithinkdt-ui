@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { TabsInst } from 'ithinkdt-ui'
+import type { TabsInst } from 'naive-ui'
 import { nextTick, ref } from 'vue'
 
 const tabsInstRef = ref<TabsInst | null>(null)

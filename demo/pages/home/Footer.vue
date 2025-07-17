@@ -1,5 +1,5 @@
 <script lang="ts">
-import { version } from 'ithinkdt-ui'
+import { version } from 'naive-ui'
 import { defineComponent } from 'vue'
 import { push } from '../../store'
 import { i18n } from '../../utils/composables'

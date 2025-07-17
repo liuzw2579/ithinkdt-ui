@@ -12,7 +12,7 @@ import type {
   DataTableColumns,
   DataTableSortOrder,
   DataTableSortState
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import { computed, ref } from 'vue'
 
 interface RowData {

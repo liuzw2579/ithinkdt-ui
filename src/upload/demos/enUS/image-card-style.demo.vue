@@ -5,7 +5,7 @@ By default, this will use iThinkDT UI's internal preview component. You can also
 </markdown>
 
 <script lang="ts" setup>
-import type { UploadFileInfo } from 'ithinkdt-ui'
+import type { UploadFileInfo } from 'naive-ui'
 import { ref } from 'vue'
 
 const showModalRef = ref(false)

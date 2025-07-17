@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { darkTheme } from 'ithinkdt-ui'
+import { darkTheme } from 'naive-ui'
 import { ref } from 'vue'
 
 const theme = ref<typeof darkTheme | null>(null)

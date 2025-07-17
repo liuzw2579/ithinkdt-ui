@@ -5,7 +5,7 @@ If you want to add attr or event handlers to a row, use `row-props` prop.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 interface RowData {
   key: number

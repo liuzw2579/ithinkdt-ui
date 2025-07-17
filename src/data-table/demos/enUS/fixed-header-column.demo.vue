@@ -5,7 +5,7 @@ Note that: If you have set fixed column, you should also set `scroll-x`.
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 import { h } from 'vue'
 
 interface RowData {

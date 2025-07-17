@@ -17,7 +17,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { AvatarGroupOption } from 'ithinkdt-ui'
+import type { AvatarGroupOption } from 'naive-ui'
 import { NGAvatarGroup } from 'ithinkdt-ui/generic'
 
 type Option = AvatarGroupOption & { name: string }

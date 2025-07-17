@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 import { defineComponent, h } from 'vue'
 
 const columns: DataTableColumns = [

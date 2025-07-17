@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { FormRules } from 'ithinkdt-ui'
+import type { FormRules } from 'naive-ui'
 import { ref } from 'vue'
 
 const localeRef = ref('语言1')

@@ -5,7 +5,7 @@ Use `prefix` to set the trigger character(s).
 </markdown>
 
 <script lang="ts" setup>
-import type { MentionOption } from 'ithinkdt-ui'
+import type { MentionOption } from 'naive-ui'
 import { ref } from 'vue'
 
 const atOptions = [

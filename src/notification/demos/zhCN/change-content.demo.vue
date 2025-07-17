@@ -5,8 +5,8 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { NotificationReactive } from 'ithinkdt-ui'
-import { NAvatar, useNotification } from 'ithinkdt-ui'
+import type { NotificationReactive } from 'naive-ui'
+import { NAvatar, useNotification } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const notification = useNotification()

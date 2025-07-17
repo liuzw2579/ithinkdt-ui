@@ -5,7 +5,7 @@ The `render-label` can be used to batch render cascader menu options.
 </markdown>
 
 <script lang="ts" setup>
-import type { CascaderOption } from 'ithinkdt-ui'
+import type { CascaderOption } from 'naive-ui'
 import { ref } from 'vue'
 
 function getOptions(depth = 3, iterator = 1, prefix = '') {

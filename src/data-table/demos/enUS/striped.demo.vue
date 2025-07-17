@@ -5,7 +5,7 @@ Using `striped` prop to make it easier to distinguish rows.
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 
 interface RowData {
   key: number

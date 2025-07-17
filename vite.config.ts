@@ -22,6 +22,14 @@ export default defineConfig({
             {
               find: 'ithinkdt-ui',
               replacement: path.resolve(__dirname, './src')
+            },
+            {
+              find: 'naive-ui/generic',
+              replacement: path.resolve(__dirname, './generic')
+            },
+            {
+              find: 'naive-ui',
+              replacement: path.resolve(__dirname, './src')
             }
           ]
         : undefined

@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import type { CheckboxInst } from 'ithinkdt-ui'
+import type { CheckboxInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const checkboxInstRef = ref<CheckboxInst | null>(null)

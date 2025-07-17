@@ -3,9 +3,9 @@
 </markdown>
 
 <script lang="ts">
-import type { DataTableBaseColumn, DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableBaseColumn, DataTableColumns } from 'naive-ui'
 import type { ComponentInternalInstance, VNode, VNodeChild } from 'vue'
-import { NGradientText, NTooltip } from 'ithinkdt-ui'
+import { NGradientText, NTooltip } from 'naive-ui'
 import { defineComponent, getCurrentInstance, h } from 'vue'
 
 interface RowData extends Record<string, unknown> {

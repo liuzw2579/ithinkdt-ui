@@ -5,7 +5,7 @@ Asynchronous options example for a multiple select case.
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectOption } from 'ithinkdt-ui'
+import type { SelectOption } from 'naive-ui'
 import { ref } from 'vue'
 
 const optionsData = [

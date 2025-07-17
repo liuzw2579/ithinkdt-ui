@@ -5,7 +5,7 @@ Is there anybody who needs slots on a cascader menu?
 </markdown>
 
 <script lang="ts" setup>
-import type { CascaderOption } from 'ithinkdt-ui'
+import type { CascaderOption } from 'naive-ui'
 import Flash16Regular from '@vicons/fluent/Flash16Regular'
 import { ref } from 'vue'
 

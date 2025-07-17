@@ -5,7 +5,7 @@ You may want to use color combinations.
 </markdown>
 
 <script lang="ts" setup>
-import { useThemeVars } from 'ithinkdt-ui'
+import { useThemeVars } from 'naive-ui'
 import { changeColor } from 'seemly'
 import { ref } from 'vue'
 

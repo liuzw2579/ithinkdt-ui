@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NTreeSelect } from 'ithinkdt-ui'
+import { NTreeSelect } from 'naive-ui'
 
 const options1 = [
   {

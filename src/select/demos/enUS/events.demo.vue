@@ -5,8 +5,8 @@ Why make the `update:value` event an example? Because there's so little to write
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectOption } from 'ithinkdt-ui'
-import { useMessage } from 'ithinkdt-ui'
+import type { SelectOption } from 'naive-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 

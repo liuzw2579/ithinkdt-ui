@@ -5,7 +5,7 @@ Set the way to display selected nodes when parents and children are selected. `a
 </markdown>
 
 <script lang="ts" setup>
-import type { TreeSelectOption } from 'ithinkdt-ui'
+import type { TreeSelectOption } from 'naive-ui'
 import { ref } from 'vue'
 
 const checkStrategy = ref<'all' | 'child' | 'parent'>('all')

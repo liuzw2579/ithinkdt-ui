@@ -5,8 +5,8 @@ Every square is a piece of persistence, and blanks are the rhythm of life.
 </markdown>
 
 <script setup lang="ts">
-import type { WeekStartsOn } from 'ithinkdt-ui'
-import { heatmapMockData } from 'ithinkdt-ui'
+import type { WeekStartsOn } from 'naive-ui'
+import { heatmapMockData } from 'naive-ui'
 import { computed, ref } from 'vue'
 
 const value = ref<'recent' | number>('recent')

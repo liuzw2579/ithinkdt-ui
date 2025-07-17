@@ -5,7 +5,7 @@ If you want to set the overall height of the table, you can set the `flex-height
 </markdown>
 
 <script lang="ts" setup>
-import type { DataTableColumns } from 'ithinkdt-ui'
+import type { DataTableColumns } from 'naive-ui'
 import { h, ref } from 'vue'
 
 interface RowData {

@@ -5,7 +5,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useDialog } from 'ithinkdt-ui'
+import { useDialog } from 'naive-ui'
 
 const sleep = () => new Promise(resolve => setTimeout(resolve, 1000))
 const countDown = (second: number) => `倒计时 ${second} 秒`

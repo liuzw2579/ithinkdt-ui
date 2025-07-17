@@ -7,7 +7,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { useModal } from 'ithinkdt-ui'
+import { useModal } from 'naive-ui'
 import { ref } from 'vue'
 
 const modal = useModal()

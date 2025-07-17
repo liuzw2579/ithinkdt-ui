@@ -5,7 +5,7 @@ You may need this when using it in a modal.
 </markdown>
 
 <script setup lang="ts">
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 function handleClose() {

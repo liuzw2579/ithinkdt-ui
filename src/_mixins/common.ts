@@ -1,1 +1,1 @@
-export const cssrAnchorMetaName = 'ithinkdt-ui-style'
+export const cssrAnchorMetaName = 'naive-ui-style'

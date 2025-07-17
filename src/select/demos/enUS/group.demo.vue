@@ -5,7 +5,7 @@ Options can also be grouped together.
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectGroupOption, SelectOption } from 'ithinkdt-ui'
+import type { SelectGroupOption, SelectOption } from 'naive-ui'
 import { ref } from 'vue'
 
 const value = ref(null)

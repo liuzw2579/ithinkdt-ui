@@ -5,8 +5,8 @@ Give the tag a little color.
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectRenderTag } from 'ithinkdt-ui'
-import { NTag } from 'ithinkdt-ui'
+import type { SelectRenderTag } from 'naive-ui'
+import { NTag } from 'naive-ui'
 import { h, ref } from 'vue'
 
 const value = ref([])

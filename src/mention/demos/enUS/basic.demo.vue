@@ -5,10 +5,10 @@ If `label` is a render function, the `value` property will be used for matching.
 </markdown>
 
 <script lang="ts" setup>
-import type { MentionOption } from 'ithinkdt-ui'
+import type { MentionOption } from 'naive-ui'
 import type { VNodeChild } from 'vue'
 import { TelescopeOutline } from '@vicons/ionicons5'
-import { NIcon } from 'ithinkdt-ui'
+import { NIcon } from 'naive-ui'
 import { h } from 'vue'
 
 const options = [

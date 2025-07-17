@@ -5,7 +5,7 @@ In some scenes, menu's value is passed from outside. The component is hard to un
 </markdown>
 
 <script lang="ts" setup>
-import type { MenuInst } from 'ithinkdt-ui'
+import type { MenuInst } from 'naive-ui'
 import { ref } from 'vue'
 
 const accordion = ref(false)

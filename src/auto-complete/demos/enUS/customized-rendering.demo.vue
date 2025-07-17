@@ -5,9 +5,9 @@ Use `render-label` to customize label rendering.
 </markdown>
 
 <script lang="ts" setup>
-import type { SelectOption } from 'ithinkdt-ui'
+import type { SelectOption } from 'naive-ui'
 import type { VNodeChild } from 'vue'
-import { NTag } from 'ithinkdt-ui'
+import { NTag } from 'naive-ui'
 import { computed, h, ref } from 'vue'
 
 const valueRef = ref('')

@@ -17,7 +17,7 @@
 
 <script>
   import { defineComponent } from 'vue'
-  import { NButton } from 'ithinkdt-ui'
+  import { NButton } from 'naive-ui'
 
   export default defineComponent({
     components: {
@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-  import { NButton } from 'ithinkdt-ui'
+  import { NButton } from 'naive-ui'
 </script>
 ```
 
@@ -48,7 +48,7 @@
 如果你想全局安装但是不想安装全部组件，请参考[按需引入](import-on-demand)。
 
 ```js
-import naive from 'ithinkdt-ui'
+import naive from 'naive-ui'
 import { createApp } from 'vue'
 
 const app = createApp(App)

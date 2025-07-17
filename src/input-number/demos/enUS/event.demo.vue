@@ -5,7 +5,7 @@ Blur & change events are exposed.
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const message = useMessage()

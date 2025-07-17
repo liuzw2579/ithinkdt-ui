@@ -7,7 +7,7 @@ import type {
   DataTableBaseColumn,
   DataTableColumns,
   DataTableFilterState
-} from 'ithinkdt-ui'
+} from 'naive-ui'
 import { reactive } from 'vue'
 
 interface Row {

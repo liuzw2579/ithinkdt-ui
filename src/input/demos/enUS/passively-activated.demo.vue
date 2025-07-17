@@ -5,7 +5,7 @@ If you want to activate the input by pressing enter after it's focused, use `pas
 </markdown>
 
 <script lang="ts" setup>
-import { useMessage } from 'ithinkdt-ui'
+import { useMessage } from 'naive-ui'
 
 const message = useMessage()
 

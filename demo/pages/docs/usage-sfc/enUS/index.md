@@ -17,7 +17,7 @@ If you want to know how to import themes and locales, please see [Import on Dema
 
 <script>
   import { defineComponent } from 'vue'
-  import { NButton } from 'ithinkdt-ui'
+  import { NButton } from 'naive-ui'
 
   export default defineComponent({
     components: {
@@ -35,7 +35,7 @@ If you can use vue setup script, you can use it like this.
 </template>
 
 <script setup>
-  import { NButton } from 'ithinkdt-ui'
+  import { NButton } from 'naive-ui'
 </script>
 ```
 
@@ -48,7 +48,7 @@ No tree-shaking. Bundle will have redundant codes.
 If you want to install globally but don't want all components, please see [Import on Demand](import-on-demand).
 
 ```js
-import naive from 'ithinkdt-ui'
+import naive from 'naive-ui'
 import { createApp } from 'vue'
 
 const app = createApp(App)

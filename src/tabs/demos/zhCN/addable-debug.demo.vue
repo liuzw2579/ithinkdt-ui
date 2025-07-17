@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { NTab, NTabs } from 'ithinkdt-ui'
+import { NTab, NTabs } from 'naive-ui'
 import { ref } from 'vue'
 
 const itemsRef = ref<{ id: string, name: string }[]>([])

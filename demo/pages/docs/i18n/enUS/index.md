@@ -21,8 +21,8 @@ Set `n-config-provider`'s `date-locale` prop to `dateEnUS` imported from ithinkd
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider } from 'ithinkdt-ui'
-  import { enUS, dateEnUS } from 'ithinkdt-ui'
+  import { NConfigProvider } from 'naive-ui'
+  import { enUS, dateEnUS } from 'naive-ui'
 
   export default defineComponent({
     components: {
@@ -92,8 +92,8 @@ You can use `createLocale` to customize the existing locale.
 
 <script>
   import { defineComponent } from 'vue'
-  import { NConfigProvider, createLocale, enUS } from 'ithinkdt-ui'
-  import { enUS, dateEnUS } from 'ithinkdt-ui'
+  import { NConfigProvider, createLocale, enUS } from 'naive-ui'
+  import { enUS, dateEnUS } from 'naive-ui'
 
   const customizedLocale = createLocale(
     {

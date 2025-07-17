@@ -5,7 +5,7 @@ Sometimes you may want to customize `action` and `content` .
 </markdown>
 
 <script lang="ts" setup>
-import { useDialog } from 'ithinkdt-ui'
+import { useDialog } from 'naive-ui'
 
 const dialog = useDialog()
 

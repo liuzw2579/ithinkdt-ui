@@ -3,7 +3,7 @@
 </markdown>
 
 <script lang="ts" setup>
-import { unstablePageHeaderRtl, useMessage } from 'ithinkdt-ui'
+import { unstablePageHeaderRtl, useMessage } from 'naive-ui'
 import { ref } from 'vue'
 
 const message = useMessage()

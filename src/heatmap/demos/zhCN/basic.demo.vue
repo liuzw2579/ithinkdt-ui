@@ -5,8 +5,8 @@
 </markdown>
 
 <script setup lang="ts">
-import type { HeatmapFirstDayOfWeek } from 'ithinkdt-ui'
-import { heatmapMockData } from 'ithinkdt-ui'
+import type { HeatmapFirstDayOfWeek } from 'naive-ui'
+import { heatmapMockData } from 'naive-ui'
 import { computed, ref } from 'vue'
 
 const value = ref<'recent' | number>('recent')

@@ -8,8 +8,8 @@ import type {
   TreeSelectOption,
   TreeSelectRenderLabel,
   TreeSelectRenderTag
-} from 'ithinkdt-ui'
-import { NTag } from 'ithinkdt-ui'
+} from 'naive-ui'
+import { NTag } from 'naive-ui'
 import { h } from 'vue'
 
 const nodeProps: TreeSelectNodeProps = ({ option }) => {
