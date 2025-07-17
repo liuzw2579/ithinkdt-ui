@@ -194,11 +194,6 @@ export function createDocumentationMenuOptions({ lang, theme }) {
           zh: '潜在的样式冲突',
           path: '/style-conflict'
         },
-        {
-          en: 'Third-Party Libraries',
-          zh: '社区精选资源',
-          path: '/community'
-        }
       ]
     },
     {
