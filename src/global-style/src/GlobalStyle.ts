@@ -1,8 +1,6 @@
 import { merge } from 'lodash-es'
 import {
   defineComponent,
-  Fragment,
-  h,
   inject,
   onBeforeMount,
   onUnmounted,
@@ -76,6 +74,6 @@ export default defineComponent({
     })
   },
   render() {
-    return h(Fragment)
+    return null
   }
 })
