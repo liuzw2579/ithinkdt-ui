@@ -54,14 +54,14 @@ export default defineComponent({
       mountSvgDefs()
       currentUnconfigurableStyle = unconfigurableStyle
       unconfigurableStyle.mount({
-        id: 'ithinkdt-ui/tusimple-theme'
+        id: 'naive-ui/tusimple-theme'
       })
     }
     function mountDarkTheme(): void {
       mountSvgDarkDefs()
       currentUnconfigurableStyle = unconfigurableDarkStyle
       unconfigurableDarkStyle.mount({
-        id: 'ithinkdt-ui/tusimple-theme'
+        id: 'naive-ui/tusimple-theme'
       })
     }
     function unmountTheme(): void {

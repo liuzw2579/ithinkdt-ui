@@ -173,39 +173,39 @@ const toIcon = (
   </svg>
 )
 
-function clear (): VNode {
+function clear(): VNode {
   return clearIcon
 }
 
-function success (): VNode {
+function success(): VNode {
   return successIcon
 }
 
-function warning (): VNode {
+function warning(): VNode {
   return warningIcon
 }
 
-function error (): VNode {
+function error(): VNode {
   return errorIcon
 }
 
-function attach (): VNode {
+function attach(): VNode {
   return attachIcon
 }
 
-function trash (): VNode {
+function trash(): VNode {
   return trashIcon
 }
 
-function cancel (): VNode {
+function cancel(): VNode {
   return cancelIcon
 }
 
-function to (): VNode {
+function to(): VNode {
   return toIcon
 }
 
-function retry (): VNode {
+function retry(): VNode {
   return retryIcon
 }
 

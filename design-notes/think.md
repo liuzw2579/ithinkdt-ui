@@ -275,16 +275,16 @@ Vue.use(naive)
 // import on demand
 
 // components
-import Button from 'ithinkdt-ui/button'
-import buttonDarkStyle from 'ithinkdt-ui/button/styles/dark'
+import Button from 'naive-ui/button'
+import buttonDarkStyle from 'naive-ui/button/styles/dark'
 // styles
-import buttonLightStyle from 'ithinkdt-ui/button/styles/light'
+import buttonLightStyle from 'naive-ui/button/styles/light'
 
 // essential
-import create from 'ithinkdt-ui/create'
+import create from 'naive-ui/create'
 
-import darkStyle from 'ithinkdt-ui/styles/dark'
-import lightStyle from 'ithinkdt-ui/styles/light'
+import darkStyle from 'naive-ui/styles/dark'
+import lightStyle from 'naive-ui/styles/light'
 
 create({
   components: [Button],
