@@ -168,6 +168,8 @@ export-csv.vue
 | title | `string \| (() => VNodeChild)` | `undefined` | Column title, Can be a render function. |  |
 | titleAlign | `'left' \| 'right' \| 'center'` | `null` | alignment of the table header. If omitted, the value of the above align attribute will be applied | 2.34.4 |
 | titleColSpan | `number` | `undefined` | The number of cells occupied by the title col. |  |
+| titleRowSpan | `number` | `undefined` | The number of cells occupied by the title row. | iThinkDT 1.9.9 |
+| titleCellProps | `object` | `undefined` | HTML attributes of the column's title cell. | iThinkDT 1.9.9 |
 | tree | `boolean` | `false` | Whether to show tree data expand trigger in the column. | 2.28.3 |
 | type | `'selection' \| 'expand'` | `undefined` | Column type. |  |
 | width | `number \| string` | `undefined` | Width of the column (**required and should be number** when fixed). | 2.24.0 (`string` type) |

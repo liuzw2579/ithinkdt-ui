@@ -242,6 +242,8 @@ export interface CommonColumnInfo<T = InternalRowData> {
   className?: string
   align?: 'left' | 'center' | 'right'
   titleAlign?: 'left' | 'center' | 'right'
+  titleCellProps?: HTMLAttributes
+  titleRowSpan?: number
   ellipsis?: Ellipsis
   ellipsisComponent?: 'ellipsis' | 'performant-ellipsis'
   allowExport?: boolean
@@ -254,16 +256,13 @@ export type DataTableHeightForRow<T = RowData> = (
 ) => number
 
 export type TableColumnTitle
-  = | string
-    | ((column: TableBaseColumn) => VNodeChild)
+  = string | ((column: TableBaseColumn) => VNodeChild)
 
 export type TableExpandColumnTitle
-  = | string
-    | ((column: TableExpandColumn) => VNodeChild)
+  = string | ((column: TableExpandColumn) => VNodeChild)
 
 export type TableColumnGroupTitle
-  = | string
-    | ((column: TableColumnGroup) => VNodeChild)
+  = string | ((column: TableColumnGroup) => VNodeChild)
 
 export type TableColumnGroup<T = InternalRowData> = {
   title?: TableColumnGroupTitle

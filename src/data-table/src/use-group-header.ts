@@ -35,13 +35,13 @@ function getRowsAndCols(
   columns: TableColumns,
   getResizableWidth: (key: ColumnKey) => number | undefined
 ): {
-    hasEllipsis: boolean
-    rows: RowItem[][]
-    cols: ColItem[]
-    dataRelatedCols: Array<
+  hasEllipsis: boolean
+  rows: RowItem[][]
+  cols: ColItem[]
+  dataRelatedCols: Array<
     TableSelectionColumn | TableBaseColumn | TableExpandColumn
-    >
-  } {
+  >
+} {
   const rows: RowItem[][] = []
   const cols: ColItem[] = []
   const dataRelatedCols: Array<
@@ -95,10 +95,10 @@ function getRowsAndCols(
           column,
           colIndex: currentLeafIndex,
           colSpan: 0,
-          rowSpan: 1,
+          rowSpan: column.titleRowSpan ?? 1,
           isLast: false
         }
-        ensureColLayout(column.children, currentDepth + 1)
+        ensureColLayout(column.children, currentDepth + rowItem.rowSpan)
         column.children.forEach((childColumn) => {
           rowItem.colSpan += rowItemMap.get(childColumn)?.colSpan ?? 0
         })
@@ -125,7 +125,10 @@ function getRowsAndCols(
           column,
           colSpan,
           colIndex: currentLeafIndex,
-          rowSpan: maxDepth - currentDepth + 1,
+          rowSpan: Math.min(
+            maxDepth - currentDepth + 1,
+            column.titleRowSpan ?? Number.MAX_SAFE_INTEGER
+          ),
           isLast
         }
         rowItemMap.set(column, rowItem)
@@ -148,13 +151,13 @@ export function useGroupHeader(
   props: DataTableSetupProps,
   getResizableWidth: (key: ColumnKey) => number | undefined
 ): {
-    rowsRef: ComputedRef<RowItem[][]>
-    colsRef: ComputedRef<ColItem[]>
-    hasEllipsisRef: ComputedRef<boolean>
-    dataRelatedColsRef: ComputedRef<
-      Array<TableSelectionColumn | TableBaseColumn | TableExpandColumn>
-    >
-  } {
+  rowsRef: ComputedRef<RowItem[][]>
+  colsRef: ComputedRef<ColItem[]>
+  hasEllipsisRef: ComputedRef<boolean>
+  dataRelatedColsRef: ComputedRef<
+    Array<TableSelectionColumn | TableBaseColumn | TableExpandColumn>
+  >
+} {
   const rowsAndCols = computed(() =>
     getRowsAndCols(props.columns, getResizableWidth)
   )

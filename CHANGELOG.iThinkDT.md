@@ -2,6 +2,10 @@
 
 ## Next Version
 
+### Features
+
+- `n-data-table` 新增 `titleRowSpan` 和 `titleCellProps` 属性
+
 ## 1.9.8 [naive: 2.44.2] (2026-07-31)
 
 ### Fixes

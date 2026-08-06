@@ -291,11 +291,13 @@ export default defineComponent({
             </>
           )
         }
+        const { titleCellProps: resolvedCellProps } = column
         const leftFixed = key in fixedColumnLeftMap
         const rightFixed = key in fixedColumnRightMap
         const CellComponent = (getLeft && !column.fixed ? 'div' : 'th') as 'th'
         return (
           <CellComponent
+            {...resolvedCellProps}
             ref={el => (cellElsRef[key] = el as HTMLTableCellElement)}
             key={key}
             style={[
@@ -314,13 +316,15 @@ export default defineComponent({
                 width: pxfy(column.width),
                 textAlign: column.titleAlign || column.align,
                 height: headerHeightPx
-              }
+              },
+              resolvedCellProps?.style || ''
             ]}
             colspan={colSpan}
             rowspan={rowSpan}
             data-col-key={key}
             class={[
               `${mergedClsPrefix}-data-table-th`,
+              resolvedCellProps?.class,
               (leftFixed || rightFixed)
               && `${mergedClsPrefix}-data-table-th--fixed-${
                 leftFixed ? 'left' : 'right'
